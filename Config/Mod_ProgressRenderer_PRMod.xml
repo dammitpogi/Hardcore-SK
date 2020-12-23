@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ProgressRenderer.PRModSettings">
+		<renderDesignations>True</renderDesignations>
+		<renderThingIcons>True</renderThingIcons>
+		<jpgQuality>85</jpgQuality>
+		<pixelPerCell>16</pixelPerCell>
+		<exportPath>D:\Pogis Shared Folder\RimWorld Progress</exportPath>
+		<createSubdirs>True</createSubdirs>
+		<fileNamePattern>Numbered</fileNamePattern>
+		<migratedOutputImageSettings>True</migratedOutputImageSettings>
+		<migratedInterval>True</migratedInterval>
+	</ModSettings>
+</SettingsBlock>

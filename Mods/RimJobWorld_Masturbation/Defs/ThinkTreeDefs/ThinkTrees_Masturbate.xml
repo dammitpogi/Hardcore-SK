@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThinkTreeDef>
+    <defName>FapWithToyTree</defName>
+    <insertTag>Humanlike_PostMentalState</insertTag>
+    <insertPriority>12</insertPriority> <!--A little lower than regular fap-->
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="rjw.ThinkNode_ConditionalSexChecks">
+          <subNodes>
+            <li Class="rjw.ThinkNode_ChancePerHour_Fappin">
+              <subNodes>
+                <li Class="RJW_ToysAndMasturbation.JobGiver_MasturbateWithToy"/>
+              </subNodes>
+            </li>
+          </subNodes>
+        </li>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+</Defs>

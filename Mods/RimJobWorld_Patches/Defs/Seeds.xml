@@ -1,0 +1,35 @@
+<Defs>
+
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+	  <defName>Seed_HumpShroom</defName>
+	  <label>humpshroom seeds</label>
+	  <sources>
+		<li>PlantHumpShroom</li>
+	  </sources>
+	</SeedsPlease.SeedDef>
+
+	<RecipeDef ParentName="ExtractSeed">
+	  <defName>ExtractSeed_HumpShroom</defName>
+	  <label>extract humpshroom seeds</label>
+	  <description>Extract seeds from HumpShroom</description>
+	  <ingredients>
+		<li>
+		  <filter>
+			<thingDefs>
+			  <li>HumpShroom</li>
+			</thingDefs>
+		  </filter>
+		  <count>4</count>
+		</li>
+	  </ingredients>
+	  <fixedIngredientFilter>
+		<thingDefs>
+		  <li>HumpShroom</li>
+		</thingDefs>
+	  </fixedIngredientFilter>
+	  <products>
+		<Seed_HumpShroom>3</Seed_HumpShroom>
+	  </products>
+	</RecipeDef>
+	
+</Defs>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DrugBase">
+    <defName>FleebJuice</defName>
+    <label>fleeb juice</label>
+    <description>A psychoactive substance produced as a biological biproduct of fleebs. It's makes the user feel more alive, but also increases sensitivity to pain.</description>
+    <descriptionHyperlinks>
+      <HediffDef>FleebJuiceHigh</HediffDef>
+	  <HediffDef>FleebJuiceTolerance</HediffDef>
+      <HediffDef>FleebJuiceAddiction</HediffDef>
+	  <HediffDef>ChemicalDamageModerate</HediffDef>
+    </descriptionHyperlinks>
+	<tradeability>Sellable</tradeability>
+    <graphicData>
+      <texPath>Things/Item/Drug/FleebJuice</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>65</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.20</joy>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <useEatingSpeedStat>true</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FleebJuiceHigh</hediffDef>
+          <severity>0.3</severity>
+          <toleranceChemical>FleebJuice</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.2</offset>
+          <toleranceChemical>FleebJuice</toleranceChemical>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>FleebJuice</chemical>
+        <addictiveness>0.018</addictiveness>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>0.9</needLevelOffset>
+        <isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+        <listOrder>180</listOrder>
+        <overdoseSeverityOffset>0.16~0.28</overdoseSeverityOffset>
+        <largeOverdoseChance>0.004</largeOverdoseChance>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>FleebJuiceHigh</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>high on fleeb juice</label>
+    <labelNoun>a fleeb juice high</labelNoun>
+    <description>Fleeb juice in the bloodstream. It's makes the user feel more alive, but also increases sensitivity to pain.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.75</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <painFactor>1.4</painFactor>
+          <capMods>
+            <li>
+              <capacity>Hearing</capacity>
+              <offset>0.2</offset>
+            </li>
+			<li>
+              <capacity>Sight</capacity>
+              <offset>0.2</offset>
+            </li>
+			<li>
+              <capacity>Breathing</capacity>
+              <offset>0.15</offset>
+            </li>
+          </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>FleebJuiceHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>FleebJuiceHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>high on fleeb juice</label>
+        <description>The world is so soft, yet defined. It's almost a bit overwhelming.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- Fleeb juice addiction -->
+
+  <ChemicalDef>
+    <defName>FleebJuice</defName>
+    <label>fleeb juice</label>
+    <addictionHediff>FleebJuiceAddiction</addictionHediff>
+    <toleranceHediff>FleebJuiceTolerance</toleranceHediff>
+    <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
+  </ChemicalDef>
+  
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_FleebJuice</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>fleeb juice</label>
+    <description>Because of a fleeb juice addiction, this person needs to regularly consume fleeb juice to avoid withdrawal symptoms.</description>
+    <listPriority>20</listPriority>
+  </NeedDef>
+  
+  <HediffDef ParentName="AddictionBase">
+    <defName>FleebJuiceAddiction</defName>
+    <label>fleeb juice addiction</label>
+    <description>A chemical addiction to fleeb juice. Long-term presence of fleeb juice has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+\nWithout regular doses of fleeb juice, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <causesNeed>Chemical_FleebJuice</causesNeed>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.1</severityPerDay>
+        <showDaysToRecover>true</showDaysToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <painFactor>1.5</painFactor>
+        <restFallFactorOffset>0.3</restFallFactorOffset>
+        <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.10</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.3</offset>
+          </li>
+		  <li>
+            <capacity>Hearing</capacity>
+            <offset>-0.3</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Binging_DrugMajor</mentalState>
+            <mtbDays>40</mtbDays>
+          </li>
+          <li>
+            <mentalState>Wander_Psychotic</mentalState>
+            <mtbDays>10</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThoughtDef>
+    <defName>FleebJuiceWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>FleebJuiceAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>fleeb juice withdrawal</label>
+        <description>Everything is so dull and mundane, and my body is aching. This feels terrible.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>FleebJuiceTolerance</defName>
+    <label>fleeb juice tolerance</label>
+    <description>A built-up tolerance to fleeb juice. The more severe this tolerance is, the more fleeb juice it takes to get the same effect.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.015</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>FleebJuice</chemical>
+      </li>
+    </comps>
+    <hediffGivers>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>ChemicalDamageModerate</hediff>
+        <minSeverity>0.35</minSeverity>
+        <baseMtbDays>120</baseMtbDays>
+        <partsToAffect>
+          <li>Brain</li>
+        </partsToAffect>
+      </li>
+    </hediffGivers>
+  </HediffDef>
+
+</Defs>

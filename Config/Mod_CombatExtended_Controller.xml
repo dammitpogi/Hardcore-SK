@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="CombatExtended.Settings">
+		<showCasings>False</showCasings>
+		<showWeaponActionMotes>False</showWeaponActionMotes>
+		<allowMeleeHunting>True</allowMeleeHunting>
+		<rightClickAmmoSelect>True</rightClickAmmoSelect>
+	</ModSettings>
+</SettingsBlock>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Elf Like -->
+
+	<ElfPenis.label>пенис эльфа</ElfPenis.label>
+	<ElfPenis.labelNoun>пенис эльфа</ElfPenis.labelNoun>
+	<ElfPenis.description>Более тонкий и длинный пенис, похожий на человеческий. Это блеск?</ElfPenis.description>
+
+	<ElfVagina.label>вагина эльфа</ElfVagina.label>
+	<ElfVagina.labelNoun>вагина эльфа</ElfVagina.labelNoun>
+	<ElfVagina.description>Более узкая вагина, похожая на человеческую. На вкус как апельсины.</ElfVagina.description>
+
+	<ElfAnus.label>анус эльфа</ElfAnus.label>
+	<ElfAnus.labelNoun>анус эльфа</ElfAnus.labelNoun>
+	<ElfAnus.description>Более узкий анус, похожий на человеческий. Пахнет розами.</ElfAnus.description>
+
+
+	<!-- Orc Like -->
+
+	<OrcPenis.label>пенис орка</OrcPenis.label>
+	<OrcPenis.labelNoun>пенис орка</OrcPenis.labelNoun>
+	<OrcPenis.description>Круглый пенис с кольцом, но в остальном похож на пенис гуманоида.</OrcPenis.description>
+
+	<OrcVagina.label>вагина орка</OrcVagina.label>
+	<OrcVagina.labelNoun>вагина орка</OrcVagina.labelNoun>
+	<OrcVagina.description>Рыхлая человеческая вагина с очень большими губами.</OrcVagina.description>
+
+	<OrcBreasts.label>грудь орка</OrcBreasts.label>
+	<OrcBreasts.labelNoun>пара орочьих грудей</OrcBreasts.labelNoun>
+	<OrcBreasts.description>Пара человеческих грудей, которые сильно обвисли.</OrcBreasts.description>
+
+	<OrcAnus.label>анус орка</OrcAnus.label>
+	<OrcAnus.labelNoun>анус орка</OrcAnus.labelNoun>
+	<OrcAnus.description>Анус, который выглядит как смесь ануса человека и лошади.</OrcAnus.description>
+
+
+	<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+	<GhoulPenis.label>облученный пенис</GhoulPenis.label>
+	<GhoulPenis.labelNoun>облученный пенис</GhoulPenis.labelNoun>
+	<GhoulPenis.description>Слегка светящийся пенис, похожий на человеческий. На ощупь очень горячий.</GhoulPenis.description>
+
+	<GhoulVagina.label>облученная вагина</GhoulVagina.label>
+	<GhoulVagina.labelNoun>облученная вагина</GhoulVagina.labelNoun>
+	<GhoulVagina.description>Человеческая вагина, которая слегка светится. Внутри безумно жарко.</GhoulVagina.description>
+
+	<GhoulBreasts.label>облученная грудь</GhoulBreasts.label>
+	<GhoulBreasts.labelNoun>пара облученных грудей</GhoulBreasts.labelNoun>
+	<GhoulBreasts.description>Пара человеческих грудей, которые слегка светятся. Они очень горячие на ощупь.</GhoulBreasts.description>
+
+	<GhoulAnus.label>облученный анус</GhoulAnus.label>
+	<GhoulAnus.labelNoun>облученный анус</GhoulAnus.labelNoun>
+	<GhoulAnus.description>Слегка светящийся анус. Внутри безумно жарко.</GhoulAnus.description>
+
+	<BigRaceBreats.label>грудь(ss)</BigRaceBreats.label>
+	<BigRaceBreats.labelNoun>пара грудей</BigRaceBreats.labelNoun>
+	<BigRaceBreats.description>Просто нормальная пара грудей, найденная у больших гуманоидов.</BigRaceBreats.description>
+	<BigRaceBreats.stages.0.label>Соски</BigRaceBreats.stages.0.label>
+	<BigRaceBreats.stages.1.label>Плоская</BigRaceBreats.stages.1.label>
+	<BigRaceBreats.stages.2.label>Маленькая</BigRaceBreats.stages.2.label>
+	<BigRaceBreats.stages.3.label>Обычная</BigRaceBreats.stages.3.label>
+	<BigRaceBreats.stages.4.label>Большая</BigRaceBreats.stages.4.label>
+	<BigRaceBreats.stages.5.label>Огромная</BigRaceBreats.stages.5.label>
+	<BigRaceBreats.stages.6.label>Ненормальная</BigRaceBreats.stages.6.label>
+	<BigRaceBreats.stages.7.label>Массивная</BigRaceBreats.stages.7.label>
+	<BigRaceBreats.stages.8.label>Гигантская</BigRaceBreats.stages.8.label>
+	<BigRaceBreats.stages.9.label>Колоссальная</BigRaceBreats.stages.9.label>
+
+
+</LanguageData>

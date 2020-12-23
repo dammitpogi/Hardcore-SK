@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+
+	<!-- natural parts (purist love) -->
+		<rjw.HediffDef_PartBase ParentName="RJW_PrivatePartBase" Name="NaturalPrivatePartBaseSingle" Abstract="True">
+			<hediffClass>rjw.Hediff_PartBaseNatural</hediffClass>
+			<defaultLabelColor>(0.5, 0.8, 0.5)</defaultLabelColor>
+		</rjw.HediffDef_PartBase>
+		
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBaseSingle" Name="NaturalPrivatePartPenisSingle" Abstract="True">
+				<FluidType>Cum</FluidType>
+				<DefaultBodyPart>Genitals</DefaultBodyPart>
+				<stages>
+					<li>
+						<label>Towering</label>
+						<minSeverity>1.01</minSeverity>
+					</li>
+				</stages>
+				<modExtensions>
+					<li Class="rjw.PartSizeExtension">
+						<density>1.0</density>
+						<lengths>
+							<li>35.0</li>
+						</lengths>
+						<girths>
+							<li>21.0</li>
+						</girths>
+					</li>
+				</modExtensions>
+
+			</rjw.HediffDef_PartBase>
+			
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBaseSingle" Name="NaturalPrivatePartPenisSingleInfertile" Abstract="True">
+				<FluidType>Cum</FluidType>
+				<DefaultBodyPart>Genitals</DefaultBodyPart>
+				<stages>
+					<li>
+						<label>Towering</label>
+						<minSeverity>1.01</minSeverity>
+						<capMods>
+							<li>
+								<capacity>RJW_Fertility</capacity>
+								<setMax>0</setMax>
+							</li>
+						</capMods>
+					</li>
+				</stages>
+				<modExtensions>
+					<li Class="rjw.PartSizeExtension">
+						<density>1.0</density>
+						<lengths>
+							<li>35.0</li>
+						</lengths>
+						<girths>
+							<li>21.0</li>
+						</girths>
+					</li>
+				</modExtensions>
+			</rjw.HediffDef_PartBase>
+			
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBaseSingle" Name="NaturalPrivatePartVaginaSingle" Abstract="True">
+				<FluidType>Cum</FluidType>
+				<DefaultBodyPart>Genitals</DefaultBodyPart>
+				<stages>
+					<li>
+						<label>Gaping</label>
+						<minSeverity>1.01</minSeverity>
+					</li>
+				</stages>
+				<modExtensions>
+					<li Class="rjw.PartSizeExtension">
+						<density>1.0</density>
+						<lengths>
+							<li>35.0</li>
+						</lengths>
+						<girths>
+							<li>21.0</li>
+						</girths>
+					</li>
+				</modExtensions>
+			</rjw.HediffDef_PartBase>
+			
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBaseSingle" Name="NaturalPrivatePartAnusSingle" Abstract="True">
+				<FluidType></FluidType>
+				<DefaultBodyPart>Anus</DefaultBodyPart>
+				<stages>
+					<li>
+						<label>Gaping</label>
+						<minSeverity>1.01</minSeverity>
+					</li>
+				</stages>
+				<modExtensions>
+					<li Class="rjw.PartSizeExtension">
+						<girths>
+							<li>21.0</li>
+						</girths>
+					</li>
+				</modExtensions>
+			</rjw.HediffDef_PartBase>
+			
+			<!--TODO: replace with cups or not-->
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBaseSingle" Name="NaturalPrivatePartBreastSingle" Abstract="True">
+				<FluidType>Milk</FluidType>
+				<DefaultBodyPart>Chest</DefaultBodyPart>
+				<stages>
+					<li>			<!-- Male breast stage-->
+						<label>Flat</label>
+						<minSeverity>0.01</minSeverity>
+					</li>
+					<li>
+						<label>Gigantic</label>
+						<minSeverity>1.01</minSeverity>
+					</li>
+				</stages>
+				<modExtensions>
+					<li Class="rjw.PartSizeExtension">
+						<!-- Human standard would be 1.0. Leave out for no weight display. -->
+						<density>1.0</density>
+						<cupSizes>
+							<li>0</li>
+							<li>31</li>
+							<!-- World record is 2x this. Can always add more later. -->
+						</cupSizes>
+					</li>
+				</modExtensions>
+
+			</rjw.HediffDef_PartBase>
+			
+			
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBase" Name="NaturalPrivatePartBreast_Big_Races" Abstract="True">
+				<FluidType>Milk</FluidType>
+				<DefaultBodyPart>Chest</DefaultBodyPart>
+				<stages>
+					<li>
+						<!-- Male breast stage-->
+						<label>Nipples</label>
+						<minSeverity>0.01</minSeverity>
+					</li>
+					<li>
+						<label>Tiny</label>
+						<minSeverity>0.02</minSeverity>
+					</li>
+					<li>
+						<label>Small</label>
+						<minSeverity>0.20</minSeverity>
+					</li>
+					<li>
+						<label>Average</label>
+						<minSeverity>0.40</minSeverity>
+					</li>
+					<li>
+						<label>Large</label>
+						<minSeverity>0.60</minSeverity>
+					</li>
+					<li>
+						<label>Huge</label>
+						<minSeverity>0.80</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.05</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Enormous</label>
+						<minSeverity>1.00</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.10</offset>
+							</li>
+						</capMods>
+					</li>
+				<!-- Humanlikes should generally spawn with severity between 0 and 1. The higher sizes are for growth or ultra endowed races. -->
+					<li>
+						<label>Massive</label>
+						<minSeverity>1.2</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.15</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Gargantuan</label>
+						<minSeverity>1.4</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.20</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Colossal</label>
+						<minSeverity>1.6</minSeverity>
+						<!-- Norma Stitz is obviously not crippled, but she's not winning any races either. -->
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.25</offset>
+							</li>
+						</capMods>
+					</li>
+				</stages>
+				<modExtensions>
+					<li Class="rjw.PartSizeExtension">
+						<!-- Human standard would be 1.0. Leave out for no weight display. -->
+						<density>1.0</density>
+						<cupSizes>
+							<li>0</li>
+							<li>1</li>
+							<li>2</li>
+							<li>4</li>
+							<!-- DD is average -->
+							<li>7</li>
+							<li>11</li>
+							<li>15</li>
+							<li>19</li>
+							<li>25</li>
+							<li>31</li>
+							<!-- World record is 2x this. Can always add more later. -->
+						</cupSizes>
+					</li>
+				</modExtensions>
+			</rjw.HediffDef_PartBase>
+			
+</Defs>

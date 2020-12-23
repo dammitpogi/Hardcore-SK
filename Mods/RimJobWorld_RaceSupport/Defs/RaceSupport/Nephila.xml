@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Nephila -->
+	<rjw.RaceGroupDef>
+		<defName>Nephila_Group</defName>
+		<raceNames>
+			<li>Nephila</li>
+			<li>NephilaHandmaiden</li>
+			<li>NephilaMatron</li>
+		</raceNames>
+
+		<hasFertility>false</hasFertility>
+
+		<hasSingleGender>true</hasSingleGender>
+
+		<femaleBreasts>
+			<li>NephilaBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<femaleGenitals>
+			<li>NephilaSlimeVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>NephilaSlimeTentacles</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>		
+		
+		<anuses>
+			<li>NephilaSlimeAnus</li>
+		</anuses>
+
+		<tags>
+			<li>Slime</li>
+		</tags>
+		
+	</rjw.RaceGroupDef>
+	
+	<!-- GrandMatron -->
+	<rjw.RaceGroupDef>
+		<defName>NephilaGrandMatron_Group</defName>
+		<raceNames>
+			<li>NephilaGrandMatron</li>
+		</raceNames>
+
+		<hasFertility>false</hasFertility>
+
+		<hasSingleGender>true</hasSingleGender>
+
+		<femaleBreasts>
+			<li>NephilaBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<femaleGenitals>
+			<li>NephilaSlimeVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>NephilaEggTentacles</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>		
+		
+		<anuses>
+			<li>NephilaSlimeAnus</li>
+		</anuses>
+	
+		<tags>
+			<li>Slime</li>
+		</tags>
+		
+	</rjw.RaceGroupDef>	
+
+	<!-- QueensGuard -->
+	<rjw.RaceGroupDef>
+		<defName>NephilaGuardian_Group</defName>
+		<raceNames>
+			<li>NephilaQueensGuard</li>		
+		</raceNames>
+
+		<hasFertility>false</hasFertility>
+
+		<chancefemaleGenitals>
+			<li>1.0</li>
+		</chancefemaleGenitals>
+
+		<femaleBreasts>
+			<li>NephilaSlimeBreasts</li>
+		</femaleBreasts>
+		
+		<femaleGenitals>
+			<li>NephilaSlimeVagina</li>
+		</femaleGenitals>
+		
+		<anuses>
+			<li>NephilaSlimeAnus</li>
+		</anuses>
+		<tags>
+			<li>Slime</li>
+		</tags>
+		
+	</rjw.RaceGroupDef>
+	
+	<rjw.RaceGroupDef>
+		<defName>NephilaGrandMatron_Snack_Group</defName>
+		
+		<raceNames>
+			<li>MutantNephilaCherubim</li>
+			<li>Nephila_ChonkersCherub</li>
+			<li>NephilaSeraphim</li>
+			<li>NephilaCherubim</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>CloacalAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>NephilaSlimeBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>CloacalVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>NephilaSlimeBreasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>HemiPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Scales</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+</Defs>

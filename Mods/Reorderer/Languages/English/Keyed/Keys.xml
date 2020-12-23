@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Reorderer.NotReady>A game must be started/loaded before the button order can be loaded for reordering.</Reorderer.NotReady>
+  <Reorderer.MainButtons>Main buttons</Reorderer.MainButtons>
+  <Reorderer.DesignationCategories>Architect categories</Reorderer.DesignationCategories>
+  <Reorderer.Reset>Reset to defaults</Reorderer.Reset>
+</LanguageData>

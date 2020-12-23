@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Protogen! Marley Race Mod. 1716136868. https://steamcommunity.com/sharedfiles/filedetails/?id=1716136868 -->
+	<!-- Protogen! Marley Race Mod - De-volted. 2154059859. https://steamcommunity.com/sharedfiles/filedetails/?id=2154059859 -->
+	<rjw.RaceGroupDef>
+		
+		<defName>Protogen</defName>
+		
+		<raceNames>
+			<li>Alien_Protogen</li>
+			<li>Alien_ProtogenNME</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+		    <li>DinoAnus</li>
+			<li>DinoAnus</li>
+			<li>DinoAnus</li>
+			<li>DinoAnus</li>
+			<li>DinoAnus</li>
+			<li>HydraulicAnus</li>
+			<li>BionicAnus</li>
+		</anuses>
+
+		<femaleBreasts>
+		    <li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>HydraulicBreasts</li>
+			<li>BionicBreasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+		    <li>DinoVagina</li>
+			<li>DinoVagina</li>
+			<li>DinoVagina</li>
+			<li>DinoVagina</li>
+			<li>DinoVagina</li>
+			<li>HydraulicVagina</li>
+			<li>BionicVagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>Flat_Hydraulic_Breasts</li>
+			<li>Flat_Bionic_Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+		    <li>DogPenis</li>
+			<li>DogPenis</li>
+			<li>DogPenis</li>
+			<li>DogPenis</li>
+			<li>DogPenis</li>
+			<li>HydraulicPenis</li>
+			<li>BionicPenis</li>
+		</maleGenitals>
+			
+		<tags>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+</Defs>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Rimworld-Animations</name>
+	<author>C0ffee</author>
+  <url>https://gitgud.io/c0ffeeeeeeee/rimworld-animations</url>
+	<supportedVersions>
+		<li>1.1</li>
+    <li>1.2</li>
+	</supportedVersions>
+	<packageId>c0ffee.rimworld.animations</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>UnlimitedHugs.HugsLib</packageId>
+			<displayName>HugsLib</displayName>
+			<downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+		</li>
+    <li>
+      <packageId>rim.job.world</packageId>
+      <displayName>RimJobWorld</displayName>
+      <downloadUrl>https://www.loverslab.com/topic/110270-mod-rimjobworld/</downloadUrl>
+    </li>
+	</modDependencies>
+	<loadAfter>
+		<li>UnlimitedHugs.HugsLib</li>
+		<li>brrainz.harmony</li>
+    <li>rim.job.world</li>
+	</loadAfter>
+	<description>
+    Rimworld Animations! Hurray!
+
+    Questions or bugs?
+    Chat with me on the forums: https://www.loverslab.com/topic/140386-rjw-animations/
+    Or on the rjw discord: https://discord.gg/CXwHhv8
+
+  </description>
+</ModMetaData>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="MapDesigner.MapDesignerSettings">
+		<hillAmount>1.040056</hillAmount>
+		<hillSize>0.01990576</hillSize>
+		<hillSmoothness>1.84426</hillSmoothness>
+		<hillRadialAmt>1</hillRadialAmt>
+		<hillSplitDir>60</hillSplitDir>
+		<flagHillSide>True</flagHillSide>
+		<hillSideAmt>0.2754947</hillSideAmt>
+		<hillSideDir>160</hillSideDir>
+		<densityPlant>2.5</densityPlant>
+		<densityAnimal>2.5</densityAnimal>
+		<densityRuins>1.463744</densityRuins>
+		<densityGeyser>2.316886</densityGeyser>
+		<animaCount>2</animaCount>
+		<rockTypeRange>3~3</rockTypeRange>
+		<allowedRocks>
+			<keys>
+				<li>Sandstone</li>
+				<li>Granite</li>
+				<li>Limestone</li>
+				<li>Slate</li>
+				<li>Marble</li>
+				<li>LavaRock</li>
+				<li>ZF_BasaltBase</li>
+				<li>Claystone</li>
+			</keys>
+			<values>
+				<li>False</li>
+				<li>True</li>
+				<li>False</li>
+				<li>False</li>
+				<li>True</li>
+				<li>False</li>
+				<li>True</li>
+				<li>False</li>
+			</values>
+		</allowedRocks>
+		<terrainFert>2</terrainFert>
+		<terrainWater>0.8029366</terrainWater>
+	</ModSettings>
+</SettingsBlock>

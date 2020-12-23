@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Some sizes 
+	
+	Micro							0.01						Nipples
+									0.02	(breasts)			Tiny
+	Small/Tight						0.20						Small
+	Average							0.40						Average
+	Large/Accomodating				0.60						Large
+	Huge/Cavernous					0.80						Huge		
+									1.00 	(breasts)			Enormous	
+	Towering/Abyssal				1.01 	(not breasts)				
+									1.20 	(breasts)			Massive	
+									1.40	(breasts)			Gargantuan	
+									1.60	(breasts)			Colossal	
+-->
+<Defs>
+
+	<rjw.RacePartDef>
+		<defName>Large_Breasts</defName>
+		<hediffName>Breasts</hediffName>
+		<fluidType>Milk</fluidType>
+		<fluidModifier>1.0</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(0.00001, 0.01)</li>
+				<li>(0.001, 0.02)</li>
+				<li>(0.02, 0.20)</li>
+				<li>(0.12, 0.40)</li>
+				<li>(0.63, 0.60)</li>
+				<li>(0.80, 0.80)</li>
+				<li>(0.90, 1.00)</li>
+				<li>(0.93, 1.20)</li>
+				<li>(0.97, 1.40)</li>
+				<li>(1.0, 1.61)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+	
+	<rjw.RacePartDef>
+		<defName>Large_Horse_Penis</defName>
+		<hediffName>HorsePenis</hediffName>
+		<fluidType>Cum</fluidType>
+		<fluidModifier>1.15</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(0.005, 0.01)</li>
+				<li>(0.01, 0.20)</li>
+				<li>(0.30, 0.40)</li>
+				<li>(0.70, 0.60)</li>
+				<li>(0.90, 0.80)</li>
+				<li>(1.0, 1.02)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+</Defs>

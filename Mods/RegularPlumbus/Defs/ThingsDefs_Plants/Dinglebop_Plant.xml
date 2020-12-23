@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Dinglebop</defName>
+    <label>dinglebop plant</label>
+    <description>A common dinglebop plant, smoothed out with schleem upon harvest. This maleable substance is widely used in the production of plumbuses.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.1</Nutrition>
+	  <Flammability>0.5</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Dinglebop</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <growDays>10</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Dinglebop</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+	  <sowMinSkill>5</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~1.1</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+	  <defName>Seed_Dinglebop</defName>
+	  <label>dinglebop seeds</label>
+	  <sources>
+		<li>Plant_Dinglebop</li>
+	  </sources>
+	</SeedsPlease.SeedDef>
+
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+	  <defName>Seed_RRP_Acacia</defName>
+	  <label>rrp_acacia seeds</label>
+	  <sources>
+		<li>RRP_TreeAcacia</li>
+	  </sources>
+	</SeedsPlease.SeedDef>
+
+ </Defs>

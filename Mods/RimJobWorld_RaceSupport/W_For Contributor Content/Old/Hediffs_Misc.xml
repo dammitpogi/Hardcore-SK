@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>Hand Glands</defName>
+		<label>Hand Glands</label>
+		<labelNoun>A hand gland</labelNoun>
+		<description>Bulbous and Stretchy</description>
+		<descriptionHyperlinks><ThingDef>HandGlands</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>HandGlands</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>RibOpenings</defName>
+		<label>Rib Openings</label>
+		<labelNoun>Rib Openings</labelNoun>
+		<description>Complex cavernous sub-skin system located in the back of the ribs, used in reproduction</description>
+		<descriptionHyperlinks><ThingDef>RibOpenings</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>RibOpenings</spawnThingOnRemoved>
+		<produceEggs>true</produceEggs>
+		<!-- time to produce new egg -->
+		<minEggTick>30000</minEggTick>
+		<maxEggTick>120000</maxEggTick>
+		<FluidType>InsectJelly</FluidType>
+	</rjw.HediffDef_PartBase>
+	
+</Defs>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="UglyRockBase" Name="GrumboBase">
+    <defName>GrumboBase</defName>
+    <label>grumbo</label>
+    <description>A porous yet resilient rock. Its rarity, beauty and unique color fetches it a good trading price.</description>
+    <graphicData>
+      <color>(77,142,195)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+	  <isResourceRock>true</isResourceRock>
+      <mineableThing>ChunkGrumbo</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing />
+	  <mineableScatterCommonality>0.2</mineableScatterCommonality>
+    </building>
+  </ThingDef>
+
+  <!-- Grumbo rock can spawn smoothed. Disabling until I figure out why. -->
+
+  <!-- <ThingDef ParentName="GrumboBase"> -->
+    <!-- <defName>SmoothedGrumbo</defName> -->
+    <!-- <label>smoothed grumbo</label> -->
+    <!-- <description>A porous but resilient rock that's pretty to look at. It has a flat matte surface that slightly scatters the light, giving a satisfying texture.</description> -->
+    <!-- <graphicData> -->
+      <!-- <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath> -->
+    <!-- </graphicData> -->
+    <!-- <statBases> -->
+      <!-- <Beauty>1</Beauty> -->
+      <!-- <MarketValue>20</MarketValue> -->
+    <!-- </statBases> -->
+    <!-- <building> -->
+      <!-- <isNaturalRock>false</isNaturalRock> -->
+      <!-- <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder> -->
+      <!-- <artificialForMeditationPurposes>false</artificialForMeditationPurposes> -->
+	  <!-- <smoothedThing /> -->
+    <!-- </building> -->
+    <!-- <saveCompressible>false</saveCompressible> -->
+    <!-- <repairEffect>Repair</repairEffect> -->
+  <!-- </ThingDef> -->
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkGrumbo</defName>
+    <label>grumbo chunk</label>
+    <graphicData>
+      <color>(77,142,195)</color>
+    </graphicData>
+    <statBases>
+      <Mass>22</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksGrumbo>20</BlocksGrumbo>
+    </butcherProducts>
+  </ThingDef>
+
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksGrumbo</defName>
+    <label>grumbo blocks</label>
+    <description>Blocks of solid grumbo.</description>
+    <graphicData>
+      <color>(77,142,195)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.1</Mass>
+	  <MarketValue>5</MarketValue>
+    </statBases>
+    <stuffProps>
+      <color>(77,142,195)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>grumbo</stuffAdjective>
+      <statFactors>
+	    <Beauty>1.25</Beauty>
+        <MaxHitPoints>1.45</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <RecipeDef ParentName="MakeStoneBlocksBase">
+    <defName>Make_StoneBlocksGrumbo</defName>
+    <label>make grumbo blocks</label>
+    <description>Cuts grumbo chunks into usable blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkGrumbo</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkGrumbo</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <BlocksGrumbo>20</BlocksGrumbo>
+    </products>
+  </RecipeDef>
+  
+</Defs>

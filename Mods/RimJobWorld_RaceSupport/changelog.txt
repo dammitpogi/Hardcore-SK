@@ -1,0 +1,99 @@
+8.4.0
+-Caisy Rose (ReGrowth Animals support [merged])
+-Natsu_Zirok (Translation Russian + Typo fixes [merged])
+
+8.3.3
+-fixed typo in Orc female genitals assignment
+-Oglis Orks are fungus and have no sex need or RJW parts, they have other ways to reproduce. If you install parts on them they should still be able to get pregnant and impregnate.
+-Got rid of moyo patch error (real fix later)
+
+8.3.2
+-Moyo milk redone 
+-Can now turn Moyo milk into DeepBlue serum in drug lab (crafting spot for low tech people) requires research to make DeepBlue serum
+-Nyaron BasePawn fix
+-Oglis 40k Orks support maybe (needs changes maybe)?
+
+8.3.1
+-Rename some files
+-Orassan Milk Patch
+-CuteBold Milk Patch
+
+8.3.0
+-Part props and Typo Fixes(ShuaPuta).
+-Cleaning
+-Moyo Milk Support
+
+8.2.2
+-Kemomimihouse patch updates
+-marked real faction guest incompatible as it can disterbe pregnancy
+-Fixed Ferian and Lapelli issues maybe
+-if milkable colonists is loaded patch races with milk
+
+8.2.1
+-updated rjw-ex plug patch to match latest rjw-ex
+-waa skeleton race support ?
+
+8.2.0
+-Moyo Mechanoids patch
+-Disabled the Breeder charm Race patch 
+-Updated to match latest HAR code for RJW-Ex wear Apperal patch
+-Moved all Orassan RJW Support to the Orassans mod
+
+8.1.2
+Bovine Penis multi surgery bow require bovine penis and the label is fixed
+
+8.1.1
+-New hediffs Descriptions by ShauaPuta
+-Rimcraft Races by ShauaPuta
+-A few fixes
+
+8.1.0
+-Rakkle big tiddy snake girl race
+-More horse people added to the Equims race support 
+-Roaly Thrumbo race support
+-big donged horses ?
+
+8.0.1
+-Hybrids (Humans, Orassan, Nyaron, Nukos) Fixed ?
+-Added Moyo Race Support
+-Added Vulpes Race Support
+-Fixed Ewok typo
+-improved a few patches
+
+8.0.0
+-Test Hybrids (Humans, Orassan, Nyaron, Nukos)
+-Nyaron Animation Tail Fix
+
+7.8.1
+-Reduced rat gestation to 7 days.
+
+7.8.0
+-Folder structure
+-Version support
+-potential fix for surgery
+-If Animatioons is loaded patches.
+
+7.7.4
+-Fixed Engi Race (LTF)
+-Fixed Aerofleet (AA)
+-Added Flat Preset 
+-Refined Protogen Race Support
+
+7.7.3
+-fixed the space elves again
+-LTF race support (by ShuaPuta)
+
+7.7.2
+-support Ancient Species the race mod
+-disabled a number of patches dealing with Races Spawn values and Life stages and litter sizes (these started off as patches taken from BnC when the mod was having many issues working with many lists in 1.0) in favor of the patches in several Children or Pregnancy mods.
+
+7.7.1
+-fixed large breastss Display issue
+-Avali Dino penis is now gone
+
+7.7.0
+-added changelog
+-tweak breeders delight 
+-added length and width to custom parts
+-mist men now get parts and gender 
+-Kijin hot Spring grants 10% fertility

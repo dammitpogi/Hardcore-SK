@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rabbie The Moonrabbit race</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Rabbie"]/race/gestationPeriodDays</xpath>
+			<value>
+				<gestationPeriodDays>35</gestationPeriodDays>
+			</value>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FT_FrailBack.degreeDatas.0.label>Gebrechlicher Rücken</FT_FrailBack.degreeDatas.0.label>
+  <FT_FrailBack.degreeDatas.0.description>NAME hat einen gebrechlichen Rücken, deswegen kann HE nicht so viel wie der Durchschnitt tragen.</FT_FrailBack.degreeDatas.0.description>
+  <FT_StrongBack.degreeDatas.0.label>Starker Rücken</FT_StrongBack.degreeDatas.0.label>
+  <FT_StrongBack.degreeDatas.0.description>NAME hat einen starken Rücken, was HIM erlaubt mehr als die Meisten zu tragen.</FT_StrongBack.degreeDatas.0.description>
+  <FT_StrongBack.degreeDatas.1.label>Sehr starker Rücken</FT_StrongBack.degreeDatas.1.label>
+  <FT_StrongBack.degreeDatas.1.description>NAME hat einen sehr starken Rücken, ist halb Packesel oder zu etwas ähnlichem mutiert. HECAP kann das zweifache Gewicht im Gegensatz zu einer normalen Person tragen.</FT_StrongBack.degreeDatas.1.description>
+  <FT_AnimalFriend.degreeDatas.0.label>Tierfreund</FT_AnimalFriend.degreeDatas.0.label>
+  <FT_AnimalFriend.degreeDatas.0.description>NAME hat eine Leidenschaft für Tiere. HECAP bekommt einen Bonus zu allen Tätigkeiten mit Tieren.</FT_AnimalFriend.degreeDatas.0.description>
+  <FT_Ghoulish.degreeDatas.0.label>Ghulisch</FT_Ghoulish.degreeDatas.0.label>
+  <FT_Ghoulish.degreeDatas.0.description>NAME ist immer noch Mensch, zum größten Teil. HECAP ist immun gegenüber giftigen Niederschlags, aber das ghulische Aussehen schreckt andere ab.</FT_Ghoulish.degreeDatas.0.description>
+  <FT_RadResistant.degreeDatas.0.label>Strahlungsresistent</FT_RadResistant.degreeDatas.0.label>
+  <FT_RadResistant.degreeDatas.0.description>NAMEs Körper hat eine Resistenz gegen negative Folgen des toxischen Niederschlags entwickelt.</FT_RadResistant.degreeDatas.0.description>
+  <FT_ActionBoy.degreeDatas.0.label>Action Boy</FT_ActionBoy.degreeDatas.0.label>
+  <FT_ActionBoy.degreeDatas.0.description>NAME hat keine Zeit zu verschwenden! HECAP läuft und arbeitet schneller.</FT_ActionBoy.degreeDatas.0.description>
+  <FT_ActionGirl.degreeDatas.0.label>Action Girl</FT_ActionGirl.degreeDatas.0.label>
+  <FT_ActionGirl.degreeDatas.0.description>NAME hat keine Zeit zu verschwenden! HECAP läuft und arbeitet schneller.</FT_ActionGirl.degreeDatas.0.description>
+  <FT_QuickHands.degreeDatas.0.label>Flinke Finger</FT_QuickHands.degreeDatas.0.label>
+  <FT_QuickHands.degreeDatas.0.description>NAME hat flinke Finger. Wenn es um HISe Hände geht, dann zögert NAME nie.</FT_QuickHands.degreeDatas.0.description>
+  <FT_IdiotSavant.degreeDatas.0.label>Inselbegabt</FT_IdiotSavant.degreeDatas.0.label>
+  <FT_IdiotSavant.degreeDatas.0.description>NAME ist nicht dumm! HECAP ist nur... anders. HECAP lernt doppelt so schnell aber braucht dafür auch deutlich länger, HE ist auch nicht in der Lage alles zu tun.</FT_IdiotSavant.degreeDatas.0.description>
+  <FT_Charisma.degreeDatas.0.label>Charismatisch</FT_Charisma.degreeDatas.0.label>
+  <FT_Charisma.degreeDatas.0.description>NAME hat eine charismatische Persönlichkeit. HECAP bekommt einen Bonus auf alle sozialen Interaktionen.</FT_Charisma.degreeDatas.0.description>
+  <FT_Charisma.degreeDatas.1.label>Sehr Charismatisch</FT_Charisma.degreeDatas.1.label>
+  <FT_Charisma.degreeDatas.1.description>NAME hat eine besonders charismatische Persönlichkeit. HECAP bekommt einen heftigen Bonus auf alle sozialen Interaktionen.</FT_Charisma.degreeDatas.1.description>
+  <FT_GunNut.degreeDatas.0.label>Knarren-Freak</FT_GunNut.degreeDatas.0.label>
+  <FT_GunNut.degreeDatas.0.description>NAME ist ein Knarren-Freak, HE liebt Knarren. Es hebt HISe Laune, wenn HE eine Fernkampfwaffe ausgerüstet hat.</FT_GunNut.degreeDatas.0.description>
+  <FT_Rooted.degreeDatas.0.label>Festgewachsen</FT_Rooted.degreeDatas.0.label>
+  <FT_Rooted.degreeDatas.0.description>NAME ist halb Baum! HECAP kann ordentlich was einstecken!</FT_Rooted.degreeDatas.0.description>
+  <FT_Toughness.degreeDatas.0.label>Härte</FT_Toughness.degreeDatas.0.label>
+  <FT_Toughness.degreeDatas.0.description>Wenn es sein muss, kann NAME einiges einstecken!</FT_Toughness.degreeDatas.0.description>
+  <FT_Toughness.degreeDatas.1.label>Reine Härte</FT_Toughness.degreeDatas.1.label>
+  <FT_Toughness.degreeDatas.1.description>Wenn es sein muss, kann NAME ordentlich was einstecken!</FT_Toughness.degreeDatas.1.description>
+  <FT_Intimidation.degreeDatas.0.label>Einschüchternd</FT_Intimidation.degreeDatas.0.label>
+  <FT_Intimidation.degreeDatas.0.description>NAME hat eine einschüchternde Persönlichkeit, welche HIM einen Vorteil in sozialen Interaktionen ermöglicht.</FT_Intimidation.degreeDatas.0.description>
+  <FT_Intimidation.degreeDatas.1.label>Sehr Einschüchternd</FT_Intimidation.degreeDatas.1.label>
+  <FT_Intimidation.degreeDatas.1.description>NAME hat eine sehr einschüchternde Persönlichkeit, welche HIM einen großen Vorteil in sozialen Interaktionen ermöglicht.</FT_Intimidation.degreeDatas.1.description>
+  <FT_Scrapper.degreeDatas.0.label>Wiederverwerter</FT_Scrapper.degreeDatas.0.label>
+  <FT_Scrapper.degreeDatas.0.description>NAME hat ein Händchen für Altmetall. HECAP ist begabt am Schmelzofen und effizient beim Verwenden von Baustoffen. </FT_Scrapper.degreeDatas.0.description>
+  <FT_FortuneFinder.degreeDatas.0.label>Schatzsucher</FT_FortuneFinder.degreeDatas.0.label>
+  <FT_FortuneFinder.degreeDatas.0.description>NAME scheint versteckte Reichtümer zu finden, wohin auch immer es HIM verschlägt.</FT_FortuneFinder.degreeDatas.0.description>
+  <FT_AimOffset.degreeDatas.0.label>Schlechter Schütze</FT_AimOffset.degreeDatas.0.label>
+  <FT_AimOffset.degreeDatas.0.description>NAME hat eine schlechte Augen-Hand-Koordination und verfehlt HIM Ziel gelegentlich im Kampf.</FT_AimOffset.degreeDatas.0.description>
+  <FT_AimOffset.degreeDatas.1.label>Scharfschütze</FT_AimOffset.degreeDatas.1.label>
+  <FT_AimOffset.degreeDatas.1.description>NAME hat eine großartige Augen-Hand-Koordination und trifft HIM Ziel regelmäßig im Kampf.</FT_AimOffset.degreeDatas.1.description>
+  <FT_Agility.degreeDatas.0.label>Flink</FT_Agility.degreeDatas.0.label>
+  <FT_Agility.degreeDatas.0.description>NAME hat gute Reflexe und bewegt sich gewandt. HECAP trifft und weicht im Nahkampf häufiger aus.</FT_Agility.degreeDatas.0.description>
+  <FT_Agility.degreeDatas.1.label>ninja-like</FT_Agility.degreeDatas.1.label>
+  <FT_Agility.degreeDatas.1.description>NAME hat großartige Reflexe und bewegt sich wie ein Ninja. HECAP trifft und weicht im Nahkampf häufiger aus.</FT_Agility.degreeDatas.1.description>
+  <FT_Stupid.degreeDatas.0.label>Dumm</FT_Stupid.degreeDatas.0.label>
+  <FT_Stupid.degreeDatas.0.description>NAME ist nicht sehr klug. HECAP kann alles vermasseln.</FT_Stupid.degreeDatas.0.description>
+  <FT_Intelligence.degreeDatas.0.label>Intelligent</FT_Intelligence.degreeDatas.0.label>
+  <FT_Intelligence.degreeDatas.0.description>NAME ist klüger als der Durchschnitt. HECAP lernt schneller und hat ein gutes Verständnis von Gott und der Welt.</FT_Intelligence.degreeDatas.0.description>
+  <FT_Intelligence.degreeDatas.1.label>Sehr Intelligent</FT_Intelligence.degreeDatas.1.label>
+  <FT_Intelligence.degreeDatas.1.description>NAME ist verdammt klug. HECAP lernt schneller und hat ein hervorragendes Verständnis von Gott und der Welt.</FT_Intelligence.degreeDatas.1.description>
+  <FT_Oblivious.degreeDatas.0.label>Tagträumer</FT_Oblivious.degreeDatas.0.label>
+  <FT_Oblivious.degreeDatas.0.description>NAME ist sich der näheren Umgebung nicht bewusst. Oder von irgendwas, um ehrlich zu sein.</FT_Oblivious.degreeDatas.0.description>
+  <FT_Perception.degreeDatas.0.label>Scharfsinnig</FT_Perception.degreeDatas.0.label>
+  <FT_Perception.degreeDatas.0.description>NAME hat eine gute Wahrnehmung der Umgebung und ein gutes Verständnis davon, wie eigene Aktionen andere betreffen.</FT_Perception.degreeDatas.0.description>
+  <FT_Perception.degreeDatas.1.label>Sehr Scharfsinnig</FT_Perception.degreeDatas.1.label>
+  <FT_Perception.degreeDatas.1.description>NAME hat eine sehr gute Wahrnehmung der Umgebung und ein großartiges Verständnis davon, wie eigene Aktionen andere betreffen.</FT_Perception.degreeDatas.1.description>
+  <FT_Scrounger.degreeDatas.0.label>Schnorrer</FT_Scrounger.degreeDatas.0.label>
+  <FT_Scrounger.degreeDatas.0.description>NAME weiß wie man den Abfall durchstöbert und schnell Resourcen sammelt.</FT_Scrounger.degreeDatas.0.description>
+  <FT_Endurance.degreeDatas.0.label>Ausdauernd</FT_Endurance.degreeDatas.0.label>
+  <FT_Endurance.degreeDatas.0.description>NAME ist bei bester Gesundheit und hat eine ausdauernde Persönlichkeit. HECAP ist besser beim Bewältigen von stressigen Situationen als andere.</FT_Endurance.degreeDatas.0.description>
+  <FT_Endurance.degreeDatas.1.label>Sehr Ausdauernd</FT_Endurance.degreeDatas.1.label>
+  <FT_Endurance.degreeDatas.1.description>NAME hat eine herausragende Gesundheit und eine sehr ausdauernde Persönlichkeit. HECAP is fähig extreme Stresssituationen zu bewältigen an denen andere scheitern.</FT_Endurance.degreeDatas.1.description>
+</LanguageData>

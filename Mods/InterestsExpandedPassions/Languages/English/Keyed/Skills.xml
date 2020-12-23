@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <DMinorAversion.description>\nInterest: Minor Aversion\n-Moderate mood penalty while using this skill.\n-Learns at {0} efficiency.</DMinorAversion.description>
+  <DMajorAversion.description>\nInterest: Major Aversion\n-Major mood penalty while using this skill.\n-Learns at {0} efficiency.</DMajorAversion.description>
+  <DCompulsion.description>\nInterest: Compulsion\n-Must use this skill periodically or suffer a mood penalty.\n-Neurotic colonists are especially affected.\n-Learns at {0} efficiency.</DCompulsion.description>
+  <DInvigorating.description>\nInterest: Invigorating\n-Rest drops at 50% of normal speed while using this skill.\n-Learns at {0} efficiency.</DInvigorating.description>
+  <DInspiring.description>\nInterest: Inspiring\n-Much more likely to gain inspiration in this skill.\n-Learns at {0} efficiency.</DInspiring.description>
+  <DStagnant.description>\nInterest: Stagnant\n-Unable to gain or lose experience through normal means.\n-Does not learn.</DStagnant.description>
+  
+  <DForgetful.description>\nInterest: Forgetful\n-Loses experience at twice normal rate.\n-Learns at {0} efficiency.</DForgetful.description>
+  <DVocalHatred.description>\nInterest: Vocal Hatred\n-Harasses colonists they can see who use this skill, lowering their joy twice as fast.\n-Learns at {0} efficiency.</DVocalHatred.description>
+  <DNaturalGenius.description>\nInterest: Natural Genius\n-Slowly gains experience in this skill through innate gifts.\n-More likely to gain inspiration in this skill.\n-Learns at {0} efficiency.</DNaturalGenius.description>
+  <DBored.description>\nInterest: Bored\n-Randomly falls asleep when using this skill too often.\n-Learns at {0} efficiency.</DBored.description>
+  <DAllergic.description>\nInterest: Allergic\n-Enjoys using this skill, but develops allergies when using it for too long.\n-Learns at {0} efficiency.</DAllergic.description>
+  
+  
+</LanguageData>

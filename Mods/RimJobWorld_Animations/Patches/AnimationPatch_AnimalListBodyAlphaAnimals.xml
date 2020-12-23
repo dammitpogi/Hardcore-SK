@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Animals</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd"><!--Fucking Animals-->
+					<xpath>/Defs/Rimworld_Animations.AnimationDef[defName="Beast_DoggystyleF" or defName="Beast_DoggystyleM" or defName="Beast_CowgirlM" or defName="Beast_CowgirlF" or defName="BeastxBeast_Doggystyle"]/actors/li[2]/bodyDefTypes</xpath>
+					<success>Always</success>
+					<value>
+						<li>AA_JellyfishBody</li>
+						<li>AA_Arachnid</li>
+						<li>AA_ArmouredSlug</li>
+						<li>AA_Atispec</li>
+						<li>AA_ClawedSlug</li>
+						<li>AA_Crocodile</li>
+						<li>AA_DualJawedQuadruped</li>
+						<li>AA_ExtraClawedQuadruped</li>
+						<li>AA_EyelessQuadruped</li>
+						<li>AA_FlyTrap</li>
+						<li>AA_FourEyedQuadruped</li>
+						<li>AA_GooBody</li>
+						<li>AA_Hexapod</li>
+						<li>AA_NightMuleBody</li>
+						<li>AA_NightRamBody</li>
+						<li>AA_OcularJellyBody</li>
+						<li>AA_RedSporeBody</li>
+						<li>AA_ScorpionLike</li>
+						<li>AA_SentientPlant</li>
+						<li>AA_SixEyedGoat</li>
+						<li>AA_Slug</li>
+						<li>AA_SlurrypedeBody</li>
+						<li>AA_Snail</li>
+						<li>AA_SnakeWithTwoLimbs</li>
+						<li>AA_Squid</li>
+						<li>AA_TentacledQuadruped</li>
+						<li>AA_TentacledSlug</li>
+						<li>AA_Wasp</li>
+						<li>AA_WingedQuadrupedAnimalWithPawsAndTail</li>
+						<li>AA_WormWithArmor</li>
+						<li>AA_WormWithArmorAndTusks</li>
+						<li>AA_AuraBody</li>
+						<li>AA_DaggerSnoutBody</li>
+						<li>AA_SiegebreakerBody</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"><!--Fucked Animals-->
+					<xpath>/Defs/Rimworld_Animations.AnimationDef[defName="Beast_Doggystyle2" or defName="BeastxBeast_Doggystyle"]/actors/li[1]/bodyDefTypes</xpath>
+					<success>Always</success>
+					<value>
+						<li>AA_JellyfishBody</li>
+						<li>AA_Arachnid</li>
+						<li>AA_ArmouredSlug</li>
+						<li>AA_Atispec</li>
+						<li>AA_ClawedSlug</li>
+						<li>AA_Crocodile</li>
+						<li>AA_DualJawedQuadruped</li>
+						<li>AA_ExtraClawedQuadruped</li>
+						<li>AA_EyelessQuadruped</li>
+						<li>AA_FlyTrap</li>
+						<li>AA_FourEyedQuadruped</li>
+						<li>AA_GooBody</li>
+						<li>AA_Hexapod</li>
+						<li>AA_NightMuleBody</li>
+						<li>AA_NightRamBody</li>
+						<li>AA_OcularJellyBody</li>
+						<li>AA_RedSporeBody</li>
+						<li>AA_ScorpionLike</li>
+						<li>AA_SentientPlant</li>
+						<li>AA_SixEyedGoat</li>
+						<li>AA_Slug</li>
+						<li>AA_SlurrypedeBody</li>
+						<li>AA_Snail</li>
+						<li>AA_SnakeWithTwoLimbs</li>
+						<li>AA_Squid</li>
+						<li>AA_TentacledQuadruped</li>
+						<li>AA_TentacledSlug</li>
+						<li>AA_Wasp</li>
+						<li>AA_WingedQuadrupedAnimalWithPawsAndTail</li>
+						<li>AA_WormWithArmor</li>
+						<li>AA_WormWithArmorAndTusks</li>
+						<li>AA_AuraBody</li>
+						<li>AA_DaggerSnoutBody</li>
+						<li>AA_SiegebreakerBody</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

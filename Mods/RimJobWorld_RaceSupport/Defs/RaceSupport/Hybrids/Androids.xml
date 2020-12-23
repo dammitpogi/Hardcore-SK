@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Name="RJW_Human_Hybrid" -->
+	<rjw.RaceGroupDef>
+		<defName>Android_Pregnancy_Base</defName>
+		<raceNames>
+			<!-- <li>ChjAndroid</li> -->
+		</raceNames>
+		
+		<hybridRaceParents>
+			<li>ChjAndroid</li>
+			<li>Any</li>
+		</hybridRaceParents>
+
+		<hybridChildKindDef>
+			<li>MotherKindDef</li>
+		</hybridChildKindDef>
+	</rjw.RaceGroupDef>
+</Defs>

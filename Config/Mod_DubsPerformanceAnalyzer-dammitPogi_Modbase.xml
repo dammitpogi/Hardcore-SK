@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Analyzer.Settings">
+		<dnspyPath />
+		<allEnabled>
+			<li>False</li>
+			<li>False</li>
+			<li>False</li>
+		</allEnabled>
+		<alertfilter>
+			<keys />
+			<values />
+		</alertfilter>
+		<overrideAlerts>True</overrideAlerts>
+		<performance.tempcache-isEnabled>True</performance.tempcache-isEnabled>
+		<performance.compdeepdrill-isEnabled>True</performance.compdeepdrill-isEnabled>
+		<performance.wallsnconduits-isEnabled>True</performance.wallsnconduits-isEnabled>
+		<performance.roof-isEnabled>True</performance.roof-isEnabled>
+		<performance.buildingrepair-isEnabled>True</performance.buildingrepair-isEnabled>
+		<performance.lordnotifydamage-isEnabled>True</performance.lordnotifydamage-isEnabled>
+		<temp.section-isEnabled>True</temp.section-isEnabled>
+		<performance.sectionlayersnow-isEnabled>True</performance.sectionlayersnow-isEnabled>
+		<performance.zoom-isEnabled>True</performance.zoom-isEnabled>
+		<performance.drawlabelsfix-isEnabled>True</performance.drawlabelsfix-isEnabled>
+	</ModSettings>
+</SettingsBlock>

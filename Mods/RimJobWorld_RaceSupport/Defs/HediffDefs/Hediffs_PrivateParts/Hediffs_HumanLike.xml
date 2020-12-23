@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Elf Like -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>ElfPenis</defName>
+		<label>elf penis</label>
+		<labelNoun>an elf's penis</labelNoun>
+		<description>A thinner and longer humanlike penis. Is that glitter?</description>
+		<descriptionHyperlinks><ThingDef>ElfPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ElfPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>ElfVagina</defName>
+		<label>elf vagina</label>
+		<labelNoun>an elf's vagina</labelNoun>
+		<description>A tighter humanlike vagina. Tastes like oranges.</description>
+		<descriptionHyperlinks><ThingDef>ElfVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ElfVagina</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Tight</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>ElfAnus</defName>
+		<label>elf anus</label>
+		<labelNoun>an elf's anus</labelNoun>
+		<description>A Tighter humanlike anus. Smells of flowers.</description>
+		<descriptionHyperlinks><ThingDef>ElfAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ElfAnus</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Tight</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+	<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- Orc Like-->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>OrcPenis</defName>
+		<label>orc penis</label>
+		<labelNoun>an orc's penis</labelNoun>
+		<description>A girthy penis with a prputial ring, but otherwise similar to a humanoid penis.</description>
+		<descriptionHyperlinks><ThingDef>OrcPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>OrcPenis</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Girthy</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>OrcVagina</defName>
+		<label>orc vagina</label>
+		<labelNoun>an orc's vagina</labelNoun>
+		<description>A loose humanlike vagina with very large lips.</description>
+		<descriptionHyperlinks><ThingDef>OrcVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>OrcVagina</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Loose</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>OrcBreasts</defName>
+		<label>orc breasts</label>
+		<labelNoun>a pair of orc breasts</labelNoun>
+		<description>A pair of humanlike breasts that sag greatly.</description>
+		<descriptionHyperlinks><ThingDef>OrcBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>OrcBreasts</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>OrcAnus</defName>
+		<label>orc anus</label>
+		<labelNoun>an orc's anus</labelNoun>
+		<description>An anus that looks like a mix between an humanlike anus and an equine anus.</description>
+		<descriptionHyperlinks><ThingDef>OrcAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>OrcAnus</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Loose</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>GhoulPenis</defName>
+		<label>irradiated penis</label>
+		<labelNoun>an irradiated penis</labelNoun>
+		<description>A humanlike penis that glows slightly. It's very hot to the touch.</description>
+		<descriptionHyperlinks><ThingDef>GhoulPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>GhoulPenis</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Glowing</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>GhoulVagina</defName>
+		<label>irradiated vagina</label>
+		<labelNoun>an irradiated vagina</labelNoun>
+		<description>A humanlike vagina that glows slightly. It is unconfotably hot inside.</description>
+		<descriptionHyperlinks><ThingDef>GhoulVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>GhoulVagina</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Glowing</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>GhoulBreasts</defName>
+		<label>irradiated breasts</label>
+		<labelNoun>a pair of irradiated breasts</labelNoun>
+		<description>A pair of humanlike breasts that glows slightly. they're very hot to the touch.</description>
+		<descriptionHyperlinks><ThingDef>GhoulBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>GhoulBreasts</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Glowing</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>GhoulAnus</defName>
+		<label>irradiated anus</label>
+		<labelNoun>an irradiated anus</labelNoun>
+		<description>An anus that glows slightly. It is unconfotably hot inside.</description>
+		<descriptionHyperlinks><ThingDef>GhoulAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>GhoulAnus</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Glowing</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast_Big_Races">
+		<defName>BigRaceBreats</defName>
+		<label>breastss</label>
+		<labelNoun>a pair of breasts</labelNoun>
+		<description>just a normal pair of breasts found on larger Humanoids.</description>
+		<descriptionHyperlinks><ThingDef>GhoulBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BigRaceBreats</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+</Defs>

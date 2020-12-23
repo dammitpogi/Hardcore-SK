@@ -1,0 +1,43 @@
+<!-- <?xml version="1.0" encoding="utf-8" ?> -->
+<!-- <Defs> -->
+	<!-- <TraitDef> -->
+		<!-- <defName>Encouraged_Partnership</defName> -->
+		<!-- <commonality>0.1</commonality> -->
+		<!-- <degreeDatas> -->
+			<!-- <li> -->
+				<!-- <label>cross dresser</label> -->
+				<!-- <description>{PAWN_nameDef} likes wearing clothes of the opposite gender.</description> -->
+			<!-- </li> -->
+		<!-- </degreeDatas> -->
+		<!-- <conflictingTraits> -->
+			<!-- <li>Open_Partnership</li> -->
+		<!-- </conflictingTraits> -->
+	<!-- </TraitDef> -->
+	
+	<!-- <ThoughtDef> -->
+		<!-- <defName>CheatedOnMe_Encouraged</defName> -->
+		<!-- <thoughtClass>Thought_MemorySocial</thoughtClass> -->
+		<!-- <durationDays>120</durationDays> -->
+		<!-- <stackLimit>300</stackLimit> -->
+		<!-- <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn> -->
+		<!-- <stages> -->
+			<!-- <li> -->
+				<!-- <label>cheated on me</label> -->
+				<!-- <baseOpinionOffset>20</baseOpinionOffset> -->
+			<!-- </li> -->
+		<!-- </stages> -->
+		<!-- <thoughtToMake>CheatedOnMeMood_Encouraged</thoughtToMake> -->
+	<!-- </ThoughtDef> -->
+	<!-- <ThoughtDef> -->
+		<!-- <defName>CheatedOnMeMood_Encouraged</defName> -->
+		<!-- <durationDays>25.0</durationDays> -->
+		<!-- <stackLimit>10</stackLimit> -->
+		<!-- <stages> -->
+			<!-- <li> -->
+				<!-- <label>cheated on by {0}</label> -->
+				<!-- <description>My lover a relationship with someone else behind my back, ow exciting!</description> -->
+				<!-- <baseMoodEffect>5</baseMoodEffect> -->
+			<!-- </li> -->
+		<!-- </stages> -->
+	<!-- </ThoughtDef> -->
+<!-- </Defs> -->

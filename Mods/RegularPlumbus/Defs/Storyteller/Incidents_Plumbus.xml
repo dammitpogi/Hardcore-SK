@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>FleebPasses</defName>
+    <label>fleebs pass</label>
+	<category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>PlumbusIncidents.IncidentWorker_FleebPasses</workerClass>
+    <baseChance>0.8</baseChance>
+	<minRefireDays>15</minRefireDays>
+  </IncidentDef>
+  
+</Defs>

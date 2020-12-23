@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Some sizes 
+	
+	Micro							0.01						Nipples
+									0.02	(breasts)			Tiny
+	Small/Tight						0.20						Small
+	Average							0.40						Average
+	Large/Accomodating				0.60						Large
+	Huge/Cavernous					0.80						Huge		
+									1.00 	(breasts)			Enormous	
+	Towering/Abyssal				1.01 	(not breasts)				
+									1.20 	(breasts)			Massive	
+									1.40	(breasts)			Gargantuan	
+									1.60	(breasts)			Colossal	
+-->
+<Defs>
+
+	<rjw.RacePartDef>
+		<defName>Flat_Breasts</defName>
+		<hediffName>Breasts</hediffName>
+		<fluidType>Milk</fluidType>
+		<fluidModifier>1.0</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(1.0, 0.01)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>Flat_Bionic_Breasts</defName>
+		<hediffName>BionicBreasts</hediffName>
+		<fluidType>Milk</fluidType>
+		<fluidModifier>1.0</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(1.0, 0.01)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>Flat_Hydraulic_Breasts</defName>
+		<hediffName>HydraulicBreasts</hediffName>
+		<fluidType>Milk</fluidType>
+		<fluidModifier>1.0</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(1.0, 0.01)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+</Defs>

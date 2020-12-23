@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FT_FrailBack.degreeDatas.0.label>Слабая спина</FT_FrailBack.degreeDatas.0.label>
+  <FT_FrailBack.degreeDatas.0.description>NAME имеет слабую спину поэтому он не может нести так много как обычный человек.</FT_FrailBack.degreeDatas.0.description>
+  <FT_StrongBack.degreeDatas.0.label>Сильная спина</FT_StrongBack.degreeDatas.0.label>
+  <FT_StrongBack.degreeDatas.0.description>NAME имеет сильную спину которая позволяет носить ему больше вещей, чем большинство людей.</FT_StrongBack.degreeDatas.0.description>
+  <FT_StrongBack.degreeDatas.1.label>Очень сильная спина</FT_StrongBack.degreeDatas.1.label>
+  <FT_StrongBack.degreeDatas.1.description>NAME имеет очень сильную спину или он наполовину мул или что-то в этом роде. Он может нести в два раза больше, чем обычный человек.</FT_StrongBack.degreeDatas.1.description>
+  <FT_AnimalFriend.degreeDatas.0.label>Друг животных</FT_AnimalFriend.degreeDatas.0.label>
+  <FT_AnimalFriend.degreeDatas.0.description>NAME имеет страсть к животным. HECAP получает бонусы ко всем взаимодействиям с животными.</FT_AnimalFriend.degreeDatas.0.description>
+  <FT_Ghoulish.degreeDatas.0.label>Отвратительный</FT_Ghoulish.degreeDatas.0.label>
+  <FT_Ghoulish.degreeDatas.0.description>NAME до сих пор человек, в большей степени. HECAP обладает иммунитетом к воздействию токсичных осадков, но его омерзительный внешний вид затрудняет взаимодействие с другими людьми.</FT_Ghoulish.degreeDatas.0.description>
+  <FT_RadResistant.degreeDatas.0.label>Сопротивление к радиации</FT_RadResistant.degreeDatas.0.label>
+  <FT_RadResistant.degreeDatas.0.description>NAME's организм выработал устойчивость к негативному воздействию токсичных осадков.</FT_RadResistant.degreeDatas.0.description>
+  <FT_ActionBoy.degreeDatas.0.label>Мальчик действия</FT_ActionBoy.degreeDatas.0.label>
+  <FT_ActionBoy.degreeDatas.0.description>NAME Нельзя терять ни минуты! HECAP имеет повышенную скорость передвижения и работы.</FT_ActionBoy.degreeDatas.0.description>
+  <FT_ActionGirl.degreeDatas.0.label>Девочка действия</FT_ActionGirl.degreeDatas.0.label>
+  <FT_ActionGirl.degreeDatas.0.description>NAME Нельзя терять ни минуты! HECAP имеет повышенную скорость передвижения и работы.</FT_ActionGirl.degreeDatas.0.description>
+  <FT_QuickHands.degreeDatas.0.label>Быстрые руки</FT_QuickHands.degreeDatas.0.label>
+  <FT_QuickHands.degreeDatas.0.description>NAME имеет быстрые руки. Когда дело доходит до его рук, NAME никогда не колеблется.</FT_QuickHands.degreeDatas.0.description>
+  <FT_IdiotSavant.degreeDatas.0.label>Глупый учёный</FT_IdiotSavant.degreeDatas.0.label>
+  <FT_IdiotSavant.degreeDatas.0.description>NAME не идиот! он просто... другой. HECAP обучается в два раза быстрее но работает медленнее чем обычно, он также не способен справиться с некоторыми задачами.</FT_IdiotSavant.degreeDatas.0.description>
+  <FT_Charisma.degreeDatas.0.label>Харизматичный</FT_Charisma.degreeDatas.0.label>
+  <FT_Charisma.degreeDatas.0.description>NAME имеет харизматичную натуру. HECAP получает бонусы ко всему  социальному общению.</FT_Charisma.degreeDatas.0.description>
+  <FT_Charisma.degreeDatas.1.label>Очень харизматичный</FT_Charisma.degreeDatas.1.label>
+  <FT_Charisma.degreeDatas.1.description>NAME имеет очень харизматичную натуру. HECAP получает бонусы ко всему социальному общению.</FT_Charisma.degreeDatas.1.description>
+  <FT_GunNut.degreeDatas.0.label>Любитель пушек</FT_GunNut.degreeDatas.0.label>
+  <FT_GunNut.degreeDatas.0.description>NAME любитель пушек, он любит оружие дальнего боя. HECAP получает бонусы к настроению когда носит оружие дальнего боя.</FT_GunNut.degreeDatas.0.description>
+  <FT_Rooted.degreeDatas.0.label>Укоренившийся</FT_Rooted.degreeDatas.0.label>
+  <FT_Rooted.degreeDatas.0.description>NAME является частью дерева! HECAP может выдержать сильные удары!</FT_Rooted.degreeDatas.0.description>
+  <FT_Toughness.degreeDatas.0.label>Жесткий</FT_Toughness.degreeDatas.0.label>
+  <FT_Toughness.degreeDatas.0.description>В любом случае, NAME может принять удар!</FT_Toughness.degreeDatas.0.description>
+  <FT_Toughness.degreeDatas.1.label>Очень жесткий</FT_Toughness.degreeDatas.1.label>
+  <FT_Toughness.degreeDatas.1.description>В любой ситуации, NAME может выдержать любой удар!</FT_Toughness.degreeDatas.1.description>
+  <FT_Intimidation.degreeDatas.0.label>Пугающий</FT_Intimidation.degreeDatas.0.label>
+  <FT_Intimidation.degreeDatas.0.description>NAME имеет пугающую натуру, это дает ему преимущество в социальном общении.</FT_Intimidation.degreeDatas.0.description>
+  <FT_Intimidation.degreeDatas.1.label>Очень пугающий</FT_Intimidation.degreeDatas.1.label>
+  <FT_Intimidation.degreeDatas.1.description>NAME имеет очень пугающую натуру, это дает ему большое преимущество в социальном общении.</FT_Intimidation.degreeDatas.1.description>
+  <FT_Scrapper.degreeDatas.0.label>Мусорщик</FT_Scrapper.degreeDatas.0.label>
+  <FT_Scrapper.degreeDatas.0.description>NAME хорош в работе с металоломом. HECAP отлично подходит для плавильного завода и эффективен при использовании строительных материалов. </FT_Scrapper.degreeDatas.0.description>
+  <FT_FortuneFinder.degreeDatas.0.label>Искатель удачи</FT_FortuneFinder.degreeDatas.0.label>
+  <FT_FortuneFinder.degreeDatas.0.description>NAME кажется, он обнаруживает скрытое богатство, куда бы он ни пошел.</FT_FortuneFinder.degreeDatas.0.description>
+  <FT_AimOffset.degreeDatas.0.label>Плохой прицел</FT_AimOffset.degreeDatas.0.label>
+  <FT_AimOffset.degreeDatas.0.description>NAME имеет плохую зрительно-моторную координацию и чаще всего промахивается мимо цели в бою.</FT_AimOffset.degreeDatas.0.description>
+  <FT_AimOffset.degreeDatas.1.label>Устойчивый прицел</FT_AimOffset.degreeDatas.1.label>
+  <FT_AimOffset.degreeDatas.1.description>NAME обладает отличной зрительно-моторной координацией и будет реже промахиваться мимо своей цели в бою.</FT_AimOffset.degreeDatas.1.description>
+  <FT_Agility.degreeDatas.0.label>Проворный</FT_Agility.degreeDatas.0.label>
+  <FT_Agility.degreeDatas.0.description>NAME имеет хорошие рефлексы и двигается с изяществом. HECAP будет приземляться и уклоняться от новых атак в ближнем бою.</FT_Agility.degreeDatas.0.description>
+  <FT_Agility.degreeDatas.1.label>Ниндзя</FT_Agility.degreeDatas.1.label>
+  <FT_Agility.degreeDatas.1.description>NAME имеет отличные рефлексы и двигается как ниндзя. HECAP будет приземляться и уклоняться от большего количества атак в ближнем бою.</FT_Agility.degreeDatas.1.description>
+  <FT_Stupid.degreeDatas.0.label>Глупый</FT_Stupid.degreeDatas.0.label>
+  <FT_Stupid.degreeDatas.0.description>NAME не очень умен. HECAP может испортить все что угодно.</FT_Stupid.degreeDatas.0.description>
+  <FT_Intelligence.degreeDatas.0.label>Умный</FT_Intelligence.degreeDatas.0.label>
+  <FT_Intelligence.degreeDatas.0.description>NAME умнее чем обычный человек. HECAP учится быстрее и имеет хорошее представление об окружающем мире.</FT_Intelligence.degreeDatas.0.description>
+  <FT_Intelligence.degreeDatas.1.label>Очень умный</FT_Intelligence.degreeDatas.1.label>
+  <FT_Intelligence.degreeDatas.1.description>NAME очень умен. HECAP учится быстрее и имеет большое понимание об окружающем мире.</FT_Intelligence.degreeDatas.1.description>
+  <FT_Oblivious.degreeDatas.0.label>Забывчивый</FT_Oblivious.degreeDatas.0.label>
+  <FT_Oblivious.degreeDatas.0.description>NAME не очень осознает, есть ли его окружение, или вообще что-нибудь на самом деле. HECAP</FT_Oblivious.degreeDatas.0.description>
+  <FT_Perception.degreeDatas.0.label>Чуткий</FT_Perception.degreeDatas.0.label>
+  <FT_Perception.degreeDatas.0.description>NAME имеет хорошее представление о своем окружении и хорошо понимает, как его действия влияют на других.</FT_Perception.degreeDatas.0.description>
+  <FT_Perception.degreeDatas.1.label>Очень внимательный</FT_Perception.degreeDatas.1.label>
+  <FT_Perception.degreeDatas.1.description>NAME очень хорошо осознает свое окружение и прекрастно понимает, как его действия влияют на других.</FT_Perception.degreeDatas.1.description>
+  <FT_Scrounger.degreeDatas.0.label>Попрошайка</FT_Scrounger.degreeDatas.0.label>
+  <FT_Scrounger.degreeDatas.0.description>NAME знает, как выкапывать и собирать ресурсы.</FT_Scrounger.degreeDatas.0.description>
+  <FT_Endurance.degreeDatas.0.label>Выносливый</FT_Endurance.degreeDatas.0.label>
+  <FT_Endurance.degreeDatas.0.description>NAME обладает хорошим здоровьем и стойкой личностью. HECAP он лучше справляется со стрессовыми ситуациями, чем другие.</FT_Endurance.degreeDatas.0.description>
+  <FT_Endurance.degreeDatas.1.label>Очень стойкий</FT_Endurance.degreeDatas.1.label>
+  <FT_Endurance.degreeDatas.1.description>NAME обладает исключительным здоровьем и очень стойкой личностью. HECAP способен справляться с высокими стрессовыми ситуациями, которые другие не могут.</FT_Endurance.degreeDatas.1.description>
+</LanguageData>

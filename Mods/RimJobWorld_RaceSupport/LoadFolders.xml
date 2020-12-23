@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loadFolders>
+	<default>
+		<li>/</li>
+		<!-- <li IfModActive="platinumspoons.rimworld.animations">X_Animations</li> -->
+		<li IfModActive="c0ffee.rimworld.animations">X_Animations</li>
+		<li IfModActive="rjw.milk.humanoid">X_Milk</li>
+		<!-- <li IfModActive="skyarkhangel.HSK">X_HSK</li> -->
+	</default>
+</loadFolders>

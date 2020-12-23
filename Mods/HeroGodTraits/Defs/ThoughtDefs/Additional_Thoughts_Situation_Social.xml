@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- affecting opinion -->
+
+  <ThoughtDef>
+    <defName>GAT_Perverted</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>Gewen_AdditionalTraits.ThoughtWorker_Perv</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>pervert</label>
+        <baseOpinionOffset>-25</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

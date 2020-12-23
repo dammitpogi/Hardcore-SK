@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Ghost -->
+
+	<GhostPenis.label>нематериальный пенис</GhostPenis.label>
+	<GhostPenis.description>Полупрозрачный, почти неосязаемый пенис. Прикосновение к нему вызывает озноб по позвоночнику.</GhostPenis.description>
+	<GhostPenis.stages.0.label>нематериальный</GhostPenis.stages.0.label>
+
+	<GhostVagina.label>нематериальная вагина</GhostVagina.label>
+	<GhostVagina.description>Полупрозрачное, почти нематериальное влагалище. Проникновение вызывает озноб по позвоночнику.</GhostVagina.description>
+	<GhostVagina.stages.0.label>нематериальная</GhostVagina.stages.0.label>
+
+	<GhostBreasts.label>нематериальная грудь</GhostBreasts.label>
+	<GhostBreasts.description>Полупрозрачная, почти нематериальная пара грудей. Прикосновение к ним вызывает озноб по позвоночнику.</GhostBreasts.description>
+	<GhostBreasts.stages.0.label>нематериальная</GhostBreasts.stages.0.label>
+
+	<GhostAnus.label>нематериальный анус</GhostAnus.label>
+	<GhostAnus.description>Полупрозрачный, почти неосязаемый анус. Проникновение вызывает озноб по позвоночнику.</GhostAnus.description>
+	<GhostAnus.stages.0.label>нематериальный</GhostAnus.stages.0.label>
+
+
+	<!-- Necro -->
+
+	<NecroPenis.label>гнилой пенис</NecroPenis.label>
+	<NecroPenis.labelNoun>гнилой пенис</NecroPenis.labelNoun>
+	<NecroPenis.description>Отвратительный, гниющий пенис, который все еще работает.</NecroPenis.description>
+
+	<NecroVagina.label>гнилая вагина</NecroVagina.label>
+	<NecroVagina.labelNoun>гнилая вагина</NecroVagina.labelNoun>
+	<NecroVagina.description>Отвратительная гниющая вагина. Её внутренности холодны, как могила.</NecroVagina.description>
+
+	<NecroAnus.label>гнилой анус</NecroAnus.label>
+	<NecroAnus.labelNoun>гнилой анус</NecroAnus.labelNoun>
+	<NecroAnus.description>Отвратительный, гниющий анус. Его внутренности холодны, как могила.</NecroAnus.description>
+
+	<NecroBreasts.label>гнилая грудь</NecroBreasts.label>
+	<NecroBreasts.labelNoun>пара гнилых грудей</NecroBreasts.labelNoun>
+	<NecroBreasts.description>Отвратительная пара гниющих грудей.</NecroBreasts.description>
+
+
+</LanguageData>

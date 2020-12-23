@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<SongDef>
+		<clipPath>BrujoBocuma</clipPath>
+        	<volume>0.75</volume>
+	</SongDef> 
+<SongDef>
+		<clipPath>BrujoGoodbye</clipPath>
+		<volume>0.77</volume>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>BrujoAWalk</clipPath>
+        	<volume>0.73</volume>
+	</SongDef>  
+<SongDef>
+		<clipPath>BrujoCorsair</clipPath>
+        	<volume>0.76</volume>
+	</SongDef>  
+<SongDef>
+		<clipPath>BrujoWhiteCyclosa</clipPath>
+        	<volume>1.0</volume>
+		<tense>true</tense>
+	</SongDef>  
+<SongDef>
+		<clipPath>BrujoOverthehorizonradar</clipPath>
+        	<volume>0.84</volume>
+	</SongDef>  
+<SongDef>
+		<clipPath>BrujoInTheAnnexe</clipPath>
+        	<volume>0.77</volume>
+	</SongDef>  
+<SongDef>
+		<clipPath>BrujoOlson</clipPath>
+        	<volume>0.68</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Brujo1_1</clipPath>
+		<volume>0.66</volume>
+		<commonality>2.0</commonality>
+		<allowedSeasons>
+			<li>Winter</li>
+		</allowedSeasons>
+	</SongDef>
+<SongDef>
+		<clipPath>BrujoOpenTheLight</clipPath>
+        	<volume>0.67</volume>
+	</SongDef>  
+<SongDef>
+		<clipPath>BrujoDayvanCowboy</clipPath>
+		<volume>0.72</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>BrujoMossbreaker</clipPath>
+		<volume>0.72</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>BrujoMissYou</clipPath>
+		<volume>0.56</volume>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>GoodDaySunshine</clipPath>
+        <volume>0.6</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>BrujoTriangles</clipPath>
+        	<volume>0.70</volume>
+	</SongDef>  
+<SongDef>
+		<clipPath>Brujo2_2</clipPath>
+		<volume>0.78</volume>
+		<commonality>2.0</commonality>
+		<allowedSeasons>
+			<li>Winter</li>
+		</allowedSeasons>
+	</SongDef>
+<SongDef>
+		<clipPath>BrujoQuicksilver</clipPath>
+		<volume>0.69</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>BrujoSpringFrost</clipPath>
+		<volume>0.65</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>BrujoAscension</clipPath>
+		<volume>0.67</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>BrujoWildlife</clipPath>
+		<volume>0.76</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>BrujoKainiIndustries</clipPath>
+		<volume>0.64</volume>
+	</SongDef>
+</Defs>

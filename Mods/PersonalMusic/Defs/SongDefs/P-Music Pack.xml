@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<SongDef>
+		<clipPath>Lovelyday</clipPath>
+        <volume>0.7</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>Staystrong</clipPath>
+        <volume>0.6</volume>
+	</SongDef> 
+<SongDef>
+		<clipPath>Longwayhome</clipPath>
+        <volume>0.6</volume>
+	</SongDef>  
+<SongDef>
+		<clipPath>Neverforgotten</clipPath>
+        <volume>0.65</volume>
+	</SongDef> 
+<SongDef>
+		<clipPath>Rise</clipPath>
+        <volume>0.65</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>  
+<SongDef>
+		<clipPath>Spacekattommy</clipPath>
+        <volume>0.7</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Faraway</clipPath>
+        <volume>0.65</volume>
+	</SongDef>   
+<SongDef>
+		<clipPath>Rimraid</clipPath>
+		<volume>0.8</volume>
+		<tense>true</tense>
+	</SongDef>
+<SongDef>
+		<clipPath>Toughlife</clipPath>
+		<volume>0.6</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Onecandreamtofly</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Alive</clipPath>
+		<volume>0.6</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Codered</clipPath>
+		<volume>0.6</volume>
+		<tense>true</tense>
+	</SongDef>
+<SongDef>
+		<clipPath>Trustme</clipPath>
+		<volume>0.6</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Move</clipPath>
+		<volume>0.6</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Carryon</clipPath>
+		<volume>0.6</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Rimmas</clipPath>
+		<volume>0.6</volume>
+		<commonality>2.0</commonality>
+		<allowedSeasons>
+			<li>Winter</li>
+		</allowedSeasons>
+	</SongDef>
+<SongDef>
+		<clipPath>Serenenight</clipPath>
+		<volume>0.6</volume>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>Fairglade</clipPath>
+		<volume>0.6</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Lonehunter</clipPath>
+		<volume>0.6</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Backtowork</clipPath>
+		<volume>0.9</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Finalstand</clipPath>
+		<volume>1.0</volume>
+		<tense>true</tense>
+	</SongDef>
+<SongDef>
+		<clipPath>Blue</clipPath>
+		<volume>0.7</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Muffalo</clipPath>
+		<volume>0.8</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Protectourhome</clipPath>
+		<volume>0.6</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Strangefeeling</clipPath>
+		<volume>0.6</volume>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>Brightsideoflife</clipPath>
+		<volume>0.5</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+<SongDef>
+		<clipPath>United</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Sunlight</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Legacy</clipPath>
+		<volume>0.5</volume>
+		<tense>true</tense>
+	</SongDef>
+<SongDef>
+		<clipPath>Ontheroad</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+<SongDef>
+		<clipPath>Thefallen</clipPath>
+		<volume>1.0</volume>
+	</SongDef>
+</Defs>
+

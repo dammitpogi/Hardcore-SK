@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<SongDef>
+		<clipPath>01spacecruise</clipPath>
+		<volume>0.64</volume>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>02milkyway</clipPath>
+		<volume>0.64</volume>
+	</SongDef>
+	
+	<SongDef>
+		<clipPath>03civil</clipPath>
+		<volume>0.64</volume>
+	</SongDef>	
+	
+	<SongDef>
+		<clipPath>04cosmos</clipPath>
+		<volume>0.64</volume>
+	</SongDef>	
+	
+	<SongDef>
+		<clipPath>05deepspace</clipPath>
+		<volume>0.64</volume>
+	</SongDef>	
+	
+	<SongDef>
+		<clipPath>06debris</clipPath>
+		<volume>0.64</volume>
+	</SongDef>	
+	
+	<SongDef>
+		<clipPath>07mantis</clipPath>
+		<volume>0.64</volume>
+	</SongDef>	
+	
+	<SongDef>
+		<clipPath>08engi</clipPath>
+		<volume>0.64</volume>
+	</SongDef>	
+	
+	<SongDef>
+		<clipPath>09colonial</clipPath>
+		<volume>0.64</volume>
+	</SongDef>	
+	
+	<SongDef>
+		<clipPath>10wasteland</clipPath>
+		<volume>0.64</volume>
+	</SongDef>
+	
+	<SongDef>
+		<clipPath>11rockmen</clipPath>
+		<volume>0.64</volume>
+	</SongDef>
+	
+	<SongDef>
+		<clipPath>12void</clipPath>
+		<volume>0.64</volume>
+	</SongDef>
+	
+	<SongDef>
+		<clipPath>13zoltan</clipPath>
+		<volume>0.64</volume>
+	</SongDef>
+	
+	<SongDef>
+		<clipPath>14federation</clipPath>
+		<volume>0.64</volume>
+	</SongDef>
+
+	<SongDef>	
+		<clipPath>15milkyway</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>16civil</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+
+	<SongDef>	
+		<clipPath>17cosmos</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>18deepspace</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>19debris</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>20mantis</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>21engi</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>22colonial</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>23wasteland</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>24rockmen</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>25void</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>26voltan</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>27laststand</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>28victory</clipPath>
+		<volume>0.64</volume>
+	</SongDef>
+	
+	<SongDef>	
+		<clipPath>29horror</clipPath>
+		<volume>0.64</volume>
+		<tense>true</tense>
+	</SongDef>
+	
+</Defs>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Just Another Music Pack</name>
+	<packageId>dammitpogi.anothermusiccollab</packageId>
+	<author>dammitpogi</author>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>
+This mod replaces all VANILLA MUSIC in the game. This mod is save-compatible and should be placed after RimThemes if that exists in your load order.
+
+Music from the following mods: Medicine for the Colonies, Music of the Rim, the Neotokyo Music Pack, the P-Music Pack, the RimEVE, RimFTL, and the Rimwave Music Packs.
+	</description>
+</ModMetaData>
+

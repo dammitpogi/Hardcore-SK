@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Assemblies\Gewen_AdditionalTraits.dll
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Gewens-Additional-Traits\Source\Gewen_AdditionalTraits\obj\Debug\Gewen_AdditionalTraits.dll
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Gewens-Additional-Traits\Assemblies\Gewen_AdditionalTraits.dll
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Gewens-Additional-Traits\Source\Gewen_AdditionalTraits\obj\Debug\Gewen_AdditionalTraits.csproj.CopyComplete
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Gewens-Additional-Traits\v1.1\Assemblies\Gewen_AdditionalTraits.dll
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Gewens-Additional-Traits\Source\Gewen_AdditionalTraits\obj\Debug\Gewen_AdditionalTraits.csprojAssemblyReference.cache
+C:\Program Files (x86)\Games\Steam\steamapps\common\RimWorld\Mods\Gewens-Additional-Traits\Source\Gewen_AdditionalTraits\obj\Debug\Gewen_AdditionalTraits.csproj.CoreCompileInputs.cache

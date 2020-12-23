@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="rjw.RJWSettings">
+		<animal_on_animal_enabled>True</animal_on_animal_enabled>
+		<bestiality_enabled>False</bestiality_enabled>
+		<necrophilia_enabled>False</necrophilia_enabled>
+		<designated_freewill>True</designated_freewill>
+		<rape_enabled>False</rape_enabled>
+		<colonist_CP_rape>False</colonist_CP_rape>
+		<visitor_CP_rape>False</visitor_CP_rape>
+		<animal_CP_rape>False</animal_CP_rape>
+		<rape_beating>False</rape_beating>
+		<gentle_rape_beating>False</gentle_rape_beating>
+		<rape_stripping>False</rape_stripping>
+		<NymphTamed>False</NymphTamed>
+		<NymphWild>False</NymphWild>
+		<NymphRaidEasy>False</NymphRaidEasy>
+		<NymphRaidHard>False</NymphRaidHard>
+		<NymphPermanentManhunter>False</NymphPermanentManhunter>
+		<FemaleFuta>False</FemaleFuta>
+		<MaleTrap>False</MaleTrap>
+		<STD_enabled>True</STD_enabled>
+		<STD_FromFloors>False</STD_FromFloors>
+		<sounds_enabled>False</sounds_enabled>
+		<sounds_sexvolume>1</sounds_sexvolume>
+		<sounds_cumvolume>1</sounds_cumvolume>
+		<sounds_voicevolume>1</sounds_voicevolume>
+		<sounds_orgasmvolume>1</sounds_orgasmvolume>
+		<cum_filth>False</cum_filth>
+		<cum_on_body>False</cum_on_body>
+		<cum_on_body_amount_adjust>1</cum_on_body_amount_adjust>
+		<cum_overlays>False</cum_overlays>
+		<sex_minimum_age>13</sex_minimum_age>
+		<sex_free_for_all>18</sex_free_for_all>
+		<sexneed_decay_rate>1</sexneed_decay_rate>
+		<nonFutaWomenRaping_MaxVulnerability>0.8</nonFutaWomenRaping_MaxVulnerability>
+		<rapee_MinVulnerability_human>1.2</rapee_MinVulnerability_human>
+		<male_nymph_chance>0</male_nymph_chance>
+		<futa_nymph_chance>0</futa_nymph_chance>
+		<futa_natives_chance>0</futa_natives_chance>
+		<futa_spacers_chance>0.5</futa_spacers_chance>
+		<RPG_hero_control>False</RPG_hero_control>
+		<RPG_hero_control_HC>False</RPG_hero_control_HC>
+		<RPG_hero_control_Ironman>False</RPG_hero_control_Ironman>
+	</ModSettings>
+</SettingsBlock>

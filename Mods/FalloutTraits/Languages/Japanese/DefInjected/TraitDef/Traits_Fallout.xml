@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FT_FrailBack.degreeDatas.0.label>か弱い</FT_FrailBack.degreeDatas.0.label>
+  <FT_FrailBack.degreeDatas.0.description>[PAWN_nameDef]はか弱く、[PAWN_pronoun]は他の人より物を持ち運ぶことができません。</FT_FrailBack.degreeDatas.0.description>
+  <FT_StrongBack.degreeDatas.0.label>強力なバック</FT_StrongBack.degreeDatas.0.label>
+  <FT_StrongBack.degreeDatas.0.description>[PAWN_nameDef]には強力なバックがあり、[PAWN_pronoun]は他の人よりも多く持ち運ぶことができます。</FT_StrongBack.degreeDatas.0.description>
+  <FT_StrongBack.degreeDatas.1.label>非常に強力なバック</FT_StrongBack.degreeDatas.1.label>
+  <FT_StrongBack.degreeDatas.1.description>[PAWN_nameDef]のバックは非常に強力か、ラバか何かです。 [PAWN_pronoun]は、普通の人の2倍の物を運ぶことができます。</FT_StrongBack.degreeDatas.1.description>
+  <FT_AnimalFriend.degreeDatas.0.label>動物の友達</FT_AnimalFriend.degreeDatas.0.label>
+  <FT_AnimalFriend.degreeDatas.0.description>[PAWN_nameDef]は動物への情熱を持っています。 [PAWN_pronoun]は、すべての動物へのボーナスを獲得します。</FT_AnimalFriend.degreeDatas.0.description>
+  <FT_Ghoulish.degreeDatas.0.label>グール</FT_Ghoulish.degreeDatas.0.label>
+  <FT_Ghoulish.degreeDatas.0.description>[PAWN_nameDef]は、ほとんど人間のままです。 [PAWN_pronoun]は有毒な放射性降下物の影響を受けませんが、彼らの残忍な外観は他との関係を困難にします。</FT_Ghoulish.degreeDatas.0.description>
+  <FT_RadResistant.degreeDatas.0.label>耐放射線</FT_RadResistant.degreeDatas.0.label>
+  <FT_RadResistant.degreeDatas.0.description>[PAWN_nameDef]の体は、有毒な放射性降下物の悪影響に対する抵抗を築き上げました。</FT_RadResistant.degreeDatas.0.description>
+  <FT_ActionBoy.degreeDatas.0.label>アクションボーイ</FT_ActionBoy.degreeDatas.0.label>
+  <FT_ActionBoy.degreeDatas.0.description>無駄にする時間はありません！ [PAWN_nameDef]は、移動と作業速度が向上しました。</FT_ActionBoy.degreeDatas.0.description>
+  <FT_ActionGirl.degreeDatas.0.label>アクションガール</FT_ActionGirl.degreeDatas.0.label>
+  <FT_ActionGirl.degreeDatas.0.description>無駄にする時間はありません！ [PAWN_nameDef]は、移動と作業速度が向上しました。</FT_ActionGirl.degreeDatas.0.description>
+  <FT_QuickHands.degreeDatas.0.label>クイックハンド</FT_QuickHands.degreeDatas.0.label>
+  <FT_QuickHands.degreeDatas.0.description>[PAWN_nameDef]には迅速な手があります。 [PAWN_possessive]行動中、[PAWN_nameDef]は迷いません。</FT_QuickHands.degreeDatas.0.description>
+  <FT_IdiotSavant.degreeDatas.0.label>マヌケな学者</FT_IdiotSavant.degreeDatas.0.label>
+  <FT_IdiotSavant.degreeDatas.0.description>[PAWN_nameDef]は愚かではありません！ [PAWN_pronoun]はただ...違います。 [PAWN_pronoun]は2倍の速度で学習しますが、他の人よりも作業が遅くなります。[PAWN_pronoun]の一部の作業に悪影響があります。</FT_IdiotSavant.degreeDatas.0.description>
+  <FT_Charisma.degreeDatas.0.label>カリスマ的</FT_Charisma.degreeDatas.0.label>
+  <FT_Charisma.degreeDatas.0.description>[PAWN_nameDef]にはカリスマ性があります。 [PAWN_pronoun]は、すべての社会的関係に対してボーナスを獲得します。</FT_Charisma.degreeDatas.0.description>
+  <FT_Charisma.degreeDatas.1.label>非常にカリスマ的</FT_Charisma.degreeDatas.1.label>
+  <FT_Charisma.degreeDatas.1.description>[PAWN_nameDef]は非常にカリスマ的な性格を持っています。 [PAWN_pronoun]は、すべての社会的関係に対してボーナスを獲得します。</FT_Charisma.degreeDatas.1.description>
+  <FT_GunNut.degreeDatas.0.label>ガンナット</FT_GunNut.degreeDatas.0.label>
+  <FT_GunNut.degreeDatas.0.description>[PAWN_nameDef]は銃のファン、[PAWN_pronoun]は銃が大好きです。 [PAWN_pronoun]は、遠隔武器を保持している間、ムードボーナスを獲得します。</FT_GunNut.degreeDatas.0.description>
+  <FT_Rooted.degreeDatas.0.label>堅牢</FT_Rooted.degreeDatas.0.label>
+  <FT_Rooted.degreeDatas.0.description>[PAWN_nameDef]は木の一部です！ [PAWN_pronoun]は痛みに強いです！</FT_Rooted.degreeDatas.0.description>
+  <FT_Intimidation.degreeDatas.0.label>威圧的</FT_Intimidation.degreeDatas.0.label>
+  <FT_Intimidation.degreeDatas.0.description>[PAWN_nameDef]は威圧的な性格で、[PAWN_objective]取り巻く社会的関係へのボーナスを与えます。</FT_Intimidation.degreeDatas.0.description>
+  <FT_Intimidation.degreeDatas.1.label>とても威圧的</FT_Intimidation.degreeDatas.1.label>
+  <FT_Intimidation.degreeDatas.1.description>[PAWN_nameDef]は非常に威圧的な性格で、[PAWN_objective]取り巻く社会的関係において大きなボーナスを与えます。</FT_Intimidation.degreeDatas.1.description>
+  <FT_Scrapper.degreeDatas.0.label>スクラッパー</FT_Scrapper.degreeDatas.0.label>
+  <FT_Scrapper.degreeDatas.0.description>[PAWN_nameDef]はスクラップ金属の処理に長けています。 [PAWN_pronoun]は製錬、建築に向いています。 </FT_Scrapper.degreeDatas.0.description>
+  <FT_FortuneFinder.degreeDatas.0.label>採集家</FT_FortuneFinder.degreeDatas.0.label>
+  <FT_FortuneFinder.degreeDatas.0.description>[PAWN_nameDef]は、[PAWN_pronoun]が採集する場所で多くのリソースを発見するようです。</FT_FortuneFinder.degreeDatas.0.description>
+  <FT_AimOffset.degreeDatas.0.label>ガバエイム</FT_AimOffset.degreeDatas.0.label>
+  <FT_AimOffset.degreeDatas.0.description>[PAWN_nameDef]は手と目の協調が不十分であり、戦闘で[PAWN_possessive]狙いはよく外れます。</FT_AimOffset.degreeDatas.0.description>
+  <FT_AimOffset.degreeDatas.1.label>良エイム</FT_AimOffset.degreeDatas.1.label>
+  <FT_AimOffset.degreeDatas.1.description>[PAWN_nameDef]は手と目の協調が優れており、戦闘中に[PAWN_possessive]狙いを外す頻度が少なくなります。</FT_AimOffset.degreeDatas.1.description>
+  <FT_Agility.degreeDatas.0.label>優れた敏捷性</FT_Agility.degreeDatas.0.label>
+  <FT_Agility.degreeDatas.0.description>[PAWN_nameDef]には優れた反射神経があり、繊細に動きます。 [PAWN_pronoun]は、近接戦闘でより多くの攻撃を回避します。</FT_Agility.degreeDatas.0.description>
+  <FT_Agility.degreeDatas.1.label>忍者</FT_Agility.degreeDatas.1.label>
+  <FT_Agility.degreeDatas.1.description>[PAWN_nameDef]には素晴らしい反射神経があり、忍者のように動きます。 [PAWN_pronoun]は、近接戦闘でより多くの攻撃を回避します。</FT_Agility.degreeDatas.1.description>
+  <FT_Stupid.degreeDatas.0.label>マヌケ</FT_Stupid.degreeDatas.0.label>
+  <FT_Stupid.degreeDatas.0.description>[PAWN_nameDef]はあまり賢くありません。 [PAWN_pronoun]は、多くの作業に悪影響がつきます。</FT_Stupid.degreeDatas.0.description>
+  <FT_Intelligence.degreeDatas.0.label>賢い</FT_Intelligence.degreeDatas.0.label>
+  <FT_Intelligence.degreeDatas.0.description>[PAWN_nameDef]は賢いです。 [PAWN_pronoun]はより速く学習し、[PAWN_objective]取り巻く環境をよく理解しています。</FT_Intelligence.degreeDatas.0.description>
+  <FT_Intelligence.degreeDatas.1.label>とても賢い</FT_Intelligence.degreeDatas.1.label>
+  <FT_Intelligence.degreeDatas.1.description>[PAWN_nameDef]は非常に賢いです。 [PAWN_pronoun]はより速く学習し、[PAWN_objective]取り巻く環境を十分に理解しています。</FT_Intelligence.degreeDatas.1.description>
+  <FT_Oblivious.degreeDatas.0.label>鈍感</FT_Oblivious.degreeDatas.0.label>
+  <FT_Oblivious.degreeDatas.0.description>[PAWN_nameDef]は[PAWN_possessive]周囲の状況を理解しません。 [PAWN_pronoun]は鈍感。</FT_Oblivious.degreeDatas.0.description>
+  <FT_Perception.degreeDatas.0.label>敏感</FT_Perception.degreeDatas.0.label>
+  <FT_Perception.degreeDatas.0.description>[PAWN_nameDef]は[PAWN_possessive]周囲をよく認識しており、[PAWN_possessive]アクションが他の人にどのように影響するかをよく理解しています。</FT_Perception.degreeDatas.0.description>
+  <FT_Perception.degreeDatas.1.label>非常に敏感</FT_Perception.degreeDatas.1.label>
+  <FT_Perception.degreeDatas.1.description>[PAWN_nameDef]は[PAWN_possessive]周囲をよく認識しており、[PAWN_possessive]アクションが他の人にどのように影響するかをよく理解しています。</FT_Perception.degreeDatas.1.description>
+  <FT_Scrounger.degreeDatas.0.label>収集家</FT_Scrounger.degreeDatas.0.label>
+  <FT_Scrounger.degreeDatas.0.description>[PAWN_nameDef]は、リソースをすばやく収集する方法を知っています。</FT_Scrounger.degreeDatas.0.description>
+  <FT_Endurance.degreeDatas.0.label>優れた忍耐力</FT_Endurance.degreeDatas.0.label>
+  <FT_Endurance.degreeDatas.0.description>[PAWN_nameDef]は優れた忍耐力があります。 [PAWN_pronoun]は、ストレスに強いです。</FT_Endurance.degreeDatas.0.description>
+  <FT_Endurance.degreeDatas.1.label>並外れた忍耐力</FT_Endurance.degreeDatas.1.label>
+  <FT_Endurance.degreeDatas.1.description>[PAWN_nameDef]は、並外れた忍耐力があります。 [PAWN_pronoun]は、非常にストレスに強いです。</FT_Endurance.degreeDatas.1.description>
+</LanguageData>

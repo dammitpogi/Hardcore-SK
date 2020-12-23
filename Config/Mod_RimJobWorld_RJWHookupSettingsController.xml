@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="rjw.RJWHookupSettings">
+		<SettingHookupsEnabled>True</SettingHookupsEnabled>
+		<SettingQuickHookupsEnabled>True</SettingQuickHookupsEnabled>
+		<SettingColonistsCanHookup>True</SettingColonistsCanHookup>
+		<SettingVisitorsCanHookupWithVisitors>True</SettingVisitorsCanHookupWithVisitors>
+		<SettingPrisonersCanHookupWithPrisoner>True</SettingPrisonersCanHookupWithPrisoner>
+		<SettingNymphosCanCheat>True</SettingNymphosCanCheat>
+		<SettingNymphosCanHomewreck>True</SettingNymphosCanHomewreck>
+		<SettingNymphosCanHomewreckReverse>True</SettingNymphosCanHomewreckReverse>
+		<SettingHookupChanceForNonNymphos>0.3</SettingHookupChanceForNonNymphos>
+		<SettingMinimumFuckabilityToHookup>0.1</SettingMinimumFuckabilityToHookup>
+		<SettingMinimumAttractivenessToHookup>0.5</SettingMinimumAttractivenessToHookup>
+		<SettingMinimumRelationshipToHookup>20</SettingMinimumRelationshipToHookup>
+	</ModSettings>
+</SettingsBlock>

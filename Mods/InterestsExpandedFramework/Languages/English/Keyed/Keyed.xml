@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <DNoPassion.description>\nInterest: Ambivalent\n-Learns at {0} efficiency.</DNoPassion.description>
+  <DMinorPassion.description>\nInterest: Interested\n-Moderate mood bonus while using this skill.\n-Learns at {0} efficiency.</DMinorPassion.description>
+  <DMajorPassion.description>\nInterest: Burning Passion\n-Major mood bonus while using this skill.\n-Learns at {0} efficiency.</DMajorPassion.description>
+  
+</LanguageData>

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!--=================== Thought Related ===================-->
+	<TraitDef>
+		<defName>GAT_Confident</defName>
+		<commonality>0.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Confident</label>
+				<description>{PAWN_nameDef} is confident that everything will work out for the best.</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.06</MentalBreakThreshold>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Social</key>
+						<value>2</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<!--=================== Weight Related ===================-->
+	<TraitDef>
+		<defName>GAT_Overweight</defName>
+		<commonality>0.25</commonality>
+		<degreeDatas>
+			<li>
+				<label>Overweight</label>
+				<description>{PAWN_nameDef} is seriously overweight. {PAWN_pronoun} moves slowly, and works even slower.</description>
+				<statOffsets>
+					<MoveSpeed>-0.3</MoveSpeed>
+					<WorkSpeedGlobal>-0.25</WorkSpeedGlobal>
+					<MeatAmount>10</MeatAmount>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>GAT_Athletic</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_Athletic</defName>
+		<commonality>0.25</commonality>
+		<degreeDatas>
+			<li>
+				<label>Athletic</label>
+				<description>{PAWN_nameDef} has honed {PAWN_possessive} mind and body for most of {PAWN_possessive} life.</description>
+				<statOffsets>
+					<MoveSpeed>0.35</MoveSpeed>
+					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+					<AimingDelayFactor>-0.10</AimingDelayFactor>
+					<ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Melee</key>
+						<value>2</value>
+					</li>
+					<li>
+						<key>Shooting</key>
+						<value>2</value>
+					</li>
+					<li>
+						<key>Construction</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>GAT_Overweight</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+	<!--=================== Custom ===================-->
+	<TraitDef>
+		<defName>GAT_Dexterous</defName>
+		<commonality>0.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Dexterous</label>
+				<description>{PAWN_nameDef} demonstrates neat skill, especially with {PAWN_possessive} hands.</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+					<AimingDelayFactor>-0.10</AimingDelayFactor>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Crafting</key>
+						<value>2</value>
+					</li>
+					<li>
+						<key>Artistic</key>
+						<value>2</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_Perceptive</defName>
+		<commonality>0.3</commonality>
+		<degreeDatas>
+			<li>
+				<label>Perceptive</label>
+				<description>{PAWN_nameDef} has a keen eye, and can quickly spot a target.</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+					<MeleeHitChance>0.10</MeleeHitChance>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Shooting</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_Clean</defName>
+		<commonality>0.3</commonality>
+		<degreeDatas>
+			<li>
+				<label>Clean</label>
+				<description>{PAWN_nameDef} is fastidious to a fault.</description>
+				<statOffsets>
+					<WorkSpeedGlobal>-0.25</WorkSpeedGlobal>
+					<FoodPoisonChance>-0.5</FoodPoisonChance>
+					<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+					<MedicalSurgerySuccessChance>0.2</MedicalSurgerySuccessChance>
+					<MedicalTendQuality>0.2</MedicalTendQuality>
+					<MedicalOperationSpeed>0.2</MedicalOperationSpeed>
+					<MedicalTendSpeed>0.2</MedicalTendSpeed>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Cooking</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_Nearsighted</defName>
+		<commonality>0.3</commonality>
+		<degreeDatas>
+			<li>
+				<label>Near-sighted</label>
+				<description>{PAWN_nameDef} has a hard time seeing things clearly unless {PAWN_pronoun} is relatively close to it.</description>
+				<statOffsets>
+					<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+					<ShootingAccuracyPawn>-0.25</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_QuickLearner</defName>
+		<commonality>0.3</commonality>
+		<degreeDatas>
+			<li>
+				<label>Quick Learner</label>
+				<description>{PAWN_nameDef} has always picked up skills pretty quickly.</description>
+				<statOffsets>
+					<GlobalLearningFactor>0.25</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_Glutton</defName>
+		<commonality>0.3</commonality>
+		<degreeDatas>
+			<li>
+				<label>Glutton</label>
+				<description>Some people use a spoon to eat. {PAWN_nameDef} uses a shovel...</description>
+				<statOffsets>
+					<EatingSpeed>0.25</EatingSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<!-- Redundant with super-immune
+	<TraitDef>
+		<defName>Healthy</defName>
+		<commonality>0.3</commonality>
+		<degreeDatas>
+			<li>
+				<label>Healthy</label>
+				<description>{PAWN_nameDef} has a strong constitution. {PAWN_pronoun} recovers quickly from disease and infection.</description>
+				<statOffsets>
+					<ImmunityGainSpeed>0.25</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>-->
+	
+	<TraitDef>
+		<defName>GAT_Persuasive</defName>
+		<commonality>0.2</commonality>
+		<degreeDatas>
+			<li>
+				<label>Persuasive</label>
+				<description>{PAWN_nameDef} is good at persuading someone to do or believe something through reasoning or the use of temptation.</description>
+				<statOffsets>
+					<NegotiationAbility>0.10</NegotiationAbility>
+					<SocialImpact>0.1</SocialImpact>
+					<TradePriceImprovement>0.05</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>GAT_TradePriceImprovementOffset</li>
+		</conflictingTraits>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+	</TraitDef>
+	
+	<!-- Basically the same as Psychopath
+	<TraitDef>
+		<defName>ColdHearted</defName>
+		<commonality>0.2</commonality>
+		<degreeDatas>
+			<li>
+				<label>Cold-hearted</label>
+				<description>{PAWN_nameDef} lacks sympathy. The suffering of others doesn't really bother them. It makes others feel kind of uncomfortable.</description>
+				<statOffsets>
+					<NegotiationAbility>-0.10</NegotiationAbility>
+					<SocialImpact>-0.1</SocialImpact>
+					<TradePriceImprovement>-0.05</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>-->
+	
+	<TraitDef>
+		<defName>GAT_HeavySleeper</defName>
+		<commonality>0.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Heavy Sleeper</label>
+				<description>{PAWN_nameDef} could sleep through an earthquake.</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_Pervert</defName>
+		<commonality>0.2</commonality>
+		<degreeDatas>
+			<li>
+				<label>Pervert</label>
+				<description>{PAWN_nameDef} is an extreme pervert. {PAWN_pronoun} doesn't mind sharing a room, or streaking. It makes others feel incredibly uncomfortable.</description>
+				<skillGains>
+					<li>
+						<key>Social</key>
+						<value>-1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_Morbid</defName>
+		<commonality>0.8</commonality>
+		<degreeDatas>
+			<li>
+				<label>Morbid</label>
+				<description>Ashes to ashes and dust to dust. {PAWN_nameDef} is fascinated by corpses and decay.</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<!--=================== Professions ===================-->
+	<TraitDef>
+		<defName>GAT_CarefulSurgeon</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Careful Surgeon</label>
+				<!--description>{PAWN_nameDef} is a pretty good surgeon, but they take a bit more time to complete an operation.</description-->
+				<description>{PAWN_nameDef} takes medicine very seriously. {PAWN_pronoun} wants to do no harm and isn't afraid to take longer to do the job right.</description>
+				<statOffsets>
+					<MedicalOperationSpeed>0.2</MedicalOperationSpeed>
+					<MedicalTendSpeed>0.2</MedicalTendSpeed>
+					<MedicalSurgerySuccessChance>0.6</MedicalSurgerySuccessChance>
+					<MedicalTendQuality>0.3</MedicalTendQuality>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Medicine</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Doctor</li>
+		</requiredWorkTypes>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_ProfessionalButcher</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Natural Butcher</label>
+				<!--description>{PAWN_nameDef} likes dressing animals. Their butchering speed is greatly increased, but they're terrible with mechanoids.</description-->
+				<description>Sometimes it's hard to tell where the knife stops and {PAWN_nameDef} starts. People like to say that "if it bleeds {PAWN_nameDef} can skin it and split it".</description>
+				<statOffsets>
+					<ButcheryMechanoidSpeed>-0.5</ButcheryMechanoidSpeed>
+					<ButcheryFleshSpeed>0.5</ButcheryFleshSpeed>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Cooking</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Cooking</li>
+		</requiredWorkTypes>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_ProfessionalTailor</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Natural Tailor</label>
+				<!--description>{PAWN_nameDef} likes making apparel. Their tailoring speed is greatly increased, but they're terrible with smithing.</description-->
+				<description>{PAWN_nameDef} likes making apparel. {PAWN_pronoun} can work wonders with a needle and thread; a hammer and anvil, not so much.</description>
+				<statOffsets>
+					<SmithingSpeed>-0.5</SmithingSpeed>
+					<TailoringSpeed>0.5</TailoringSpeed>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Crafting</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Tailoring</li>
+		</requiredWorkTypes>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_LovedByAnimals</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Loved by Animals</label>
+				<description>{PAWN_nameDef} is loved by animals, but people don't feel quite the same.</description>
+				<statOffsets>
+					<TrainAnimalChance>0.5</TrainAnimalChance>
+					<TameAnimalChance>0.5</TameAnimalChance>
+					<SocialImpact>-0.5</SocialImpact>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Animals</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Handling</li>
+		</requiredWorkTypes>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_AvidArtist</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Eccentric Artist</label>
+				<!--description>{PAWN_nameDef} is an eccentric artist. Their sculpting speed is greatly increased, but they have a weaker constitution and mind.</description-->
+				<description>{PAWN_nameDef} is an eccentric artist. {PAWN_pronoun} has an affinity for the arts, {PAWN_pronoun} often gets lost in {PAWN_possessive} work and forget to take care of {PAWN_objective}self.</description>
+				<statOffsets>
+					<SculptingSpeed>0.5</SculptingSpeed>
+					<ToxicSensitivity>0.1</ToxicSensitivity>
+					<ImmunityGainSpeed>-0.1</ImmunityGainSpeed>
+					<PsychicSensitivity>0.1</PsychicSensitivity>
+					<MentalBreakThreshold>0.1</MentalBreakThreshold>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Artistic</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Art</li>
+		</requiredWorkTypes>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_GeniusResearcher</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Genius Inventor</label>
+				<description>Strange new ideas just appear in the mind of {PAWN_nameDef}. Researching new technology comes easily to {PAWN_nameDef}, but {PAWN_pronoun} always seems distracted.</description>
+				<statOffsets>
+					<ResearchSpeed>0.7</ResearchSpeed>
+					<WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
+					<MoveSpeed>-0.1</MoveSpeed>
+					<PsychicSensitivity>0.1</PsychicSensitivity>
+					<MentalBreakThreshold>0.1</MentalBreakThreshold>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Intellectual</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Research</li>
+		</requiredWorkTypes>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_GreenestThumb</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Green Thumb</label>
+				<description>{PAWN_nameDef} has a passion for gardening. {PAWN_pronoun} knows exactly what a plant needs to grow happily.</description>
+				<statOffsets>
+					<PlantWorkSpeed>0.5</PlantWorkSpeed>
+					<PlantHarvestYield>1.5</PlantHarvestYield>
+					<!--<HarvestFailChance>-0.5</HarvestFailChance>-->
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Plants</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>ManualSkilled</li>
+			<li>PlantWork</li>
+		</requiredWorkTags>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_EfficientBuilder</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Efficient Builder</label>
+				<description>{PAWN_nameDef} doesn't like to waste materials. {PAWN_pronoun} takes great care in {PAWN_possessive} work.</description>
+				<statOffsets>
+					<ConstructionSpeed>-0.1</ConstructionSpeed>
+					<ConstructSuccessChance>1.5</ConstructSuccessChance>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Construction</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Construction</li>
+		</requiredWorkTypes>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_FastMiner</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Fast Miner</label>
+				<description>{PAWN_nameDef} knows how to exploit the cleavage of rocks. {PAWN_pronoun} doesn't understand why plants are so much more fragile though.</description>
+				<statOffsets>
+					<MiningSpeed>0.5</MiningSpeed>
+					<SmoothingSpeed>0.5</SmoothingSpeed>
+					<PlantHarvestYield>-0.75</PlantHarvestYield>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Mining</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Mining</li>
+		</requiredWorkTypes>
+	</TraitDef>
+</Defs>

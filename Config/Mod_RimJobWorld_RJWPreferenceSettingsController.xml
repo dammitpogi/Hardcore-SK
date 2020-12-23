@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="rjw.RJWPreferenceSettings">
+		<vaginal_frequency>1.2</vaginal_frequency>
+		<anal_frequency>0.8</anal_frequency>
+		<fellatio_frequency>0.8</fellatio_frequency>
+		<cunnilingus_frequency>0.8</cunnilingus_frequency>
+		<rimming_frequency>0.4</rimming_frequency>
+		<double_penetration_frequency>0.6</double_penetration_frequency>
+		<sixtynine_frequency>0.69</sixtynine_frequency>
+		<breastjob_frequency>0.5</breastjob_frequency>
+		<handjob_frequency>0.8</handjob_frequency>
+		<footjob_frequency>0.3</footjob_frequency>
+		<fingering_frequency>0.5</fingering_frequency>
+		<fisting_frequency>0.3</fisting_frequency>
+		<mutual_masturbation_frequency>0.7</mutual_masturbation_frequency>
+		<scissoring_frequency>0.5</scissoring_frequency>
+		<asexual_ratio>0.02</asexual_ratio>
+		<pansexual_ratio>0.03</pansexual_ratio>
+		<heterosexual_ratio>0.7</heterosexual_ratio>
+		<bisexual_ratio>0.15</bisexual_ratio>
+		<homosexual_ratio>0.1</homosexual_ratio>
+		<FapEverywhere>False</FapEverywhere>
+		<FapInBed>True</FapInBed>
+		<sex_wear>Nude</sex_wear>
+		<rape_attempt_alert>Humanlikes</rape_attempt_alert>
+		<rape_alert>Humanlikes</rape_alert>
+		<ShowForCP>True</ShowForCP>
+		<ShowForBreeding>True</ShowForBreeding>
+		<sexuality_distribution>Vanilla</sexuality_distribution>
+		<Malesex>All</Malesex>
+		<FeMalesex>All</FeMalesex>
+		<MaxQuirks>1</MaxQuirks>
+	</ModSettings>
+</SettingsBlock>

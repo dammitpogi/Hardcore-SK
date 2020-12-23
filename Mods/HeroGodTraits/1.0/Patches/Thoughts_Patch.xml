@@ -1,0 +1,40 @@
+<Patch>
+	<!--Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef/nullifyingTraits[li='Psychopath']</xpath>
+		<value>
+			<li>ColdHearted</li>
+		</value>
+	</Operation-->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="SleepDisturbed"]</xpath>
+		<value>
+			<nullifyingTraits>
+				<li>GAT_HeavySleeper</li>
+			</nullifyingTraits>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="SharedBed"]</xpath>
+		<value>
+			<nullifyingTraits>
+				<li>GAT_Pervert</li>
+			</nullifyingTraits>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="Naked"]/nullifyingTraits</xpath>
+		<value>
+			<li>GAT_Pervert</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="ObservedLayingCorpse" or defName="ObservedLayingRottingCorpse"]/nullifyingTraits</xpath>
+		<value>
+			<li>GAT_Morbid</li>
+		</value>
+	</Operation>
+</Patch>

@@ -31,14 +31,14 @@
   <li>
     <key>MapZoom_In</key>
     <value>
-      <keyBindingA>PageDown</keyBindingA>
+      <keyBindingA>None</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
   <li>
     <key>MapZoom_Out</key>
     <value>
-      <keyBindingA>PageUp</keyBindingA>
+      <keyBindingA>None</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
@@ -388,7 +388,7 @@
   <li>
     <key>FollowSelected</key>
     <value>
-      <keyBindingA>Home</keyBindingA>
+      <keyBindingA>PageUp</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
@@ -437,7 +437,7 @@
   <li>
     <key>MintMenus_MiniMap</key>
     <value>
-      <keyBindingA>None</keyBindingA>
+      <keyBindingA>PageDown</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
@@ -592,6 +592,34 @@
     <key>MainTab_History</key>
     <value>
       <keyBindingA>F9</keyBindingA>
+      <keyBindingB>None</keyBindingB>
+    </value>
+  </li>
+  <li>
+    <key>LPR_ManualRendering</key>
+    <value>
+      <keyBindingA>Alpha9</keyBindingA>
+      <keyBindingB>None</keyBindingB>
+    </value>
+  </li>
+  <li>
+    <key>LPR_ManualRendering_ForceFullMap</key>
+    <value>
+      <keyBindingA>Alpha0</keyBindingA>
+      <keyBindingB>None</keyBindingB>
+    </value>
+  </li>
+  <li>
+    <key>CoordinatesWindow</key>
+    <value>
+      <keyBindingA>M</keyBindingA>
+      <keyBindingB>None</keyBindingB>
+    </value>
+  </li>
+  <li>
+    <key>PrepareLandingWindow</key>
+    <value>
+      <keyBindingA>P</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>

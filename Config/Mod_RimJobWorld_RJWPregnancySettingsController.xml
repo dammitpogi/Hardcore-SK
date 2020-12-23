@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="rjw.RJWPregnancySettings">
+		<humanlike_pregnancy_enabled>True</humanlike_pregnancy_enabled>
+		<animal_enabled>True</animal_enabled>
+		<bestial_pregnancy_enabled>True</bestial_pregnancy_enabled>
+		<insect_pregnancy_enabled>True</insect_pregnancy_enabled>
+		<egg_pregnancy_implant_anyone>True</egg_pregnancy_implant_anyone>
+		<egg_pregnancy_fertilize_anyone>False</egg_pregnancy_fertilize_anyone>
+		<egg_pregnancy_eggs_size>1</egg_pregnancy_eggs_size>
+		<mechanoid_enabled>True</mechanoid_enabled>
+		<trait_filtering_enabled>True</trait_filtering_enabled>
+		<use_parent_method>True</use_parent_method>
+		<humanlike_DNA_from_mother>0.5</humanlike_DNA_from_mother>
+		<bestial_DNA_from_mother>1</bestial_DNA_from_mother>
+		<bestiality_DNA_inheritance>0.5</bestiality_DNA_inheritance>
+		<humanlike_impregnation_chance>25</humanlike_impregnation_chance>
+		<animal_impregnation_chance>25</animal_impregnation_chance>
+		<interspecies_impregnation_chance>0.2</interspecies_impregnation_chance>
+		<complex_interspecies>False</complex_interspecies>
+		<RJW_fertility_endAge_male>1.2</RJW_fertility_endAge_male>
+		<fertility_endage_female_humanlike>0.58</fertility_endage_female_humanlike>
+		<fertility_endage_female_animal>0.96</fertility_endage_female_animal>
+		<phantasy_pregnancy>False</phantasy_pregnancy>
+		<normal_pregnancy_duration>1</normal_pregnancy_duration>
+		<egg_pregnancy_duration>1</egg_pregnancy_duration>
+	</ModSettings>
+</SettingsBlock>

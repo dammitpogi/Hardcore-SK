@@ -107,11 +107,11 @@
     </li>
     <li>
       <key>EquippingWeapons</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>Alerts</key>
-      <value>0.09732469</value>
+      <value>0</value>
     </li>
     <li>
       <key>Mining</key>
@@ -119,7 +119,7 @@
     </li>
     <li>
       <key>WorkTab</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>ForbiddingDoors</key>
@@ -143,7 +143,7 @@
     </li>
     <li>
       <key>InfoCard</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>StorageTab</key>
@@ -311,7 +311,7 @@
     </li>
     <li>
       <key>CE_InventoryWeightBulk</key>
-      <value>0</value>
+      <value>0.563112</value>
     </li>
     <li>
       <key>CE_Loadouts</key>

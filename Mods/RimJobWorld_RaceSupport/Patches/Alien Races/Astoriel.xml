@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Astoriel -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Astoriel</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/race/lifeExpectancy</xpath>
+					<value>
+						<lifeExpectancy>10000</lifeExpectancy>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/race/lifeStageAges/li[4]/minAge</xpath>
+					<value>
+						<minAge>35</minAge>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/race/lifeStageAges/li[5]/minAge</xpath>
+					<value>
+						<minAge>90</minAge>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/race/gestationPeriodDays</xpath>
+					<value>
+						<gestationPeriodDays>90</gestationPeriodDays>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

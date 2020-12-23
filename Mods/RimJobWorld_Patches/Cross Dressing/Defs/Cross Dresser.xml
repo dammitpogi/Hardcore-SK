@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TraitDef>
+		<defName>Cross_Dresser</defName>
+		<commonality>0.5</commonality>
+		<degreeDatas>
+			<li>
+				<label>cross dresser</label>
+				<description>{PAWN_nameDef} likes wearing clothes of the opposite gender.</description>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>Nudist</li>
+			<li>Cross_Dresser_Indifferent</li>
+			<li>Cross_Dresser_Extreme</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+	<ThoughtDef>
+		<defName>Cross_Dresser</defName>
+		<workerClass>ThoughtWorker_WrongApparelGender</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>Cross_Dresser</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>cross dressing</label>
+				<description>I'm wearing apparel that was clearly made for {0}s! This is exciting.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

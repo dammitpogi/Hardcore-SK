@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--
+  <Rimworld_Animations.AnimationDef>
+    <defName></defName>
+    <label></label>
+    <sounds>true</sounds>
+    <sexTypes>
+      <li>Anal</li>
+      <li>Vaginal</li>
+    </sexTypes>
+    <actors>
+      <li>
+        <defNames>
+          <li>Human</li>
+        </defNames>
+        <isFucked>true</isFucked>
+      </li>
+      <li>
+        <defNames>
+        </defNames>
+        <bodyDefTypes>
+          <li>QuadrupedAnimalWithHooves</li>
+          <li>QuadrupedAnimalWithPawsAndTail</li>
+        </bodyDefTypes>
+        <isFucking>true</isFucking>
+        <initiator>true</initiator>
+      </li>
+    </actors>
+
+
+    
+    <animationStages>
+      <li>
+        <stageName></stageName>
+        <isLooping></isLooping>
+        <playTimeTicks></playTimeTicks>
+        <stageIndex>0</stageIndex>
+        <animationClips>
+          <li Class="Rimworld_Animations.PawnAnimationClip">
+            <layer>LayingPawn</layer>
+            <keyframes></keyframes>
+          </li>
+          <li Class="Rimworld_Animations.PawnAnimationClip">
+            <keyframes></keyframes>
+          </li>
+        </animationClips>
+      </li>
+
+    </animationStages>
+
+  </Rimworld_Animations.AnimationDef>
+-->
+</Defs>

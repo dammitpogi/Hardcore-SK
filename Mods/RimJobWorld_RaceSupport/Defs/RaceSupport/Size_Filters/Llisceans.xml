@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Some sample race parts. 
+				
+				0.01
+				0.05
+				0.25
+				0.7
+				0.9
+				1.1
+-->
+<Defs>
+	
+	<rjw.RacePartDef>
+		<defName>Lliscean_Penis</defName>
+		<hediffName>HorsePenis</hediffName>
+		<fluidType>Cum</fluidType>
+		<fluidModifier>2.5</fluidModifier>
+	</rjw.RacePartDef>
+<!--
+	<rjw.RacePartDef>
+		<defName>Lliscean_Vagina</defName>
+		<hediffName>CervineVagina</hediffName>
+		<fluidType>Cum</fluidType>
+		<fluidModifier>1.5</fluidModifier>>
+	</rjw.RacePartDef>
+-->
+	<rjw.RacePartDef>
+		<defName>Lliscean_Breasts</defName>
+		<hediffName>Breasts</hediffName>
+		<fluidType>Milk</fluidType>
+		<fluidModifier>2.0</fluidModifier>
+	</rjw.RacePartDef>
+	
+</Defs>

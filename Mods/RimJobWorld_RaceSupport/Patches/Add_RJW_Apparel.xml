@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	
+	<!-- -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace/alienRace/raceRestriction/whiteApparelList</xpath>
+		<value>
+			<!-- <li>RJW_BreedersCharm</li> -->
+			<!-- <li MayRequire="rimworld.ekss.rjwex">AnalPlugSmall</li> -->
+			<!-- <li MayRequire="rimworld.ekss.rjwex">AnalPlugAverage</li> -->
+			<!-- <li MayRequire="rimworld.ekss.rjwex">AnalPlugLarge</li> -->
+			<!-- <li MayRequire="rimworld.ekss.rjwex">AnalPlugExpandable</li> -->
+			
+			<li MayRequire="rimworld.ekss.rjwex">AnalPlugExpandable</li>
+			
+			<li MayRequire="rimworld.ekss.rjwex">MAnalPlugSmall</li>
+			<li MayRequire="rimworld.ekss.rjwex">MAnalPlugMedium</li>
+			<li MayRequire="rimworld.ekss.rjwex">MAnalPlugLarge</li>
+			
+			<li MayRequire="rimworld.ekss.rjwex">SAnalPlugSmall</li>
+			<li MayRequire="rimworld.ekss.rjwex">SAnalPlugMedium</li>
+			<li MayRequire="rimworld.ekss.rjwex">SAnalPlugLarge</li>
+			
+			<li MayRequire="rimworld.ekss.rjwex">WAnalPlugSmall</li>
+			<li MayRequire="rimworld.ekss.rjwex">WAnalPlugMedium</li>
+			<li MayRequire="rimworld.ekss.rjwex">WAnalPlugLarge</li>
+		</value>
+		<success>Always</success>
+	</Operation>
+	
+	<!-- -->
+	
+	<!--//////////
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace/alienRace/raceRestriction/apparelList</xpath>
+		<value>
+			<li>RJW_BreedersCharm</li>
+		</value>
+		<success>Normal</success>
+	</Operation>
+	
+	-->
+	
+	
+	
+
+</Patch>

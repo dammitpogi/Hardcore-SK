@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Some sizes 
+	
+	Micro							0.01						Nipples
+									0.02	(breasts)			Tiny
+	Small/Tight						0.20						Small
+	Average							0.40						Average
+	Large/Accomodating				0.60						Large
+	Huge/Cavernous					0.80						Huge		
+									1.00 	(breasts)			Enormous	
+	Towering/Abyssal				1.01 	(not breasts)				
+									1.20 	(breasts)			Massive	
+									1.40	(breasts)			Gargantuan	
+									1.60	(breasts)			Colossal	
+-->
+<Defs>
+
+	<rjw.RacePartDef>
+		<defName>Petite_Penis</defName>
+		<hediffName>Penis</hediffName>
+		<fluidType>Cum</fluidType>
+		<fluidModifier>1.0</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(0.01, 0.01)</li>
+				<li>(0.20, 0.20)</li>
+				<li>(0.75, 0.40)</li>
+				<li>(0.99, 0.60)</li>
+				<li>(0.995, 0.80)</li>
+				<li>(1.0, 1.02)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>Petite_Vagina</defName>
+		<hediffName>Vagina</hediffName>
+		<fluidType>Cum</fluidType>
+		<fluidModifier>1.0</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(0.01, 0.01)</li>
+				<li>(0.30, 0.20)</li>
+				<li>(0.75, 0.40)</li>
+				<li>(0.99, 0.60)</li>
+				<li>(0.995, 0.80)</li>
+				<li>(1.0, 1.02)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>Petite_Anus</defName>
+		<hediffName>Anus</hediffName>
+		<severityCurve>
+			<points>
+				<li>(0.01, 0.01)</li>
+				<li>(0.30, 0.20)</li>
+				<li>(0.75, 0.40)</li>
+				<li>(0.99, 0.60)</li>
+				<li>(0.995, 0.80)</li>
+				<li>(1.0, 1.02)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>Petite_Breasts</defName>
+		<hediffName>Breasts</hediffName>
+		<fluidType>Milk</fluidType>
+		<fluidModifier>1.0</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(0.10, 0.01)</li>
+				<li>(0.30, 0.02)</li>
+				<li>(0.65, 0.20)</li>
+				<li>(0.85, 0.40)</li>
+				<li>(0.99, 0.60)</li>
+				<li>(0.995, 0.80)</li>
+				<li>(0.997, 1.00)</li>
+				<li>(0.998, 1.20)</li>
+				<li>(0.999, 1.40)</li>
+				<li>(1.0, 1.61)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+	
+	<rjw.RacePartDef>
+		<defName>Petite_Canine_Vagina</defName>
+		<hediffName>DogVagina</hediffName>
+		<fluidType>Cum</fluidType>
+		<fluidModifier>1.0</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(0.01, 0.01)</li>
+				<li>(0.25, 0.20)</li>
+				<li>(0.75, 0.40)</li>
+				<li>(0.99, 0.60)</li>
+				<li>(0.995, 0.80)</li>
+				<li>(1.0, 1.02)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+	
+</Defs>

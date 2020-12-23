@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd"><!--Fucking Animals-->
+		<xpath>/Defs/Rimworld_Animations.AnimationDef[defName="Beast_DoggystyleF" or defName="Beast_DoggystyleM"or defName="Beast_CowgirlM" or defName="Beast_CowgirlF" or defName="BeastxBeast_Doggystyle"]/actors/li[2]/bodyDefTypes</xpath>
+		<value>
+			<li>Bird</li>
+			<li>BeetleLike</li>
+			<li>BeetleLikeWithClaw</li>
+			<li>QuadrupedAnimalWithPaws</li>
+			<li>QuadrupedAnimalWithPawsAndTail</li>
+			<li>QuadrupedAnimalWithHooves</li>
+			<li>QuadrupedAnimalWithHoovesAndHump</li>
+			<li>QuadrupedAnimalWithHoovesAndTusks</li>
+			<li>QuadrupedAnimalWithHoovesTusksAndTrunk</li>
+			<li>QuadrupedAnimalWithHoovesAndHorn</li>
+			<li>QuadrupedAnimalWithClawsTailAndJowl</li>
+			<li>TurtleLike</li>
+			<li>Snake</li>
+			<li>Monkey</li>
+			<li>MechanicalCentipede</li>
+			<li>Lancer</li>
+			<li>Pikeman</li>
+			<li>Scyther</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd"><!--Fucked Animals-->
+		<xpath>/Defs/Rimworld_Animations.AnimationDef[defName="Beast_Doggystyle2" or defName="BeastxBeast_Doggystyle"]/actors/li[1]/bodyDefTypes</xpath>
+		<value>
+			<li>Bird</li>
+			<li>BeetleLike</li>
+			<li>BeetleLikeWithClaw</li>
+			<li>QuadrupedAnimalWithPaws</li>
+			<li>QuadrupedAnimalWithPawsAndTail</li>
+			<li>QuadrupedAnimalWithHooves</li>
+			<li>QuadrupedAnimalWithHoovesAndHump</li>
+			<li>QuadrupedAnimalWithHoovesAndTusks</li>
+			<li>QuadrupedAnimalWithHoovesTusksAndTrunk</li>
+			<li>QuadrupedAnimalWithHoovesAndHorn</li>
+			<li>QuadrupedAnimalWithClawsTailAndJowl</li>
+			<li>TurtleLike</li>
+			<li>Snake</li>
+			<li>Monkey</li>
+			<li>MechanicalCentipede</li>
+			<li>Lancer</li>
+			<li>Pikeman</li>
+			<li>Scyther</li>
+		</value>
+	</Operation>
+</Patch>

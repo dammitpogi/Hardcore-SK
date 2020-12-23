@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Will likley break things do not enable -->
+	
+	<!-- <Operation Class="PatchOperationReplace"> -->
+		<!-- <xpath>/Defs/AlienRace.ThingDef_AlienRace/alienRace/generalSettings/maleGenderProbability</xpath> -->
+		<!-- <value> -->
+			<!-- <maleGenderProbability>0.000000000001</maleGenderProbability> -->
+		<!-- </value> -->
+		<!-- <success>Always</success> -->
+	<!-- </Operation> -->
+
+</Patch>

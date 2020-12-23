@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Call of Cthulhu - Cosmic Horrors</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd"><!--Fucking Animals-->
+					<xpath>/Defs/Rimworld_Animations.AnimationDef[defName="Beast_DoggystyleF" or defName="Beast_DoggystyleM" or defName="Beast_CowgirlM" or defName="Beast_CowgirlF" or defName="BeastxBeast_Doggystyle"]/actors/li[2]/bodyDefTypes</xpath>
+					<success>Always</success>
+					<value>
+						<li>ROM_ChthonianBody</li>
+						<li>ROM_CthulhidBody</li>
+						<li>ROM_DarkYoungBody</li>
+						<li>ROM_DeepOneBody</li>
+						<li>ROM_MiGoBody</li>
+						<li>ROM_ShoggothBody</li>
+						<li>ROM_StarVampireBody</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"><!--Fucked Animals-->
+					<xpath>/Defs/Rimworld_Animations.AnimationDef[defName="Beast_Doggystyle2" or defName="BeastxBeast_Doggystyle"]/actors/li[1]/bodyDefTypes</xpath>
+					<success>Always</success>
+					<value>
+						<li>ROM_ChthonianBody</li>
+						<li>ROM_CthulhidBody</li>
+						<li>ROM_DarkYoungBody</li>
+						<li>ROM_DeepOneBody</li>
+						<li>ROM_MiGoBody</li>
+						<li>ROM_ShoggothBody</li>
+						<li>ROM_StarVampireBody</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

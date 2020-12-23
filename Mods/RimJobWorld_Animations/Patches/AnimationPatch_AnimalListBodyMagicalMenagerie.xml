@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Magical Menagerie</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd"><!--Fucking Animals-->
+					<xpath>/Defs/Rimworld_Animations.AnimationDef[defName="Beast_DoggystyleF" or defName="Beast_DoggystyleM" or defName="Beast_CowgirlM" or defName="Beast_CowgirlF" or defName="BeastxBeast_Doggystyle"]/actors/li[2]/bodyDefTypes</xpath>
+					<success>Always</success>
+					<value>
+						<li>MM_AhuizotlBody</li>
+						<li>MM_Chimera_Body</li>
+						<li>MM_Hydra</li>
+						<li>MM_ManticoreBody</li>
+						<li>MM_PegasusBody</li>
+						<li>MM_QilinBody</li>
+						<li>MM_QuadrupedAnimalWithBeakAndWings</li>
+						<li>MM_Wisp</li>
+						<li>MM_MinotaurBody</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"><!--Fucked Animals-->
+					<xpath>/Defs/Rimworld_Animations.AnimationDef[defName="Beast_Doggystyle2" or defName="BeastxBeast_Doggystyle"]/actors/li[1]/bodyDefTypes</xpath>
+					<success>Always</success>
+					<value>
+						<li>MM_AhuizotlBody</li>
+						<li>MM_Chimera_Body</li>
+						<li>MM_Hydra</li>
+						<li>MM_ManticoreBody</li>
+						<li>MM_PegasusBody</li>
+						<li>MM_QilinBody</li>
+						<li>MM_QuadrupedAnimalWithBeakAndWings</li>
+						<li>MM_Wisp</li>
+						<li>MM_MinotaurBody</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+
+	<!-- natural parts (purist love) -->
+		<rjw.HediffDef_PartBase ParentName="RJW_PrivatePartBase" Name="NaturalPrivatePartBaseSingle" Abstract="True">
+			<hediffClass>rjw.Hediff_PartBaseNatural</hediffClass>
+			<defaultLabelColor>(0.5, 0.8, 0.5)</defaultLabelColor>
+		</rjw.HediffDef_PartBase>
+		
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBaseSingle" Name="NaturalPrivatePartHandGland" Abstract="True">
+				<FluidType>Cum</FluidType>
+				<DefaultBodyPart>Hand</DefaultBodyPart>
+				<stages>
+					<li>
+						<label>Micro</label>
+						<minSeverity>0.01</minSeverity>
+					</li>
+				</stages>
+				<modExtensions>
+					<li Class="rjw.PartSizeExtension">
+						<density>1.0</density>
+						<lengths>
+							<li>0.2</li>
+						</lengths>
+						<girths>
+							<li>0.5</li>
+						</girths>
+					</li>
+				</modExtensions>
+
+			</rjw.HediffDef_PartBase>
+			
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBaseSingle" Name="NaturalPrivatePartRibOpening" Abstract="True">
+				<FluidType>Milk</FluidType>
+				<DefaultBodyPart>Chest</DefaultBodyPart>
+				<stages>
+					<li>
+						<label>Micro</label>
+						<minSeverity>0.01</minSeverity>
+					</li>
+				</stages>
+				<modExtensions>
+					<li Class="rjw.PartSizeExtension">
+						<density>1.0</density>
+						<lengths>
+							<li>0.2</li>
+						</lengths>
+						<girths>
+							<li>0.5</li>
+						</girths>
+					</li>
+				</modExtensions>
+			</rjw.HediffDef_PartBase>
+			
+			
+</Defs>

@@ -1,0 +1,13 @@
+<Patch>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThoughtDef[defName="GotBredByAnimal" or defName="GotAnalBredByAnimal" or defName="MasochistGotBredByAnimal" or defName="MasochistGotBredByAnimal" or defName="MasochistGotAnalBredByAnimal" or defName="ZoophileGotBredByAnimal" or defName="ZoophileGotAnalBredByAnimal" or defName="AllowedAnimalToBreed" or defName="GotLickedByAnimal" or defName="MasochistGotLickedByAnimal" or defName="ZoophileGotLickedByAnimal" or defName="AllowedAnimalToLick" or defName="GotGropedByAnimal" or defName="MasochistGotGropedByAnimal" or defName="ZoophileGotGropedByAnimal" or defName="AllowedAnimalToGrope" or defName="Bound" or defName="MasochistBound" or defName="MyPupDied" or defName="MyPupDiedFemale" or defName="KilledMyPup" or defName="KilledMyPupFemale" or defName="SoldMyPup" or defName="ViolatedCorpse" or defName="ThatsMyFetish" or defName="FeelingBroken" or defName="GotRaped" or defName="GotAnalRaped" or defName="GotAnalRapedByFemale" or defName="GotRapedUnconscious" or defName="MasochistGotRapedUnconscious" or defName="MasochistGotRaped" or defName="MasochistGotAnalRaped" or defName="MasochistGotAnalRapedByFemale" or defName="HateMyRapist" or defName="KindaLikeMyRapist" or defName="AllowedMeToGetRaped" or defName="StoleSomeLovin" or defName="MadeSomeLovin" or defName="BloodlustStoleSomeLovin" or defName="NeedSex" or defName="Fapped" or defName="male2trap" or defName="male2female" or defName="male2futa" or defName="female2trap" or defName="female2male" or defName="female2futa" or defName="futa2trap" or defName="futa2male" or defName="futa2female" or defName="trap2futa" or defName="trap2male" or defName="trap2female" or defName="ItchyCrotch" or defName="SyphiliticThoughts" or defName="WastingAway" or defName="SawDiseasedPrivates1" or defName="SawDiseasedPrivates2" or defName="SawDiseasedPrivates3" or defName="Whorish_Thoughts" or defName="Whorish_Thoughts_Captive" or defName="RJWFailedSolicitation" or defName="RJWTurnedDownWhore"]</xpath>
+		<value>
+			<li Class="Pawnmorph.DefExtensions.FormerHumanRestriction">
+				<filter>
+					<isBlackList>true</isBlackList> <!-- an empty white list won't let anything pass -->
+				</filter>
+				<mustBeFormerHuman>false</mustBeFormerHuman> <!-- the naked thought should now only show up for regular pawns   -->
+			</li>
+		</value>
+    </Operation>
+</Patch>

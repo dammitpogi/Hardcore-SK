@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Genetic Rim</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd"><!--Fucking Animals-->
+					<xpath>/Defs/Rimworld_Animations.AnimationDef[defName="Beast_DoggystyleF" or defName="Beast_DoggystyleM" or defName="Beast_CowgirlM" or defName="Beast_CowgirlF" or defName="BeastxBeast_Doggystyle"]/actors/li[2]/bodyDefTypes</xpath>
+					<success>Always</success>
+					<value>
+						<li>GR_BirdWithTeeth</li>
+						<li>GR_HornedBird</li>
+						<li>GR_QuadrupedAnimalWithBeak</li>
+						<li>GR_QuadrupedAnimalWithBeakandHump</li>
+						<li>GR_QuadrupedAnimalWithPawsAndFangs</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"><!--Fucked Animals-->
+					<xpath>/Defs/Rimworld_Animations.AnimationDef[defName="Beast_Doggystyle2" or defName="BeastxBeast_Doggystyle"]/actors/li[1]/bodyDefTypes</xpath>
+					<success>Always</success>
+					<value>
+						<li>GR_BirdWithTeeth</li>
+						<li>GR_HornedBird</li>
+						<li>GR_QuadrupedAnimalWithBeak</li>
+						<li>GR_QuadrupedAnimalWithBeakandHump</li>
+						<li>GR_QuadrupedAnimalWithPawsAndFangs</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

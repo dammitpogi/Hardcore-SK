@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Artificial_Heat.label>искусственное тепло</Artificial_Heat.label>
+	<Artificial_Heat.description>Тепло, вызванное наркотиками.</Artificial_Heat.description>
+	<Artificial_Heat.labelNoun>a brought out heat</Artificial_Heat.labelNoun>
+
+
+	<!-- Smokeleaf addiction -->
+
+	<Breeder_Tolerance.label>толерантность к сласти</Breeder_Tolerance.label>
+	<Breeder_Tolerance.description>Толерантность к сласти заводчиков. Чем она серьёзнее, тем больше потребуется сласти для получения первоначального эффекта.</Breeder_Tolerance.description>
+
+	<Breeder_Addiction.label>зависимость от сласти</Breeder_Addiction.label>
+	<Breeder_Addiction.description>Зависимость от сласти заводчиков. Его продолжительное упортребление вызывает неврологические изменения на клеточном уровне, из-за чего мозг уже не способен нормально функционировать без вещества.\nПерерыв в регулярном употреблении сласти заводчиков вызовет абстинентный синдром - ломку. Длительное воздержание поможет мозгу вернуться к нормальному состоянию и избавиться от зависимости..</Breeder_Addiction.description>
+	<Breeder_Addiction.stages.0.label>ломка</Breeder_Addiction.stages.0.label>
+
+
+</LanguageData>

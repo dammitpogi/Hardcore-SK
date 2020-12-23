@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ModMetaData>
+    <name>RimJobWorld - Sex Toys and Masturbation</name>
+    <packageId>c0ffee.SexToysMasturbation</packageId>
+    <author>c0ffee</author>
+    <supportedVersions>
+        <li>1.1</li>
+	<li>1.2</li>
+    </supportedVersions>
+	
+    <modDependencies>
+		<li>
+			<packageId>UnlimitedHugs.HugsLib</packageId>
+			<displayName>HugsLib</displayName>
+			<downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+		</li>
+    		<li>
+     			<packageId>rim.job.world</packageId>
+      			<displayName>RimJobWorld</displayName>
+      			<downloadUrl>https://www.loverslab.com/topic/110270-mod-rimjobworld/</downloadUrl>
+    		</li>
+	</modDependencies>
+
+    <description>Sex toys for use with RJW.</description>
+
+</ModMetaData>

@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <!-- LTF race pack. 1240656304. https://steamcommunity.com/sharedfiles/filedetails/?id=1240656304 -->
+	
+	<!-- slug race. 2071728181. https://steamcommunity.com/sharedfiles/filedetails/?id=2071728181 -->
+	
+	<rjw.RaceGroupDef>
+		
+		<defName>LTFSlugs</defName>
+		
+		<raceNames>
+			<li>Alien_Slug</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>SlimeAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>SlimeVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>SlimePenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Slime</li>
+		</tags>
+
+		<hasSingleGender>true</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- engi race. 2036348893. https://steamcommunity.com/sharedfiles/filedetails/?id=2036348893 -->
+	
+	<rjw.RaceGroupDef>
+		
+		<defName>LTFEngi</defName>
+		
+		<raceNames>
+			<li>Alien_Engi</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>BionicAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>BionicBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>BionicVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>BionicPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- rockmen race. 2027296393. https://steamcommunity.com/sharedfiles/filedetails/?id=2027296393 -->
+	<!-- crystal race. 1338611415. https://steamcommunity.com/sharedfiles/filedetails/?id=1338611415 -->
+	
+	<rjw.RaceGroupDef>
+		
+		<defName>LTFRockmen</defName>
+		
+		<raceNames>
+			<li>Alien_Rockman</li>
+			<li>Alien_Crystal</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>GolemPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- zoltan race. 2032477436. https://steamcommunity.com/sharedfiles/filedetails/?id=2032477436 -->
+	
+	<rjw.RaceGroupDef>
+		
+		<defName>LTFZoltan</defName>
+		
+		<raceNames>
+			<li>Alien_Zoltan</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>Penis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+		
+	<!-- mantis race. 2025343753. https://steamcommunity.com/sharedfiles/filedetails/?id=2025343753 -->
+	
+	<rjw.RaceGroupDef>
+		
+		<defName>LTFMantis</defName>
+		
+		<raceNames>
+			<li>Alien_Mantis</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>InsectAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>OvipositorF</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>OvipositorM</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Chitin</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>true</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+</Defs>

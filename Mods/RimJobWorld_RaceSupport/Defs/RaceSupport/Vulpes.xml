@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Vulpes - Adorable Foxes!. 2174717519. https://steamcommunity.com/sharedfiles/filedetails/?id=2174717519 -->
+	<rjw.RaceGroupDef>
+		<defName>Vulpes_HumanLike_Fox_Furries</defName>
+		
+		<raceNames>
+			<li>Vulpes</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Petite_Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Petite_Breasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>Petite_Canine_Vagina</li>
+		</femaleGenitals>
+		
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>Petite_Penis</li> <!-- They didn't want a knot -->
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+</Defs>

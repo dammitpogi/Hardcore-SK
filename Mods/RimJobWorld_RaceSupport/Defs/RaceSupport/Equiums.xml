@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Equiums. 1211945995. https://steamcommunity.com/sharedfiles/filedetails/?id=1211945995 -->
+	<!-- New Equiums. 2103376790. https://steamcommunity.com/sharedfiles/filedetails/?id=2103376790 -->
+	<rjw.RaceGroupDef>
+		<defName>Equiums_Horse_People</defName>
+		
+		<raceNames>
+			<li>Alien_Equium</li>
+			<li>Alien_DonkEquium</li>
+			<li>Alien_UniEquium</li>
+			<li>Alien_ZEquium</li>
+			<li>Alien_PEquium</li>
+            <li>Alien_DonkPEquium</li>
+            <li>Alien_UniPEquium</li>
+            <li>Alien_ZPEquium</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>HorseAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>HorseVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>Large_Horse_Penis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+
+	</rjw.RaceGroupDef>
+</Defs>

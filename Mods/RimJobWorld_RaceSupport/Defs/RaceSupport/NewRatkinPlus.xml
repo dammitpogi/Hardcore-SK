@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- NewRatkinPlus. 1578693166 . https://steamcommunity.com/sharedfiles/filedetails/?id=1578693166-->
+	
+	<!-- Ratkin -->
+	<rjw.RaceGroupDef>
+		<defName>Rat_kin</defName>
+		
+		<raceNames>
+			<li>Ratkin</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Petite_Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Petite_Breasts</li>
+		</femaleBreasts>
+		
+		<femaleGenitals>
+			<li>Petite_Vagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>RodentPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<raceSexDrive>1.15</raceSexDrive>
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- Rotti -->
+	<rjw.RaceGroupDef>
+		<defName>Rotti_Animal</defName>
+		
+		<raceNames>
+			<li>Rotti</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>NarrowVagina</li>
+		</femaleGenitals>
+
+		<maleBreasts></maleBreasts>
+
+		<maleGenitals>
+			<li>NeedlePenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- KingHamster -->
+	<rjw.RaceGroupDef>
+		<defName>King_Hamster</defName>
+		
+		<raceNames>
+			<li>RK_KingHamster</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>NarrowVagina</li>
+		</femaleGenitals>
+
+		<maleBreasts></maleBreasts>
+
+		<maleGenitals>
+			<li>NeedlePenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+
+	</rjw.RaceGroupDef>
+</Defs>

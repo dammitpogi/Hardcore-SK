@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Pawns with ovi's plant egg. -->
+
+	<!--[Duplicated] <RJW_HumanLikeEgg.label>Egg</RJW_HumanLikeEgg.label>-->
+	<!--[Duplicated] <RJW_HumanLikeEgg.description>Parasitic egg(s) that enter the host's body and feeds off their nutrients until ready to hatch. 
+Just be glad they don't hatch by bursting out of your chest.</RJW_HumanLikeEgg.description>-->
+
+	<!--[Duplicated] <RJW_HumanLikeEgg.label>Egg</RJW_HumanLikeEgg.label>-->
+	<!--[Duplicated] <RJW_HumanLikeEgg.description>Parasitic egg(s) that enter the host's body and feeds off their nutrients until ready to hatch. 
+These ones feel very light.</RJW_HumanLikeEgg.description>-->
+
+	<RJW_HumanLikeEgg.label>Яйцо</RJW_HumanLikeEgg.label>
+	<RJW_HumanLikeEgg.description>Паразитические яйца, которые попадают в организм хозяина и питаются его питательными веществами, пока не будут готовы к вылуплению. 
+Эти кажутся очень легкими.</RJW_HumanLikeEgg.description>
+
+
+</LanguageData>

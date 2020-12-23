@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Rakkle the rattle snake Race mod. 2208700786. https://steamcommunity.com/sharedfiles/filedetails/?id=2208700786 -->
+	<rjw.RaceGroupDef>
+
+		<defName>Rakkle_Rattlesnake</defName>
+		
+		<raceNames>
+			<li>Rakkle</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Rakkle_Breasts</li>
+		</femaleBreasts>
+		
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>Penis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Scales</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+	</rjw.RaceGroupDef>
+	
+	<!-- Enormous > Massive> Large > Average > Gargantuan > Colossal > Small > Tiny > Nipples -->
+	<rjw.RacePartDef>
+		<defName>Rakkle_Breasts</defName>
+		<hediffName>Breasts</hediffName>
+		<fluidType>Milk</fluidType>
+		<fluidModifier>1.05</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(0.00001, 0.01)</li>
+				<li>(0.001, 0.02)</li>
+				<li>(0.03, 0.20)</li>
+				<li>(0.10, 0.40)</li>
+				<li>(0.23, 0.60)</li>
+				<li>(0.38, 0.80)</li>
+				<li>(0.68, 1.00)</li>
+				<li>(0.86, 1.20)</li>
+				<li>(0.94, 1.40)</li>
+				<li>(1.0, 1.61)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+</Defs>

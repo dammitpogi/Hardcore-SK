@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loadFolders>
+	<default>
+		<li>/</li>
+		<li IfModActive="platinumspoons.rimworld.animations">X_Animations</li>
+		<!-- <li IfModActive="skyarkhangel.HSK">X_HSK</li> -->
+		<li IfModActive="tachyonite.pawnmorpher">PawnMorpher</li>
+	</default>
+</loadFolders>

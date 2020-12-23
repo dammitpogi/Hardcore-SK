@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Rat"]/race/gestationPeriodDays</xpath>
+				<value>
+					<gestationPeriodDays>7</gestationPeriodDays>
+					<!-- <gestationPeriodDays>2</gestationPeriodDays> -->
+				</value>
+			</li>
+			<!-- <li Class="PatchOperationReplace"> -->
+				<!-- <xpath>/Defs/Verse.ThingDef[defName = "Rat"]/race/gestationPeriodDays</xpath> -->
+				<!-- <value> -->
+					<!-- <gestationPeriodDays>7</gestationPeriodDays> -->
+					<!-- <gestationPeriodDays>2</gestationPeriodDays> -->
+				<!-- </value> -->
+			<!-- </li> -->
+		</operations>
+	</Operation>
+</Patch>

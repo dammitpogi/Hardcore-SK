@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--  -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>turk's moby huge</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "MeleeWeapon_MobyHuge"]</xpath>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Dino Like -->
+
+	<DinoPenis.label>пенис динозавра</DinoPenis.label>
+	<DinoPenis.labelNoun>пенис динозавра</DinoPenis.labelNoun>
+	<DinoPenis.description>Большой член с конической формой, слегка приплюснутый вверху. Очень похож на большой язык.</DinoPenis.description>
+
+	<DinoVagina.label>вагина динозавра</DinoVagina.label>
+	<DinoVagina.labelNoun>вагина динозавра</DinoVagina.labelNoun>
+	<DinoVagina.description>агина для откладывания яиц с жесткой шкурой снаружи.</DinoVagina.description>
+
+	<DinoAnus.label>анус динозавра</DinoAnus.label>
+	<DinoAnus.labelNoun>анус динозавра</DinoAnus.labelNoun>
+	<DinoAnus.description>Анус с жесткой шкурой снаружи.</DinoAnus.description>
+
+
+</LanguageData>

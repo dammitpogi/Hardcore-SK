@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Rabbie The Moonrabbit race. 1837246563. https://steamcommunity.com/sharedfiles/filedetails/?id=1837246563 -->
+	<rjw.RaceGroupDef>
+		<defName>Rabbie_The_Moonrabbit</defName>
+		
+		<raceNames>
+			<li>Rabbie</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Petite_Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Petite_Breasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>Petite_Vagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>Petite_Penis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<raceSexDrive>1.2</raceSexDrive>
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+
+	</rjw.RaceGroupDef>
+</Defs>

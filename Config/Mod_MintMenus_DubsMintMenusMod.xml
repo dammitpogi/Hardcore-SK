@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="DubsMintMenus.Settings">
+		<HideFinished>True</HideFinished>
+		<LastSavedBuild>746</LastSavedBuild>
+		<BoxSizeX>90</BoxSizeX>
+		<BoxSizeY>75</BoxSizeY>
+		<infocardW>350</infocardW>
+		<MaxHeight>650</MaxHeight>
+		<InfoWidth>358</InfoWidth>
+		<billTabH>300</billTabH>
+		<bBoxSizeY>62</bBoxSizeY>
+		<listWidth>404</listWidth>
+		<ResearchListWidth>350</ResearchListWidth>
+		<ResourceReadout />
+		<WheelDefs />
+	</ModSettings>
+</SettingsBlock>

@@ -3,6 +3,7 @@
 	<ModSettings Class="ProgressRenderer.PRModSettings">
 		<renderDesignations>True</renderDesignations>
 		<renderThingIcons>True</renderThingIcons>
+		<timeOfDay>16</timeOfDay>
 		<jpgQuality>85</jpgQuality>
 		<pixelPerCell>16</pixelPerCell>
 		<exportPath>D:\Pogis Shared Folder\RimWorld Progress</exportPath>

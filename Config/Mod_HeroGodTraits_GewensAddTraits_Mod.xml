@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Gewen_AdditionalTraits.GAT_TraitSettings">
+		<fileDict>
+			<keys>
+				<li>AddTraits_Singular.xml</li>
+				<li>AddTraits_Spectrum.xml</li>
+				<li>HeroicTraits_Singular.xml</li>
+				<li>Traits_Fallout.xml</li>
+			</keys>
+			<values>
+				<li>
+					<defInfo>
+						<keys>
+							<li>GAT_Confident</li>
+							<li>GAT_Overweight</li>
+							<li>GAT_Athletic</li>
+							<li>GAT_Dexterous</li>
+							<li>GAT_Perceptive</li>
+							<li>GAT_Clean</li>
+							<li>GAT_Nearsighted</li>
+							<li>GAT_QuickLearner</li>
+							<li>GAT_Glutton</li>
+							<li>GAT_Persuasive</li>
+							<li>GAT_HeavySleeper</li>
+							<li>GAT_Pervert</li>
+							<li>GAT_Morbid</li>
+							<li>GAT_CarefulSurgeon</li>
+							<li>GAT_ProfessionalButcher</li>
+							<li>GAT_ProfessionalTailor</li>
+							<li>GAT_LovedByAnimals</li>
+							<li>GAT_AvidArtist</li>
+							<li>GAT_GeniusResearcher</li>
+							<li>GAT_GreenestThumb</li>
+							<li>GAT_EfficientBuilder</li>
+							<li>GAT_FastMiner</li>
+						</keys>
+						<values>
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+						</values>
+					</defInfo>
+				</li>
+				<li>
+					<defInfo>
+						<keys>
+							<li>GAT_TradePriceImprovementOffset</li>
+							<li>GAT_SocialImpactOffset</li>
+							<li>GAT_DiplomacyPowerOffset</li>
+							<li>GAT_ShootingOffsetTrait</li>
+						</keys>
+						<values>
+							<li />
+							<li />
+							<li />
+							<li />
+						</values>
+					</defInfo>
+				</li>
+				<li>
+					<defInfo>
+						<keys>
+							<li>GAT_Hercules</li>
+							<li>GAT_Achilles</li>
+							<li>GAT_Odysseus</li>
+							<li>GAT_Ares</li>
+							<li>GAT_Artemis</li>
+							<li>GAT_Aphrodite</li>
+							<li>GAT_Mercury</li>
+							<li>GAT_Sylvanus</li>
+							<li>GAT_Vulcan</li>
+							<li>GAT_Imhotep</li>
+						</keys>
+						<values>
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+						</values>
+					</defInfo>
+				</li>
+				<li>
+					<defInfo>
+						<keys>
+							<li>FT_FrailBack</li>
+							<li>FT_StrongBack</li>
+							<li>FT_AnimalFriend</li>
+							<li>FT_Ghoulish</li>
+							<li>FT_RadResistant</li>
+							<li>FT_ActionBoy</li>
+							<li>FT_ActionGirl</li>
+							<li>FT_QuickHands</li>
+							<li>FT_IdiotSavant</li>
+							<li>FT_Charisma</li>
+							<li>FT_GunNut</li>
+							<li>FT_Rooted</li>
+							<li>FT_Intimidation</li>
+							<li>FT_Scrapper</li>
+							<li>FT_FortuneFinder</li>
+							<li>FT_AimOffset</li>
+							<li>FT_Agility</li>
+							<li>FT_Stupid</li>
+							<li>FT_Intelligence</li>
+							<li>FT_Oblivious</li>
+							<li>FT_Perception</li>
+							<li>FT_Scrounger</li>
+							<li>FT_Endurance</li>
+						</keys>
+						<values>
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+							<li />
+						</values>
+					</defInfo>
+				</li>
+			</values>
+		</fileDict>
+	</ModSettings>
+</SettingsBlock>

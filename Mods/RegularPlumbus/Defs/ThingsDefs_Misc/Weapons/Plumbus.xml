@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BasePlumbus_Quality">
+    <defName>MeleeWeapon_Plumbus</defName>
+    <label>plumbus</label>
+    <description>A regular ol' plumbus. Rumored to have its design originated from another dimension, this common household item can help with virtually any task.\n\nIt's made from the organic compounds of the dinglebop plant, rubbed with the juice of rare roaming fleebs.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Plumbus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <WorkToMake>3600</WorkToMake>
+      <Mass>0.8</Mass>
+    </statBases>
+	<equippedStatOffsets>
+      <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+    </equippedStatOffsets>	
+	<costList>
+		<Dinglebop>60</Dinglebop>
+		<FleebJuice>12</FleebJuice>
+	</costList>
+    <equippedAngleOffset>-60</equippedAngleOffset>
+    <recipeMaker>
+	  <skillRequirements>
+	    <Crafting>6</Crafting>
+	  </skillRequirements>
+      <recipeUsers>
+        <li>PlumbusCraftingStation</li>
+      </recipeUsers>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef Name="BasePlumbus_Quality" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Industrial</techLevel>
+    <smeltable>true</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <unfinishedThingDef>UnfinishedPlumbus</unfinishedThingDef>
+    </recipeMaker>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
+ </Defs>

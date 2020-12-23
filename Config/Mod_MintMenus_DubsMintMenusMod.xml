@@ -2,6 +2,7 @@
 <SettingsBlock>
 	<ModSettings Class="DubsMintMenus.Settings">
 		<HideFinished>True</HideFinished>
+		<HideLocked>True</HideLocked>
 		<LastSavedBuild>746</LastSavedBuild>
 		<BoxSizeX>90</BoxSizeX>
 		<BoxSizeY>75</BoxSizeY>

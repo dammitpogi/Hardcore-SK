@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Additional Traits (Heroes + Gods Optional)</name>
+	<author>Gewen, Swenzi, and Alias</author>
+	<url>https://ludeon.com/forums/index.php?topic=29661.msg300431#msg300431</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>Gewen.AdditionalTraits</packageId>
+
+	<loadAfter>
+		<li>Alias.DegeneralizeWork</li>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+	</loadAfter>
+
+	<description>Have you ever felt that there aren't enough traits to immersify your game-play? Well, I've got just the mod for you with Additional Traits!
+
+RimWorld version 1.1 removed some of the statdefs that this mod uses, I have reimplemented the removed statdefs in my De-generalize Work mod (link on the Additional Traits workshop page). De-generalize Work is NOT required for this mod and Additional Traits can and will function entirely without it, there will just be a few traits that are modified or don't show up at all.
+
+&lt;color=red&gt;This mod uses Harmony, it comes with its own copy (v2.0.2), however it it recommended that you subscribe and activate the official Harmony mod by Brrainz so that you always have the latest version.&lt;/color&gt;</description>
+
+	<!--Commented out as Additional Traits does not require DegeneralizeWork, but included for the sake of showing how to implement the requirement-->
+	<!--modDependenciesByVersion>
+		<v1.1>
+			<li>
+				<packageId>Alias.DegeneralizeWork</packageId>
+				<displayName>De-generalize Work</displayName>
+				<steamWorkshopUrl>steam://url/CommunityFilePage/2011655761</steamWorkshopUrl>
+				<downloadUrl>https://github.com/Alias44/Degeneralize-Work/releases/latest</downloadUrl>
+			</li>
+		</v1.1>
+	</modDependenciesByVersion-->
+	<links IgnoreIfNoMatchingField="True">
+Link to Ludeon for more information:
+https://ludeon.com/forums/index.php?topic=29661.msg300431#msg300431
+
+The B18 version of this mod:
+https://steamcommunity.com/sharedfiles/filedetails/?id=954490820
+
+Additional Traits without Heros + Gods for B18:
+http://steamcommunity.com/sharedfiles/filedetails/?id=946944965
+
+The A17 version of this mod:
+https://github.com/yliankuo/Additional-Traits-w--Heroes---Gods
+
+The Original mod for A16 by Gewen:
+http://steamcommunity.com/sharedfiles/filedetails/?id=851164051
+	</links>
+</ModMetaData>

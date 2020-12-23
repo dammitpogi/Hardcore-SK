@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="LeatherBase">
+    <defName>Leather_Fleeb</defName>
+    <label>fleebskin</label>
+    <description>A weak leather harvested when cutting the fleeb. Fleebskin is frail, which gives it poor insulation and protection, but it's unique color makes it quite fashionable and appealing.</description>
+    <graphicData>
+      <color>(100,195,197)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <StuffPower_Armor_Sharp>0.40</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.22</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>11</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>11</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(100,195,197)</color>
+      <commonality>0.075</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+		<Beauty>3.0</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+</Defs>

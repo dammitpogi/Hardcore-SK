@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<TraitDef>
+		<defName>GAT_ProfessionalTailor</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Natural Tailor</label>
+				<!--description>{PAWN_nameDef} likes making apparel. Their tailoring speed is greatly increased, but they're terrible with smithing.</description-->
+				<description>{PAWN_nameDef} likes making apparel. {PAWN_pronoun} can work wonders with a needle and thread a hammer and anvil, not so much.</description>
+				<statOffsets>
+					<SmithingSpeed>-0.5</SmithingSpeed>
+					<TailoringSpeed>0.5</TailoringSpeed>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Crafting</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Tailoring</li>
+		</requiredWorkTypes>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>GAT_AvidArtist</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Eccentric Artist</label>
+				<!--description>{PAWN_nameDef} is an eccentric artist. Their sculpting speed is greatly increased, but they have a weaker constitution and mind.</description-->
+				<description>{PAWN_nameDef} is an eccentric artist. {PAWN_pronoun} has an affinity for the arts, {PAWN_pronoun} often gets lost in {PAWN_possessive} work and forget to take care of {PAWN_objective}self.</description>
+				<statOffsets>
+					<SculptingSpeed>0.5</SculptingSpeed>
+					<ToxicSensitivity>0.1</ToxicSensitivity>
+					<ImmunityGainSpeed>-0.1</ImmunityGainSpeed>
+					<PsychicSensitivity>0.1</PsychicSensitivity>
+					<MentalBreakThreshold>0.1</MentalBreakThreshold>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Artistic</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Art</li>
+		</requiredWorkTypes>
+	</TraitDef>
+</Defs>

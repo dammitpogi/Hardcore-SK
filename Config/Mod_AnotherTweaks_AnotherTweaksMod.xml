@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="AnotherTweaks.Settings">
+		<CoreSK_ShowTPSInRegularGame>True</CoreSK_ShowTPSInRegularGame>
+		<ShareTheLoad_DeliverAsMuchAsYouCan>True</ShareTheLoad_DeliverAsMuchAsYouCan>
+	</ModSettings>
+</SettingsBlock>

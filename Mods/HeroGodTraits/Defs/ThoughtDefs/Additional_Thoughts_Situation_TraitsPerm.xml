@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>GAT_MoodOffsetConfident</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+	  <li>GAT_Confident</li>
+    </requiredTraits>
+    <requiredTraitsDegree>2</requiredTraitsDegree>
+    <stages>
+      <li>
+        <label>confident</label>
+        <description>Natural bonus from Confident trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>GAT_MoodOffsetShootingAmateur</defName>
+    <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>GAT_ShootingOffsetTrait</li>
+    </requiredTraits>
+    <requiredTraitsDegree>-1</requiredTraitsDegree>
+    <stages>
+      <li>
+        <label>holding a ranged weapon</label>
+        <description>I hate guns! They scare me...</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>GAT_MoodOffsetShootingEnthusiast</defName>
+    <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>GAT_ShootingOffsetTrait</li>
+    </requiredTraits>
+    <requiredTraitsDegree>1</requiredTraitsDegree>
+    <stages>
+      <li>
+        <label>holding a ranged weapon</label>
+        <description>It's like being at the range, all the time!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>GAT_MoodOffsetShootingProfessional</defName>
+    <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>GAT_ShootingOffsetTrait</li>
+    </requiredTraits>
+    <requiredTraitsDegree>2</requiredTraitsDegree>
+    <stages>
+      <li>
+        <label>holding a ranged weapon</label>
+        <description>Nothing's gonna harm you... Not while I'm around. Nothing's gonna harm you, no sir, not while I'm around.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+      
+</Defs>

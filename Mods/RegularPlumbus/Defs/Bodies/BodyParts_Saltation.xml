@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <BodyPartDef Abstract="True" Name="SaltationMuscleGroupBase">
+  <labelShort>muscles</labelShort>
+  <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  <skinCovered>false</skinCovered>
+  <solid>false</solid>
+  <alive>false</alive>
+  <bleedRate>0</bleedRate>
+  <tags>
+    <li>MovingLimbCore</li>
+  </tags>
+  </BodyPartDef>
+
+  <BodyPartDef ParentName="SaltationMuscleGroupBase">
+    <defName>SaltationMuscleGroup</defName>
+    <label>bounce muscles</label>
+    <hitPoints>45</hitPoints>
+  </BodyPartDef>
+  
+</Defs>

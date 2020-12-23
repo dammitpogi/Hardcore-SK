@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<TraitDef>
+		<defName>GAT_TradePriceImprovementOffset</defName>
+		<commonality>1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Sucker</label>
+				<description>They say a sucker is born every minute, and {PAWN_nameDef} is that sucker.</description>
+				<degree>-1</degree>
+				<statOffsets>
+					<TradePriceImprovement>-0.20</TradePriceImprovement>
+				</statOffsets>
+			</li>
+			<li>
+				<label>Amateur Haggler</label>
+				<description>{PAWN_nameDef} likes to haggle. {PAWN_pronoun} gets better prices than most people.</description>
+				<degree>1</degree>
+				<statOffsets>
+					<TradePriceImprovement>0.20</TradePriceImprovement>
+				</statOffsets>
+			</li>
+			<li>
+				<label>Haggling Enthusiast</label>
+				<description>{PAWN_nameDef} always gets the best deals - so much so that others often fail to realize they're being duped.</description>
+				<degree>2</degree>
+				<statOffsets>
+					<TradePriceImprovement>0.40</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>GAT_Persuasive</li>
+		</conflictingTraits>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>GAT_SocialImpactOffset</defName>
+		<commonality>1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Awkward</label>
+				<description>The elephant in the room is named {PAWN_nameDef}.</description>
+				<degree>-1</degree>
+				<statOffsets>
+					<SocialImpact>-0.20</SocialImpact>
+				</statOffsets>
+			</li>
+			<li>
+				<label>Tucker</label><!--charming-->
+				<description>"That's a lotta graves. Lotta holes to fill. Bow-Chicka-Bow-Wow" - {PAWN_nameDef}, probably.</description>
+				<degree>1</degree>
+				<statOffsets>
+					<SocialImpact>0.20</SocialImpact>
+				</statOffsets>
+			</li>
+			<li>
+				<label>Melodic Voice</label>
+				<description>{PAWN_nameDef} could talk for days on end and people would still listen to that sweet voice.</description>
+				<degree>2</degree>
+				<statOffsets>
+					<SocialImpact>0.40</SocialImpact>
+				</statOffsets>
+				<marketValueFactorOffset>0.2</marketValueFactorOffset>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>GAT_DiplomacyPowerOffset</defName>
+		<commonality>1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Uncouth</label>
+				<description>Subtle is the game of diplomacy, and subtle, {PAWN_nameDef} is not.</description>
+				<degree>-1</degree>
+				<statOffsets>
+					<NegotiationAbility>-0.20</NegotiationAbility>
+				</statOffsets>
+			</li>
+			<li>
+				<label>Diplomatic</label>
+				<description>{PAWN_nameDef} knows how to grease the wheels of diplomacy.</description>
+				<degree>1</degree>
+				<statOffsets>
+					<NegotiationAbility>0.20</NegotiationAbility>
+				</statOffsets>
+			</li>
+			<li>
+				<label>Very diplomatic</label>
+				<description>{PAWN_nameDef} has such a way with {PAWN_objective} words and gifts that {PAWN_pronoun} always manages to cool down a tense situation.</description>
+				<degree>2</degree>
+				<statOffsets>
+					<NegotiationAbility>0.40</NegotiationAbility>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>GAT_ShootingOffsetTrait</defName>
+		<commonality>1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Shooting Amateur</label>
+				<description>{PAWN_nameDef} has never held a gun in {PAWN_objective} hands. The weight of the cold metal in {PAWN_objective} hands makes {PAWN_pronoun} shudder uncontrollably.</description>
+				<degree>-1</degree>
+				<statOffsets>
+					<ShootingAccuracyPawn>-0.20</ShootingAccuracyPawn>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Shooting</key>
+						<value>-2</value>
+					</li>
+				</skillGains>
+			</li>
+			<li>
+				<label>Shooting enthusiast</label>
+				<description>{PAWN_nameDef} knows {PAWN_objective} way with a gun.</description>
+				<degree>1</degree>
+				<statOffsets>
+					<ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Shooting</key>
+						<value>2</value>
+					</li>
+				</skillGains>
+			</li>
+			<li>
+				<label>Shooting Professional</label>
+				<description>"My rifle is my best friend. It is my life. I must master it as I must master my life." - {PAWN_nameDef}, probably.</description>
+				<degree>2</degree>
+				<statOffsets>
+					<ShootingAccuracyPawn>0.40</ShootingAccuracyPawn>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Shooting</key>
+						<value>4</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>Brawler</li>
+		</conflictingTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</TraitDef>
+</Defs>

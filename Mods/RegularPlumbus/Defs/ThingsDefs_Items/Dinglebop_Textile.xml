@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Dinglebop</defName>
+    <label>dinglebop</label>
+    <description>Processed dinglebop, notable for its resistance to heat and fire. However, being an organic compund, the protection it offers is less than ideal.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Dinglebop</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <StuffPower_Armor_Sharp>0.16</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.6</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>23</StuffPower_Insulation_Heat>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>1.25</MarketValue>
+      <Mass>0.026</Mass>
+      <Flammability>0.65</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>30</minRewardCount>
+    <stuffProps>
+      <statFactors>
+        <Flammability>0.8</Flammability>
+        <Beauty>0.5</Beauty>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+	  <color>(251,217,208)</color>
+      <commonality>0.4</commonality>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    </ThingDef>
+  
+  </Defs>

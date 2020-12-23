@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedPlumbus</defName>
+    <label>unfinished plumbus</label>
+    <description>An unfinished plumbus.</description>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedWeapon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <color>(251,217,208)</color>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>	
+  
+</Defs>

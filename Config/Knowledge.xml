@@ -27,7 +27,7 @@
     </li>
     <li>
       <key>Drafting</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>BuildOrbitalTradeBeacon</key>
@@ -235,7 +235,7 @@
     </li>
     <li>
       <key>MeditationSchedule</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>MeditationDesiredPsyfocus</key>
@@ -303,7 +303,7 @@
     </li>
     <li>
       <key>CE_WornBulk</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>CE_Crouching</key>
@@ -311,7 +311,7 @@
     </li>
     <li>
       <key>CE_InventoryWeightBulk</key>
-      <value>0.563112</value>
+      <value>0.5222403</value>
     </li>
     <li>
       <key>CE_Loadouts</key>
@@ -367,7 +367,7 @@
     </li>
     <li>
       <key>Concept_CEOverride</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>GuestBeds</key>
@@ -387,7 +387,7 @@
     </li>
     <li>
       <key>UsingSurvivalTools</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>SurvivalToolDegradation</key>

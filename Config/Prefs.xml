@@ -13,7 +13,7 @@
   <showRealtimeClock>True</showRealtimeClock>
   <animalNameMode>None</animalNameMode>
   <extremeDifficultyUnlocked>False</extremeDifficultyUnlocked>
-  <adaptiveTrainingEnabled>True</adaptiveTrainingEnabled>
+  <adaptiveTrainingEnabled>False</adaptiveTrainingEnabled>
   <preferredNames />
   <resourceReadoutCategorized>False</resourceReadoutCategorized>
   <runInBackground>False</runInBackground>

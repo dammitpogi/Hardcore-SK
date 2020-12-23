@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Royal Thrumbos. 1865990377. https://steamcommunity.com/sharedfiles/filedetails/?id=1865990377 -->
+	<rjw.RaceGroupDef>
+		<defName>Royal_Thrumbo_Fluffy_Dragon_Thing</defName>
+		<raceNames>
+			<li>RoyalThrumbo</li>
+		</raceNames>
+
+		<femaleGenitals>
+			<li>DragonVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>RoyalThrumbo_Penis</li>
+		</maleGenitals>
+		
+		<anuses>
+			<li>DragonAnus</li>
+		</anuses>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+	</rjw.RaceGroupDef>
+	
+	<rjw.RacePartDef>
+		<defName>RoyalThrumbo_Penis</defName>
+		<hediffName>DragonPenis</hediffName>
+		<fluidType>Cum</fluidType>
+		<fluidModifier>1.3</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(0.000001, 0.39)</li>
+				<li>(0.10, 0.40)</li>
+				<li>(0.11, 0.41)</li>
+				<li>(0.40, 0.60)</li>
+				<li>(0.41, 0.61)</li>
+				<li>(0.75, 0.80)</li>
+				<li>(0.76, 0.81)</li>
+				<li>(0.77, 1.01)</li>
+				<li>(1.0, 1.02)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+
+</Defs>

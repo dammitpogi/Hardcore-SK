@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <JobDef>
+    <defName>JoinInBedAnimation</defName>
+    <driverClass>Rimworld_Animations.JobDriver_SexCasualForAnimation</driverClass>
+    <reportString>joining someone in bed.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+  <JobDef>
+    <defName>GettinLovedAnimation</defName>
+    <driverClass>Rimworld_Animations.JobDriver_SexBaseRecieverLovedForAnimation</driverClass>
+    <reportString>lovin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+</Defs>

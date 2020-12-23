@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Tau -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>HandGlands</defName>
+		<label>Reproductive Glands</label>
+		<description>Glands located in the palm of the hands which assisnt in reproduction</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1.2</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>RibOpenings</defName>
+		<label>Rib Reproductive Openings</label>
+		<description>Complex cavernous sub-skin system located in the back of the ribs, used in reproduction</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

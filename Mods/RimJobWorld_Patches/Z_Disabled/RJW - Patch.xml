@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+		
+	<!-- Demon -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/rjw.HediffDef_PartBase[defName="DemonTentaclePenis"]</xpath>
+		<value>
+			<comps>
+				<li Class="LicentiaLabs.CompProperties_LicentiaPart">
+					<stretchVariance>0.4</stretchVariance>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+		
+	<!-- Slime -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/rjw.HediffDef_PartBase[defName="SlimeTentacles"]</xpath>
+		<value>
+			<comps>
+				<li Class="LicentiaLabs.CompProperties_LicentiaPart">
+					<stretchVariance>0.4</stretchVariance>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	
+	<!-- Abraxas Patch -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/rjw.HediffDef_PartBase[@Name = "NaturalPrivatePartVagina"]/stages</xpath>
+		<value>
+			<li>
+				<label>Ruined hole</label>
+				<minSeverity>5.0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.5</offset>
+					</li>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<setMax>0.3</setMax>
+					</li>
+				</capMods>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/rjw.HediffDef_PartBase[@Name = "NaturalPrivatePartAnus"]/stages</xpath>
+		<value>
+			<li>
+				<label>Ruined hole</label>
+				<minSeverity>5.0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.75</offset>
+					</li>
+				</capMods>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/rjw.HediffDef_PartBase[@Name = "NaturalPrivatePartVagina"]/modExtensions/li[1]/lengths</xpath>
+		<value>
+			<li>40</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/rjw.HediffDef_PartBase[@Name = "NaturalPrivatePartVagina"]/modExtensions/li[1]/girths</xpath>
+		<value>
+			<li>50</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/rjw.HediffDef_PartBase[@Name = "NaturalPrivatePartAnus"]/modExtensions/li[1]/girths</xpath>
+		<value>
+			<li>50</li>
+		</value>
+	</Operation>
+
+</Patch>

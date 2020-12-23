@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- -->
+	<rjw.RaceGroupDef>
+		<defName>Oglis_Orks</defName>
+		
+		<raceNames>
+			<li>OG_Alien_Ork</li>
+			<li>OG_Cyborg_Ork</li>
+			<li>Ork_Warboss</li>
+			<li>Ork_Nob</li>
+			<li>Ork_Eavy_Nob</li>
+			<li>Ork_Boy</li>
+			<li>Ork_Eavy_Boy</li>
+			<li>Ork_Grot</li>
+			<li>OG_Alien_Grot</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<!-- <li>OrcAnus</li> -->
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<!-- <li>OrcBreasts</li> -->
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<!-- <li>OrcVagina</li> -->
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<!-- <li>OrcBreasts</li> -->
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<!-- <li>OrcPenis</li> -->
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Skin</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>false</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+	</rjw.RaceGroupDef>
+</Defs>

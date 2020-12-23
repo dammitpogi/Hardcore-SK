@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>Apparel_KnifeBelt</defName>
+		<label>Knife Belt</label>
+		<description>A belt that holds Knives for throwing.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Knife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<!-- <tradeTags> -->
+			<!-- <li>Artifact</li> -->
+		<!-- </tradeTags> -->
+		<!-- <thingSetMakerTags> -->
+			<!-- <li>RewardStandardHighFreq</li> -->
+		<!-- </thingSetMakerTags> -->
+		<statBases>
+			<Mass>0.5</Mass>
+			<EquipDelay>2</EquipDelay>
+			<MarketValue>300</MarketValue>
+			<MaxHitPoints>80</MaxHitPoints>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<apparel>
+			<scoreOffset>4</scoreOffset>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+		</apparel>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<tradeNeverStack>true</tradeNeverStack>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<label>throw knife</label>
+				<hasStandardCommand>true</hasStandardCommand>
+				<targetable>true</targetable>
+				<onlyManualCast>True</onlyManualCast>
+				<defaultProjectile>Knife_Thrown_Belt</defaultProjectile>
+				<range>15.9</range>
+				<warmupTime>0.3</warmupTime>
+				<targetParams>
+					<canTargetBuildings>false</canTargetBuildings>
+					<onlyTargetPsychicSensitive>false</onlyTargetPsychicSensitive>
+					<neverTargetIncapacitated>false</neverTargetIncapacitated>
+				</targetParams>
+				<!-- <soundCast>PsychicShockLanceCast</soundCast> -->
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>5</maxCharges>
+				<ammoDef>MeleeWeapon_Knife</ammoDef>
+				<!-- <ammoCountToRefill>1</ammoCountToRefill> -->
+				<ammoCountPerCharge>1</ammoCountPerCharge>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>Knife</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>Knife_Thrown_Belt</defName>
+		<label>Knife</label>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Knife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>25</damageAmountBase>
+			<stoppingPower>2.5</stoppingPower>
+			<armorPenetrationBase>0.10</armorPenetrationBase>
+			<speed>26</speed>
+		</projectile>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Breeders_Delight_Joint.label>косяк сласти заводчиков</Breeders_Delight_Joint.label>
+	<Breeders_Delight_Joint.description>Кто знает, сколько удовольствия может быть получено используя немного дымолиста и гриба-афродизиака.</Breeders_Delight_Joint.description>
+	<Breeders_Delight_Joint.ingestible.ingestCommandString>Курить {0}</Breeders_Delight_Joint.ingestible.ingestCommandString>
+	<Breeders_Delight_Joint.ingestible.ingestReportString>Курит {0}.</Breeders_Delight_Joint.ingestible.ingestReportString>
+
+
+</LanguageData>

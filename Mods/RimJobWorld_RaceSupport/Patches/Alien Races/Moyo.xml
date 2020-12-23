@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Moyo-From the depth</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<!-- <success>Always</success> -->
+			<operations>
+				<!-- Fix RJW Body parts  -->
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/BodyDef[defName = "Moyo_Pressurepod" or defName = "Moyo_Hexapod"]/corePart/parts/li[def = "Genitals" or def = "Chest" or def = "Anus"]</xpath>
+				</li>
+				<!-- pressurepod -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BodyDef[defName = "Moyo_Pressurepod"]/corePart/parts</xpath>
+					<value>
+						<li>
+							<def>MechGenitals</def>
+							<coverage>0.001</coverage>
+							<depth>Inside</depth>
+						</li>
+					</value>
+				</li>
+				<!-- Hexapod -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BodyDef[defName = "Moyo_Hexapod"]/corePart/parts/li[def = "Hexapod_TentacleJoint"]/parts/li[def = "Hexapod_Tentacle"]</xpath>
+					<value>
+						<parts>
+							<li>
+								<def>MechGenitals</def>
+								<coverage>0.001</coverage>
+								<depth>Inside</depth>
+								<groups>
+									<li>Tentacle1</li>
+								</groups>
+							</li>
+						</parts>
+					</value>
+				</li>
+				<!-- RJW Implant -->
+				<!-- <li Class="PatchOperationAdd"> -->
+					<!-- <xpath>/Defs/rjw.HediffDef_MechImplants[@Name="RJW_ImplantMech"]/parentDefs</xpath> -->
+					<!-- <value> -->
+						<!-- <li>MoyoPressurePod_Kind</li> -->
+						<!-- <li>MoyoHexapod_Kind</li> -->
+						<!-- <li>MoyoCryopod_Kind</li> -->
+						<!-- <li>MoyoPressurePod_Race</li> -->
+						<!-- <li>MoyoHexaPod_Race</li> -->
+						<!-- <li>MoyoCryoPod_Race</li> -->
+					<!-- </value> -->
+				<!-- </li> -->
+			</operations>
+		</match>
+	</Operation>
+</Patch>

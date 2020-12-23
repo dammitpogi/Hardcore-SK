@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- SYR Harpies -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[SYR] Harpy</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Harpy"]/alienRace/generalSettings/forcedRaceTraitEntries</xpath>
+					<value>
+						<li>
+							<defName>Rapist</defName>
+							<chance>85</chance>
+							<commonalityMale>0</commonalityMale>
+							<commonalityFemale>100</commonalityFemale>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

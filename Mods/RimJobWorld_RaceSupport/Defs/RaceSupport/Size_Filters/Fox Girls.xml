@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Some sample race parts. 
+				
+				0.01
+				0.20
+				0.40
+				0.60
+				0.80
+				1.00 	(breasts)
+				1.01 	(not breasts)
+				1.20 	(breasts)
+				1.40	(breasts)
+				1.60	(breasts)
+-->
+<Defs>
+
+	<rjw.RacePartDef>
+		<defName>Petite_FoxGirls_Vagina</defName>
+		<hediffName>Vagina</hediffName>
+		<fluidType>Cum</fluidType>
+		<fluidModifier>1.1</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(0.01, 0.01)</li>
+				<li>(0.20, 0.20)</li>
+				<li>(0.75, 0.40)</li>
+				<li>(0.99, 0.60)</li>
+				<li>(1.0, 0.80)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>Petite_FoxGirls_Anus</defName>
+		<hediffName>Anus</hediffName>
+		<severityCurve>
+			<points>
+				<li>(0.01, 0.01)</li>
+				<li>(0.20, 0.20)</li>
+				<li>(0.75, 0.40)</li>
+				<li>(0.99, 0.60)</li>
+				<li>(1.0, 0.80)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>Petite_FoxGirls_Breasts</defName>
+		<hediffName>Breasts</hediffName>
+		<fluidType>Milk</fluidType>
+		<fluidModifier>1.1</fluidModifier>
+		<severityCurve>
+			<points>
+				<li>(0.01, 0.01)</li>
+				<li>(0.19, 0.02)</li>
+				<li>(0.66, 0.20)</li>
+				<li>(0.9, 0.40)</li>
+				<li>(0.96, 0.60)</li>
+				<li>(0.97, 0.80)</li>
+				<li>(0.98, 1.00)</li>
+				<li>(0.99, 1.20)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+	
+</Defs>

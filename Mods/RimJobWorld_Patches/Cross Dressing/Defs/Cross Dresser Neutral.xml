@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TraitDef>
+		<defName>Cross_Dresser_Indifferent</defName>
+		<commonality>0.8</commonality>
+		<degreeDatas>
+			<li>
+				<label>cross dresser indifferent</label>
+				<description>{PAWN_nameDef} doesn't mind wearing clothes of the opposite gender.</description>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>Nudist</li>
+			<li>Cross_Dresser</li>
+			<li>Cross_Dresser_Extreme</li>
+		</conflictingTraits>
+	</TraitDef>
+</Defs>

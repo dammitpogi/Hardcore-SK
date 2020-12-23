@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<!-- <li>Elite Bionics Framework</li> -->
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/HediffDef[defName="ToughskinGland"]</xpath>
+					<value>
+						<comps>
+							<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+								<linearAdjustment>3</linearAdjustment>
+								<scaleAdjustment>0.1</scaleAdjustment>
+							</li>
+						</comps>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/HediffDef[defName="ArmorskinGland"]</xpath>
+					<value>
+						<comps>
+							<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+								<linearAdjustment>5</linearAdjustment>
+								<scaleAdjustment>0.3</scaleAdjustment>
+							</li>
+						</comps>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/HediffDef[defName="StoneskinGland"]</xpath>
+					<value>
+						<comps>
+							<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+								<linearAdjustment>5</linearAdjustment>
+								<scaleAdjustment>0.5</scaleAdjustment>
+							</li>
+						</comps>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

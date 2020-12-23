@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Dino -->
+
+	<DinoPenis.label>пенис динозавра</DinoPenis.label>
+	<DinoPenis.description>Большой член с конической формой, слегка приплюснутый вверху. Очень похож на большой язык.</DinoPenis.description>
+
+	<DinoVagina.label>вагина динозавра</DinoVagina.label>
+	<DinoVagina.description>Вагина для откладывания яиц с жесткой шкурой снаружи.</DinoVagina.description>
+
+	<DinoAnus.label>анус динозавра</DinoAnus.label>
+	<DinoAnus.description>Анус с жесткой шкурой снаружи.</DinoAnus.description>
+
+
+	<!-- Orc -->
+
+	<OrcPenis.label>пенис орка</OrcPenis.label>
+	<OrcPenis.description>Круглый пенис с кольцом, но в остальном похож на пенис гуманоида.</OrcPenis.description>
+
+	<OrcVagina.label>вагина орка</OrcVagina.label>
+	<OrcVagina.description>Человеческая вагина с очень большими губами.</OrcVagina.description>
+
+	<OrcBreasts.label>грудь орка</OrcBreasts.label>
+	<OrcBreasts.description>Пара человеческих грудей, которые сильно обвисли.</OrcBreasts.description>
+
+	<OrcAnus.label>анус орка</OrcAnus.label>
+	<OrcAnus.description>Анус, который выглядит как смесь ануса человека и лошади.</OrcAnus.description>
+
+
+	<!-- Elf -->
+
+	<ElfPenis.label>пенис эльфа</ElfPenis.label>
+	<ElfPenis.description>Более тонкий и длинный пенис, похожий на человеческий. Это блеск?</ElfPenis.description>
+
+	<ElfVagina.label>вагина эльфа</ElfVagina.label>
+	<ElfVagina.description>Более узкая вагина, похожая на человеческую. На вкус как апельсины.</ElfVagina.description>
+
+	<ElfAnus.label>анус эльфа</ElfAnus.label>
+	<ElfAnus.description>Более узкий анус, похожий на человеческий. Пахнет розами.</ElfAnus.description>
+
+	<NecroPenis.label>гнилой пенис</NecroPenis.label>
+	<NecroPenis.description>Отвратительный, гниющий пенис, который все еще работает.</NecroPenis.description>
+
+	<NecroVagina.label>гнилая вагина</NecroVagina.label>
+	<NecroVagina.description>Отвратительная гниющая вагина. Её внутренности холодны, как могила.</NecroVagina.description>
+
+	<NecroAnus.label>гнилой анус</NecroAnus.label>
+	<NecroAnus.description>Отвратительный, гниющий анус. Его внутренности холодны, как могила.</NecroAnus.description>
+
+	<NecroBreasts.label>гнилая грудь</NecroBreasts.label>
+	<NecroBreasts.description>Отвратительная пара гниющих грудей.</NecroBreasts.description>
+
+	<MonkeyPenis.label>пенис обезьяны</MonkeyPenis.label>
+	<MonkeyPenis.description>Очень тонкий, но в остальном гуманоидный пенис.</MonkeyPenis.description>
+
+	<PigPenis.label>винтообразный пенис</PigPenis.label>
+	<PigPenis.description>Пенис в форме штопора.</PigPenis.description>
+
+	<BearPenis.label>пенис медведя</BearPenis.label>
+	<BearPenis.description>Тонкий пенис, опирающийся на кость.</BearPenis.description>
+
+	<TurtlePenis.label>пенис черепахи</TurtlePenis.label>
+	<TurtlePenis.description>Большой пенис с огромным расширением на конце.</TurtlePenis.description>
+
+	<ElephantPenis.label>пенис слона</ElephantPenis.label>
+	<ElephantPenis.description>Большой и гибкий цепкий пенис.</ElephantPenis.description>
+
+	<BovinePenis.label>пенис быка</BovinePenis.label>
+	<BovinePenis.description>Пенис довольно длинный, но тонкий, с большими яичками.</BovinePenis.description>
+
+	<MarinePenis.label>морской пенис</MarinePenis.label>
+	<MarinePenis.description>Обтекаемый член, сужающийся к концу.</MarinePenis.description>
+
+	<CactoidPenis.label>пенис кактоида</CactoidPenis.label>
+	<CactoidPenis.description>Шершавый пенис, похожий на растение, с шипами вдоль стержня.</CactoidPenis.description>
+
+	<CactoidVagina.label>вагина кактоида</CactoidVagina.label>
+	<CactoidVagina.description>Грубое влагалище, похожее на растение, с шипами на внутренних стенках. Шипы захватывают мужские половые органы во время секса.</CactoidVagina.description>
+
+	<CactoidAnus.label>анус кактоида</CactoidAnus.label>
+	<CactoidAnus.description>Шершавый анус, похожий на растение. На этот раз без шипов.</CactoidAnus.description>
+
+	<CactoidBreasts.label>грудь кактоида</CactoidBreasts.label>
+	<CactoidBreasts.description>Пара грубых грудей, похожих на растения, с шипами вокруг них и сосков, похожих на цветы.</CactoidBreasts.description>
+
+	<TreePenis.label>пенис из коры</TreePenis.label>
+	<TreePenis.description>Естественно выращенный деревянный пенис. Яички полностью покрыты твердой деревянной корой, а текстура вдоль стержня более мягкая, кончик остается открытым.</TreePenis.description>
+
+	<TreeVagina.label>вагина из коры</TreeVagina.label>
+	<TreeVagina.description>Естественно выращенная деревянная вагина. Хотя снаружи она похожа на кору, внутри она мягкая.</TreeVagina.description>
+
+	<TreeBreasts.label>грудь из коры</TreeBreasts.label>
+	<TreeBreasts.description>Пара естественно выращенных деревянных грудей. Твердая кора покрывает всю внешнюю часть, оставляя соски открытыми.</TreeBreasts.description>
+
+	<TreeAnus.label>анус из коры</TreeAnus.label>
+	<TreeAnus.description>Естественно выращенный деревянный анус. Хотя снаружи он похож на кору, внутри он мягкий.</TreeAnus.description>
+
+	<GolemPenis.label>каменный пенис</GolemPenis.label>
+	<GolemPenis.description>Грубый и зазубренный каменный пенис.</GolemPenis.description>
+
+	<GhoulPenis.label>облученный пенис</GhoulPenis.label>
+	<GhoulPenis.description>Слегка светящийся пенис, похожий на человеческий. На ощупь очень горячий.</GhoulPenis.description>
+
+	<GhoulVagina.label>облученная вагина</GhoulVagina.label>
+	<GhoulVagina.description>Человеческая вагина, которая слегка светится. Внутри безумно жарко.</GhoulVagina.description>
+
+	<GhoulBreasts.label>облученная грудь</GhoulBreasts.label>
+	<GhoulBreasts.description>Пара человеческих грудей, которые слегка светятся. Они очень горячие на ощупь.</GhoulBreasts.description>
+
+	<GhoulAnus.label>облученный анус</GhoulAnus.label>
+	<GhoulAnus.description>Слегка светящийся анус. Внутри безумно жарко.</GhoulAnus.description>
+
+	<ScaleBreasts.label>чешуйчатая грудь</ScaleBreasts.label>
+	<ScaleBreasts.description>Чешуйчатая грудь.</ScaleBreasts.description>
+
+	<TentaclePenis.label>тентакли</TentaclePenis.label>
+	<TentaclePenis.description>Масса пенисов, похожих на щупальца, способных сдерживать и доставлять удовольствие.</TentaclePenis.description>
+
+	<VinePenis.label>лозы</VinePenis.label>
+	<VinePenis.description>Генетически измененные лозы, способные к воспроизводству.</VinePenis.description>
+
+	<DemonTentaclesF.label>тентакли демона (яйца)</DemonTentaclesF.label>
+	<DemonTentaclesF.description>Длинное и гибкое щупальце, способное откладывать яйца.</DemonTentaclesF.description>
+
+	<BigRaceBreats.label>грудь</BigRaceBreats.label>
+	<BigRaceBreats.description>Просто нормальная пара грудей, найденная у больших гуманоидов.</BigRaceBreats.description>
+
+	<HorseAnus.label>анус лошади</HorseAnus.label>
+	<HorseAnus.description>Анус в форме пончика.</HorseAnus.description>
+
+	<CatAnus.label>анус кошки</CatAnus.label>
+	<CatAnus.description>Анус кошки.</CatAnus.description>
+
+	<DogAnus.label>анус собаки</DogAnus.label>
+	<DogAnus.description>Анус собаки.</DogAnus.description>
+
+	<DragonAnus.label>анус дракона</DragonAnus.label>
+	<DragonAnus.description>Шершавый анус, покрытый чешуей снаружи.</DragonAnus.description>
+
+
+	<!-- Flower -->
+
+	<AntherPenis.label>пыльник</AntherPenis.label>
+	<AntherPenis.description>Мужской репродуктивный орган цветка. Длинная и тонкая нить с большой пыльцевой головкой на конце.</AntherPenis.description>
+
+	<PistolVagina.label>пестик</PistolVagina.label>
+	<PistolVagina.description>Женский репродуктивный орган цветка. Липкий вход связан с яичниками через длинную трубчатую структуру.</PistolVagina.description>
+
+
+	<!-- Deer -->
+
+	<CervineVagina.label>вагина оленя</CervineVagina.label>
+	<CervineVagina.description>Довольно тонкая вагина.</CervineVagina.description>
+
+	<CervineAnus.label>анус оленя</CervineAnus.label>
+	<CervineAnus.description>Анус оленя.</CervineAnus.description>
+
+
+</LanguageData>

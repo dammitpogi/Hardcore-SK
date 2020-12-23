@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<SoundDef>
+		<defName>Cum</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxVoices>1</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Sex/cum</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>30</min>
+					<max>40</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>51.86047</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+  <SoundDef>
+		<defName>Sex</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxVoices>1</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Sex/kucyu04</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>16</min>
+					<max>16</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8</min>
+					<max>1.2</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>51.86047</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Suck</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxVoices>1</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Sex/Suck/Suck_1</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Sex/Suck/Suck_2</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Sex/Suck/Suck_3</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Sex/Suck/Suck_4</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Sex/Suck/Suck_5</clipFolderPath>
+					</li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Suck/Suck_6</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Suck/Suck_7</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Suck/Suck_8</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Suck/Suck_9</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Suck/Suck_10</clipFolderPath>
+          </li>
+				</grains>
+				<volumeRange>
+          <min>20</min>
+          <max>35</max>
+				</volumeRange>
+				<pitchRange>
+					<min>1.0</min>
+					<max>1.0</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>51.86047</max>
+				</distRange>
+				<repeatMode>NeverTwice</repeatMode> 
+				<sustainLoop>false</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+  <SoundDef>
+    <defName>Fuck</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <maxVoices>1</maxVoices>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Clap_1</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Clap_2</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Clap_3</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Clap_4</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Clap_5</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Clap_6</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Clap_7</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Clap_8</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>45</min>
+          <max>70</max>
+        </volumeRange>
+        <pitchRange>
+          <min>1.0</min>
+          <max>1.0</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>51.86047</max>
+        </distRange>
+        <repeatMode>NeverTwice</repeatMode>
+        <sustainLoop>false</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Slimy</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <maxVoices>1</maxVoices>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Slime/Slimy1</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Slime/Slimy2</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Slime/Slimy3</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Slime/Slimy4</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Sex/Slime/Slimy5</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>45</min>
+          <max>75</max>
+        </volumeRange>
+        <pitchRange>
+          <min>1.4</min>
+          <max>1.8</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>100</max>
+        </distRange>
+        <repeatMode>NeverTwice</repeatMode>
+        <sustainLoop>false</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

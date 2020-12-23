@@ -1,0 +1,25 @@
+Error in patch.Apply(): System.Xml.XPath.XPathException: '' is an invalid expression.
+  at MS.Internal.Xml.XPath.XPathScanner..ctor (System.String xpathExpr) [0x00032] in <1d98d70bb7d8453b80c25aa561fdecd1>:0 
+  at MS.Internal.Xml.XPath.XPathParser.ParseXPathExpresion (System.String xpathExpresion) [0x00000] in <1d98d70bb7d8453b80c25aa561fdecd1>:0 
+  at MS.Internal.Xml.XPath.QueryBuilder.Build (System.String query, System.Boolean allowVar, System.Boolean allowKey) [0x00015] in <1d98d70bb7d8453b80c25aa561fdecd1>:0 
+  at MS.Internal.Xml.XPath.QueryBuilder.Build (System.String query, System.Boolean& needContext) [0x00000] in <1d98d70bb7d8453b80c25aa561fdecd1>:0 
+  at System.Xml.XPath.XPathExpression.Compile (System.String xpath, System.Xml.IXmlNamespaceResolver nsResolver) [0x00005] in <1d98d70bb7d8453b80c25aa561fdecd1>:0 
+  at System.Xml.XPath.XPathExpression.Compile (System.String xpath) [0x00000] in <1d98d70bb7d8453b80c25aa561fdecd1>:0 
+  at System.Xml.XPath.XPathNavigator.Select (System.String xpath) [0x00000] in <1d98d70bb7d8453b80c25aa561fdecd1>:0 
+  at System.Xml.XmlNode.SelectNodes (System.String xpath) [0x0000c] in <1d98d70bb7d8453b80c25aa561fdecd1>:0 
+  at Verse.PatchOperationAddModExtension.ApplyWorker (System.Xml.XmlDocument xml) [0x0000e] in <d72310b4d8f64d25aee502792b58549f>:0 
+  at Verse.PatchOperation.Apply (System.Xml.XmlDocument xml) [0x00023] in <d72310b4d8f64d25aee502792b58549f>:0 
+  at Verse.LoadedModManager.ApplyPatches (System.Xml.XmlDocument xmlDoc, System.Collections.Generic.Dictionary`2[TKey,TValue] assetlookup) [0x00038] in <d72310b4d8f64d25aee502792b58549f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LoadedModManager:ApplyPatches(XmlDocument, Dictionary`2)
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()

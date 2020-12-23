@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Orc -->
+
+	<OrcVagina.label>добавить вагину орка</OrcVagina.label>
+
+
+	<!-- Elf -->
+
+	<ElfVagina.label>добавить вагину эльфа</ElfVagina.label>
+
+
+	<!-- Dino -->
+
+	<DinoVagina.label>добавить вагину динозавра</DinoVagina.label>
+	<NecroVagina.label>добавить гнилую вагину</NecroVagina.label>
+	<CactoidVagina.label>добавить вагину кактоида</CactoidVagina.label>
+	<GhoulVagina.label>добавить облученную вагину</GhoulVagina.label>
+	<TreeVagina.label>добавить вагину из коры</TreeVagina.label>
+
+
+	<!-- Flower -->
+
+	<PistolVagina.label>добавить пестик</PistolVagina.label>
+	<CervineVagina.label>добавить вагину оленя</CervineVagina.label>
+
+
+</LanguageData>

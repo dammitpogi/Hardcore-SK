@@ -1,0 +1,108 @@
+<Patch>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThoughtDef[
+		<!-- Beast -->
+		defName="GotBredByAnimal"
+		or defName="GotAnalBredByAnimal"
+		
+		or defName="MasochistGotBredByAnimal"
+		or defName="MasochistGotBredByAnimal"
+		or defName="MasochistGotAnalBredByAnimal"
+		
+		or defName="ZoophileGotBredByAnimal"
+		or defName="ZoophileGotAnalBredByAnimal"
+		
+		or defName="AllowedAnimalToBreed"
+		or defName="GotLickedByAnimal"
+		or defName="MasochistGotLickedByAnimal"
+		or defName="ZoophileGotLickedByAnimal"
+		or defName="AllowedAnimalToLick"
+		or defName="GotGropedByAnimal"
+		or defName="MasochistGotGropedByAnimal"
+		or defName="ZoophileGotGropedByAnimal"
+		or defName="AllowedAnimalToGrope"
+		
+		<!-- Bondage -->
+		or defName="Bound"
+		or defName="MasochistBound"
+
+		<!-- Family (uses parents maybe optimize patch later[not worth only 2 Defs use parents]) -->
+		or defName="MyPupDied"
+		or defName="MyPupDiedFemale"
+		or defName="KilledMyPup"
+		or defName="KilledMyPupFemale"
+		or defName="SoldMyPup"
+		
+		<!-- Necro -->
+		or defName="ViolatedCorpse"
+		
+		<!-- Quirk -->
+		or defName="ThatsMyFetish"
+		
+		<!-- Rape -->
+		or defName="FeelingBroken"
+		
+		or defName="GotRaped"
+		or defName="GotAnalRaped"
+		or defName="GotAnalRapedByFemale"
+		or defName="GotRapedUnconscious"
+
+		or defName="MasochistGotRapedUnconscious"
+		or defName="MasochistGotRaped"
+		or defName="MasochistGotAnalRaped"
+		or defName="MasochistGotAnalRapedByFemale"
+		
+		or defName="HateMyRapist"
+		or defName="KindaLikeMyRapist"
+		or defName="AllowedMeToGetRaped"
+		
+		or defName="StoleSomeLovin"
+		or defName="MadeSomeLovin"
+		or defName="BloodlustStoleSomeLovin"
+		
+		<!-- Sex -->
+		or defName="NeedSex"
+		or defName="Fapped"
+		
+		<!-- Sex Change -->
+		or defName="male2trap"
+		or defName="male2female"
+		or defName="male2futa"
+		
+		or defName="female2trap"
+		or defName="female2male"
+		or defName="female2futa"
+		
+		or defName="futa2trap"
+		or defName="futa2male"
+		or defName="futa2female"
+		
+		or defName="trap2futa"
+		or defName="trap2male"
+		or defName="trap2female"
+		
+		<!-- STD -->
+		or defName="ItchyCrotch"
+		or defName="SyphiliticThoughts"
+		or defName="WastingAway"
+		or defName="SawDiseasedPrivates1"
+		or defName="SawDiseasedPrivates2"
+		or defName="SawDiseasedPrivates3"
+		
+		<!-- Virginity -->
+		
+		<!-- Whore -->
+		or defName="Whorish_Thoughts"
+		or defName="Whorish_Thoughts_Captive"
+		or defName="RJWFailedSolicitation"
+		or defName="RJWTurnedDownWhore"]</xpath>
+		<value>
+			<li Class="Pawnmorph.DefExtensions.FormerHumanRestriction">
+				<filter>
+					<isBlackList>true</isBlackList> <!-- an empty white list won't let anything pass -->
+				</filter>
+				<mustBeFormerHuman>true</mustBeFormerHuman> <!-- the naked thought should now only show up for regular pawns   -->
+			</li>
+		</value>
+    </Operation>
+</Patch>

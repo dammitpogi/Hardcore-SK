@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Gun_TripleRocket"]/verbs/li[1]/verbClass</xpath>
+				<value>
+					<!-- <verbClass>Verb_LaunchProjectileStatic</verbClass> -->
+					<verbClass>Verb_Shoot</verbClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Gun_TripleRocket"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_Reloadable">
+						<maxCharges>1</maxCharges>
+						<ammoDef>Chemfuel</ammoDef>
+						<ammoCountPerCharge>1</ammoCountPerCharge>
+						<baseReloadTicks>60</baseReloadTicks>
+						<soundReload>Standard_Reload</soundReload>
+						<hotKey>Misc4</hotKey>
+						<chargeNoun>Rocket</chargeNoun>
+						<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

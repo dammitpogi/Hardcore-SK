@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>MonkeyPenis</defName>
+		<label>monkey penis</label>
+		<labelNoun>A monkey's penis</labelNoun>
+		<description>A very thin, but otherwise humanoid-looking penis.</description>
+		<descriptionHyperlinks><ThingDef>MonkeyPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>MonkeyPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>PigPenis</defName>
+		<label>corkscrew penis</label>
+		<labelNoun>A pig's penis</labelNoun>
+		<description>A corkscrew shaped penis.</description>
+		<descriptionHyperlinks><ThingDef>PigPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>PigPenis</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Sheathed</li>
+					<li>Long</li>
+					<li>Thin</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>BearPenis</defName>
+		<label>bear penis</label>
+		<labelNoun>A bears's penis</labelNoun>
+		<description>A thin penis supported by a bone.</description>
+		<descriptionHyperlinks><ThingDef>BearPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BearPenis</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Sheathed</li>
+					<li>Small</li>
+					<li>Rigid</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>TurtlePenis</defName>
+		<label>turtle penis</label>
+		<labelNoun>A turtle's penis</labelNoun>
+		<description>A large penis with a huge flare at the tip.</description>
+		<descriptionHyperlinks><ThingDef>TurtlePenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>TurtlePenis</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Internal</li>
+					<li>Flared</li>
+					<li>Long</li>
+					<li>Girthy</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>ElephantPenis</defName>
+		<label>elephant penis</label>
+		<labelNoun>An elephant's penis</labelNoun>
+		<description>A large and flexible prehensile penis.</description>
+		<descriptionHyperlinks><ThingDef>ElephantPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ElephantPenis</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Sheathed</li>
+					<li>Prehensile</li>
+					<li>Long</li>
+					<li>Girthy</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>BovinePenis</defName>
+		<label>bovine penis</label>
+		<labelNoun>A bovine's penis</labelNoun>
+		<description>A rather long but thin penis, with large testicles.</description>
+		<descriptionHyperlinks><ThingDef>BovinePenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BovinePenis</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Sheathed</li>
+					<li>Thin</li>
+					<li>Long</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>MarinePenis</defName>
+		<label>marine penis</label>
+		<labelNoun>A marine mammal penis</labelNoun>
+		<description>A girthy penis that tapers to a point.</description>
+		<descriptionHyperlinks><ThingDef>MarinePenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>MarinePenis</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Internal</li>
+					<li>Prehensile</li>
+					<li>Tapered</li>
+					<li>Girthy</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+	
+	<!--Critter Like-->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>HorseAnus</defName>
+		<label>equine anus</label>
+		<labelNoun>an equine's anus</labelNoun>
+		<description>An anus shaped like a dougnut.</description>
+		<descriptionHyperlinks><ThingDef>HorseAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>HorseAnus</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Loose</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>CatAnus</defName>
+		<label>feline anus</label>
+		<labelNoun>a feline's anus</labelNoun>
+		<description>A feline anus.</description>
+		<descriptionHyperlinks><ThingDef>CatAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CatAnus</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Tight</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>DogAnus</defName>
+		<label>canine anus</label>
+		<labelNoun>a canine's anus</labelNoun>
+		<description>A canine anus.</description>
+		<descriptionHyperlinks><ThingDef>DogAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>DogAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>CervineVagina</defName>
+		<label>cervine vagina</label>
+		<labelNoun>a deer's vagina</labelNoun>
+		<description>A rather thin vagina.</description>
+		<descriptionHyperlinks><ThingDef>CervineVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CervineVagina</spawnThingOnRemoved>
+		<modExtensions>
+			<li Class="rjw.PartProps">
+				<props>
+					<li>Tight</li>
+					<li>Deep</li>
+				</props>
+			</li>
+		</modExtensions>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>CervineAnus</defName>
+		<label>cervine anus</label>
+		<labelNoun>a deer's anus</labelNoun>
+		<description>An deer's anus.</description>
+		<descriptionHyperlinks><ThingDef>CervineAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CervineAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+</Defs>

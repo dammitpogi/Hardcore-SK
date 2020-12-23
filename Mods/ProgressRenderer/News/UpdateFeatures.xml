@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+		<modNameReadable>Progress Renderer</modNameReadable>
+		<modIdentifier>neptimus7.progressrenderer</modIdentifier>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>ProgressRenderer_1_1_2</defName>
+		<assemblyVersion>1.1.2</assemblyVersion>
+		<content>Fixed an issue with JPG saving</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>

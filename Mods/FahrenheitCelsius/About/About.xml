@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Fahrenheit and Celsius</name>
+	<author>Kosaro</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>kosaro.fahrenheitandcelsius</packageId>
+	<description>Displays both fahrenheit and celsius in the temperature display.</description>
+</ModMetaData>

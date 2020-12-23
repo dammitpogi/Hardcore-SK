@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- <ThoughtDef> -->
+		<!-- <defName>RightApparelGender</defName> -->
+		<!-- <workerClass>ThoughtWorker_WrongApparelGender</workerClass> -->
+		<!-- <validWhileDespawned>true</validWhileDespawned> -->
+		<!-- <invert>true</invert> -->
+		<!-- <stages> -->
+			<!-- <li> -->
+				<!-- <label>wearing appropriate apparel</label> -->
+				<!-- <description>I'm wearing apparel that was clearly made for my gender.</description> -->
+				<!-- <baseMoodEffect>2</baseMoodEffect> -->
+			<!-- </li> -->
+		<!-- </stages> -->
+		<!-- <nullifyingTraits> -->
+			<!-- <li>Cross_Dresser</li> -->
+			<!-- <li>Cross_Dresser_Indifferent</li> -->
+			<!-- <li>Nudist</li> -->
+			<!-- <li>Cross_Dresser_Extreme</li> -->
+		<!-- </nullifyingTraits> -->
+	<!-- </ThoughtDef> -->
+</Defs>

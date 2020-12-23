@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>UsedSexToy</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.0</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>0.2</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>Masturbated with toy</label>
+        <description>A step above just using your hand.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

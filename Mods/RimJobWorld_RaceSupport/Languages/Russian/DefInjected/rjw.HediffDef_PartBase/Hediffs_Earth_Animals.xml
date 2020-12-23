@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MonkeyPenis.label>пенис обезьяны</MonkeyPenis.label>
+	<MonkeyPenis.labelNoun>пенис обезьяны</MonkeyPenis.labelNoun>
+	<MonkeyPenis.description>Очень тонкий, но в остальном гуманоидный пенис.</MonkeyPenis.description>
+
+	<PigPenis.label>винтообразный пенис</PigPenis.label>
+	<PigPenis.labelNoun>пенис свиньи</PigPenis.labelNoun>
+	<PigPenis.description>Пенис в форме штопора.</PigPenis.description>
+
+	<BearPenis.label>пенис медведя</BearPenis.label>
+	<BearPenis.labelNoun>пенис медведя</BearPenis.labelNoun>
+	<BearPenis.description>Тонкий пенис, опирающийся на кость.</BearPenis.description>
+
+	<TurtlePenis.label>пенис черепахи</TurtlePenis.label>
+	<TurtlePenis.labelNoun>пенис черепахи</TurtlePenis.labelNoun>
+	<TurtlePenis.description>Большой пенис с огромным расширением на конце.</TurtlePenis.description>
+
+	<ElephantPenis.label>пенис слона</ElephantPenis.label>
+	<ElephantPenis.labelNoun>пенис слона</ElephantPenis.labelNoun>
+	<ElephantPenis.description>Большой и гибкий цепкий пенис.</ElephantPenis.description>
+
+	<BovinePenis.label>пенис быка</BovinePenis.label>
+	<BovinePenis.labelNoun>пенис быка</BovinePenis.labelNoun>
+	<BovinePenis.description>Пенис довольно длинный, но тонкий, с большими яичками.</BovinePenis.description>
+
+	<MarinePenis.label>морской пенис</MarinePenis.label>
+	<MarinePenis.labelNoun>пенис морского млекопитающего</MarinePenis.labelNoun>
+	<MarinePenis.description>Обтекаемый член, сужающийся к концу.</MarinePenis.description>
+
+
+	<!-- Critter Like -->
+
+	<HorseAnus.label>анус лошади</HorseAnus.label>
+	<HorseAnus.labelNoun>анус лошади</HorseAnus.labelNoun>
+	<HorseAnus.description>Анус в форме пончика.</HorseAnus.description>
+
+	<CatAnus.label>анус кошки</CatAnus.label>
+	<CatAnus.labelNoun>анус кошки</CatAnus.labelNoun>
+	<CatAnus.description>Анус кошки.</CatAnus.description>
+
+	<DogAnus.label>анус собаки</DogAnus.label>
+	<DogAnus.labelNoun>анус собаки</DogAnus.labelNoun>
+	<DogAnus.description>Анус собаки.</DogAnus.description>
+
+	<CervineVagina.label>вагина оленя</CervineVagina.label>
+	<CervineVagina.labelNoun>вагина оленя</CervineVagina.labelNoun>
+	<CervineVagina.description>Довольно тонкая вагина.</CervineVagina.description>
+
+	<CervineAnus.label>анус оленя</CervineAnus.label>
+	<CervineAnus.labelNoun>анус оленя</CervineAnus.labelNoun>
+	<CervineAnus.description>Анус оленя.</CervineAnus.description>
+
+
+</LanguageData>

@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Rimcraft races. 1686288212. https://steamcommunity.com/workshop/filedetails/?id=1686288212 -->
+	<!-- elves and undead elves -->
+	<rjw.RaceGroupDef>
+		
+		<defName>RimcraftElves</defName>
+		
+		<raceNames>
+			<li>WoW_BloodElf</li>
+			<li>WoW_HighElf</li>
+			<li>WoW_NightElf</li>
+			<li>WoW_ForsakenHighElf</li>
+			<li>WoW_ForsakenNightElf</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>ElfAnus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>ElfVagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>ElfPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Skin</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- Orcs -->
+	<rjw.RaceGroupDef>
+	
+		<defName>RimcraftOrcs</defName>
+		
+		<raceNames>
+			<li>WoW_Orc</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>OrcAnus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>OrcBreasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>OrcVagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>OrcPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Skin</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- draenei -->
+	<rjw.RaceGroupDef>
+	
+		<defName>RimcraftHumanlike</defName>
+		
+		<raceNames>
+			<li>WoW_Draenei</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>HorsePenis</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>HorsePenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Demon</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- Undead Human -->
+	<rjw.RaceGroupDef>
+	
+		<defName>RimcraftForsakenHuman</defName>
+		
+		<raceNames>
+			<li>WoW_Forsaken</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>NecroAnus</li>
+			<li>NecroAnus</li>
+			<li>Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>NecroBreasts</li>
+			<li>NecroBreasts</li>
+			<li>Breasts</li>
+		</femaleBreasts>
+		
+		<femaleGenitals>
+			<li>NecroVagina</li>
+			<li>NecroVagina</li>
+			<li>Vagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>NecroBreasts</li>
+			<li>NecroBreasts</li>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>NecroPenis</li>
+			<li>NecroPenis</li>
+			<li>Penis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Skin</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- Undead Skeleton -->
+	<rjw.RaceGroupDef>
+		<defName>RimcraftSkeletons</defName>
+		
+		<raceNames>
+			<li>WoW_Skeleton</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GhostAnus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>GhostBreasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>GhostVagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>GhostBreasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>GhostPenis</li>
+		</maleGenitals>
+
+		<tags>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>false</hasFertility>
+		<hasPregnancy>false</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- Pandaren -->
+	<rjw.RaceGroupDef>
+		<defName>RimcraftPandas</defName>
+		
+		<raceNames>
+			<li>WoW_Pandaren</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>BearPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+	</rjw.RaceGroupDef>	
+		<!-- Tauren -->
+	<rjw.RaceGroupDef>
+		<defName>RimcraftTauren</defName>
+		
+		<raceNames>
+			<li>WoW_Tauren</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>BovinePenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+		<!-- Worgen -->
+	<rjw.RaceGroupDef>
+		<defName>RimcraftWorgen</defName>
+		
+		<raceNames>
+			<li>WoW_Worgen</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>DogAnus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>DogVagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>DogPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+</Defs>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="SexToyBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="RJW_ToysAndMasturbation.CompProperties_SexToy" />
+    </comps>
+    <selectable>true</selectable>
+    <generateCommonality>0.0</generateCommonality>
+    <category>Item</category>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <techLevel>Industrial</techLevel>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <pathCost>8</pathCost>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+    <tradeability>Sellable</tradeability>
+    <alwaysHaulable>true</alwaysHaulable>
+
+  </ThingDef>
+
+  <ThingDef ParentName="SexToyBase">
+    <defName>SexToysDildo</defName>
+    <label>dildo</label>
+    <description>A simple dildo for masturbation.</description>
+
+    <graphicData>
+      <texPath>Things/SexToys/Dildo</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MaxHitPoints>20</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <SellPriceFactor>1.10</SellPriceFactor>
+      <Beauty>1</Beauty>
+      <MarketValue>85</MarketValue>
+      <Cleanliness>0</Cleanliness>
+      <Mass>0.2</Mass>
+    </statBases>
+
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+
+    <costStuffCount>5</costStuffCount>
+    <tradeNeverStack>true</tradeNeverStack>
+
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Uranium</li>
+          <li>Gold</li>
+          <li>Silver</li>
+          <li>Jade</li>
+          <li>Plasteel</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

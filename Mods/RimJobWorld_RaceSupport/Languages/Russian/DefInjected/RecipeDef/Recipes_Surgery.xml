@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Dino -->
+
+	<AttachDinoPenis.label>имплантировать пенис динозавра</AttachDinoPenis.label>
+	<AttachDinoPenis.description>Имплантирует пенис динозавра.</AttachDinoPenis.description>
+	<AttachDinoPenis.jobString>Имплантирует пенис динозавра</AttachDinoPenis.jobString>
+
+	<AttachDinoVagina.label>имплантировать вагину динозавра</AttachDinoVagina.label>
+	<AttachDinoVagina.description>Имплантирует вагину динозавра.</AttachDinoVagina.description>
+	<AttachDinoVagina.jobString>Имплантирует вагину динозавра</AttachDinoVagina.jobString>
+
+	<AttachDinoAnus.label>имплантировать анус динозавра</AttachDinoAnus.label>
+	<AttachDinoAnus.description>Имплантирует анус динозавра.</AttachDinoAnus.description>
+	<AttachDinoAnus.jobString>Имплантирует анус динозавра</AttachDinoAnus.jobString>
+
+
+	<!-- Orc -->
+
+	<AttachOrcPenis.label>имплантировать пенис орка</AttachOrcPenis.label>
+	<AttachOrcPenis.description>Имплантирует пенис орка.</AttachOrcPenis.description>
+	<AttachOrcPenis.jobString>Имплантирует пенис орка</AttachOrcPenis.jobString>
+
+	<AttachOrcVagina.label>имплантировать вагину орка</AttachOrcVagina.label>
+	<AttachOrcVagina.description>Имплантирует вагину орка.</AttachOrcVagina.description>
+	<AttachOrcVagina.jobString>Имплантирует вагину орка</AttachOrcVagina.jobString>
+
+	<AttachOrcBreasts.label>имплантировать грудь орка</AttachOrcBreasts.label>
+	<AttachOrcBreasts.description>Имплантирует пару орочьих грудей.</AttachOrcBreasts.description>
+	<AttachOrcBreasts.jobString>Имплантирует пару орочьих грудей</AttachOrcBreasts.jobString>
+
+	<AttachOrcAnus.label>имплантировать анус орка</AttachOrcAnus.label>
+	<AttachOrcAnus.description>Имплантирует анус орка.</AttachOrcAnus.description>
+	<AttachOrcAnus.jobString>Имплантирует анус орка</AttachOrcAnus.jobString>
+
+
+	<!-- Elf -->
+
+	<AttachElfPenis.label>имплантировать пенис эльфа</AttachElfPenis.label>
+	<AttachElfPenis.description>Имплантирует пенис эльфа.</AttachElfPenis.description>
+	<AttachElfPenis.jobString>Имплантирует пенис эльфа</AttachElfPenis.jobString>
+
+	<AttachElfVagina.label>имплантировать вагину эльфа</AttachElfVagina.label>
+	<AttachElfVagina.description>Имплантирует узкую и эластичную вагину эльфа.</AttachElfVagina.description>
+	<AttachElfVagina.jobString>Имплантирует вагину эльфа</AttachElfVagina.jobString>
+
+	<AttachElfAnus.label>имплантировать анус эльфа</AttachElfAnus.label>
+	<AttachElfAnus.description>Имплантирует анус эльфа.</AttachElfAnus.description>
+	<AttachElfAnus.jobString>Имплантирует анус эльфа</AttachElfAnus.jobString>
+
+
+	<!-- Nephila -->
+
+	<AttachNephilaBreasts.label>имплантировать глупо огромную слизистую грудь</AttachNephilaBreasts.label>
+	<AttachNephilaBreasts.description>Имплантирует пару глупо огромных слизистых грудей.</AttachNephilaBreasts.description>
+	<AttachNephilaBreasts.jobString>Имплантирует пару глупо огромных слизистых грудей</AttachNephilaBreasts.jobString>
+
+	<AttachNephilaSlimeBreasts.label>имплантировать ряды протекающих слизистых грудей</AttachNephilaSlimeBreasts.label>
+	<AttachNephilaSlimeBreasts.description>Имплантирует ряды протекающих слизистых грудей</AttachNephilaSlimeBreasts.description>
+	<AttachNephilaSlimeBreasts.jobString>Имплантирует ряды протекающих слизистых грудей</AttachNephilaSlimeBreasts.jobString>
+
+	<AttachMonkeyPenis.label>имплантировать пенис обезьяны</AttachMonkeyPenis.label>
+	<AttachMonkeyPenis.description>Имплантирует пенис обезьяны.</AttachMonkeyPenis.description>
+	<AttachMonkeyPenis.jobString>Имплантирует пенис обезьяны</AttachMonkeyPenis.jobString>
+
+	<AttachPigPenis.label>имплантировать винтообразный пенис</AttachPigPenis.label>
+	<AttachPigPenis.description>Имплантирует винтообразный пенис.</AttachPigPenis.description>
+	<AttachPigPenis.jobString>Имплантирует винтообразный пенис</AttachPigPenis.jobString>
+
+	<AttachBearPenis.label>имплантировать пенис медведя</AttachBearPenis.label>
+	<AttachBearPenis.description>Имплантирует пенис медведя.</AttachBearPenis.description>
+	<AttachBearPenis.jobString>Имплантирует пенис медведя</AttachBearPenis.jobString>
+
+	<AttachTurtlePenis.label>имплантировать пенис черепахи</AttachTurtlePenis.label>
+	<AttachTurtlePenis.description>Имплантирует пенис черепахи.</AttachTurtlePenis.description>
+	<AttachTurtlePenis.jobString>Имплантирует пенис черепахи</AttachTurtlePenis.jobString>
+
+	<AttachElephantPenis.label>имплантировать пенис слона</AttachElephantPenis.label>
+	<AttachElephantPenis.description>Имплантирует пенис слона.</AttachElephantPenis.description>
+	<AttachElephantPenis.jobString>Имплантирует пенис слона</AttachElephantPenis.jobString>
+
+	<AttachBovinePenis.label>имплантировать пенис быка</AttachBovinePenis.label>
+	<AttachBovinePenis.description>Имплантирует пенис быка.</AttachBovinePenis.description>
+	<AttachBovinePenis.jobString>Имплантирует пенис быка</AttachBovinePenis.jobString>
+
+	<AttachTentaclePenis.label>имплантировать тентаклевый пенис</AttachTentaclePenis.label>
+	<AttachTentaclePenis.description>Имплантирует тентакли.</AttachTentaclePenis.description>
+	<AttachTentaclePenis.jobString>Имплантирует тентакли</AttachTentaclePenis.jobString>
+
+	<AttachNecroPenis.label>имплантировать гнилой пенис</AttachNecroPenis.label>
+	<AttachNecroPenis.description>Имплантирует гнилой пенис.</AttachNecroPenis.description>
+	<AttachNecroPenis.jobString>Имплантирует гнилой пенис</AttachNecroPenis.jobString>
+
+	<AttachNecroVagina.label>имплантировать гнилую вагину</AttachNecroVagina.label>
+	<AttachNecroVagina.description>Имплантирует гнилую вагину.</AttachNecroVagina.description>
+	<AttachNecroVagina.jobString>Имплантирует гнилую вагину</AttachNecroVagina.jobString>
+
+	<AttachNecroAnus.label>имплантировать гнилой анус</AttachNecroAnus.label>
+	<AttachNecroAnus.description>Имплантирует гнилой анус.</AttachNecroAnus.description>
+	<AttachNecroAnus.jobString>Имплантирует гнилой анус</AttachNecroAnus.jobString>
+
+	<AttachNecroBreasts.label>имплантировать гнилую грудь</AttachNecroBreasts.label>
+	<AttachNecroBreasts.description>Имплантирует пару гнилых грудей.</AttachNecroBreasts.description>
+	<AttachNecroBreasts.jobString>Имплантирует пару гнилых грудей</AttachNecroBreasts.jobString>
+
+	<AttachVinePenis.label>имплантировать лозы</AttachVinePenis.label>
+	<AttachVinePenis.description>Имплантирует лозы.</AttachVinePenis.description>
+	<AttachVinePenis.jobString>Имплантирует лозы</AttachVinePenis.jobString>
+
+	<AttachMarinePenis.label>имплантировать морской пенис</AttachMarinePenis.label>
+	<AttachMarinePenis.description>Имплантирует пенис морского млекопитающего.</AttachMarinePenis.description>
+	<AttachMarinePenis.jobString>Имплантирует морской пенис</AttachMarinePenis.jobString>
+
+	<AttachDemonTentaclesF.label>имплантировать тентакли демона</AttachDemonTentaclesF.label>
+	<AttachDemonTentaclesF.description>Имплантирует яйцо, производящее щупальца демона.</AttachDemonTentaclesF.description>
+	<AttachDemonTentaclesF.jobString>Имплантирует тентакли демона</AttachDemonTentaclesF.jobString>
+
+	<AttachCactoidPenis.label>имплантировать пенис кактоида</AttachCactoidPenis.label>
+	<AttachCactoidPenis.description>Имплантирует острый пенис кактоида. Ауч!</AttachCactoidPenis.description>
+	<AttachCactoidPenis.jobString>Имплантирует пенис кактоида</AttachCactoidPenis.jobString>
+
+	<AttachCactoidVagina.label>имплантировать вагину кактоида</AttachCactoidVagina.label>
+	<AttachCactoidVagina.description>Имплантирует острую вагину кактоида. Ауч!</AttachCactoidVagina.description>
+	<AttachCactoidVagina.jobString>Имплантирует вагину кактоида</AttachCactoidVagina.jobString>
+
+	<AttachCactoidAnus.label>имплантировать анус кактоида</AttachCactoidAnus.label>
+	<AttachCactoidAnus.description>Имплантирует острый анус кактоида.</AttachCactoidAnus.description>
+	<AttachCactoidAnus.jobString>Имплантирует анус кактоида</AttachCactoidAnus.jobString>
+
+	<AttachCactoidBreasts.label>имплантировать грудь кактоида</AttachCactoidBreasts.label>
+	<AttachCactoidBreasts.description>Имплантирует пару очень упругих грудей кактоида.</AttachCactoidBreasts.description>
+	<AttachCactoidBreasts.jobString>Имплантирует пару грудей кактоида</AttachCactoidBreasts.jobString>
+
+	<AttachGolemPenis.label>имплантировать пенис голема</AttachGolemPenis.label>
+	<AttachGolemPenis.description>Имплантирует твердый каменный пенис голема.</AttachGolemPenis.description>
+	<AttachGolemPenis.jobString>Имплантирует пенис голема</AttachGolemPenis.jobString>
+
+	<AttachGhoulPenis.label>имплантировать облученный пенис</AttachGhoulPenis.label>
+	<AttachGhoulPenis.description>Имплантирует облученный пенис.</AttachGhoulPenis.description>
+	<AttachGhoulPenis.jobString>Имплантирует облученный пенис</AttachGhoulPenis.jobString>
+
+	<AttachGhoulVagina.label>имплантировать облученную вагину</AttachGhoulVagina.label>
+	<AttachGhoulVagina.description>Имплантирует облученную вагину.</AttachGhoulVagina.description>
+	<AttachGhoulVagina.jobString>Имплантирует облученную вагину</AttachGhoulVagina.jobString>
+
+	<AttachGhoulAnus.label>имплантировать облученный анус</AttachGhoulAnus.label>
+	<AttachGhoulAnus.description>Имплантирует облученный анус.</AttachGhoulAnus.description>
+	<AttachGhoulAnus.jobString>Имплантирует облученный анус</AttachGhoulAnus.jobString>
+
+	<AttachGhoulBreasts.label>имплантировать облученную грудь</AttachGhoulBreasts.label>
+	<AttachGhoulBreasts.description>Имплантирует пару облученных грудей.</AttachGhoulBreasts.description>
+	<AttachGhoulBreasts.jobString>Имплантирует пару облученных грудей</AttachGhoulBreasts.jobString>
+
+	<AttachScaleBreasts.label>имплантировать чешуйчатую грудь</AttachScaleBreasts.label>
+	<AttachScaleBreasts.description>Имплантирует пару чушуйчатых грудей.</AttachScaleBreasts.description>
+	<AttachScaleBreasts.jobString>Имплантирует пару чушуйчатых грудей</AttachScaleBreasts.jobString>
+
+	<AttachTreePenis.label>имплантировать пенис из коры</AttachTreePenis.label>
+	<AttachTreePenis.description>Имплантирует деревянный пенис.</AttachTreePenis.description>
+	<AttachTreePenis.jobString>Имплантирует пенис из коры</AttachTreePenis.jobString>
+
+	<AttachTreeVagina.label>имплантировать вагину из коры</AttachTreeVagina.label>
+	<AttachTreeVagina.description>Имплантирует деревянную вагину.</AttachTreeVagina.description>
+	<AttachTreeVagina.jobString>Имплантирует вагину из коры.</AttachTreeVagina.jobString>
+
+	<AttachTreeAnus.label>имплантировать анус из коры</AttachTreeAnus.label>
+	<AttachTreeAnus.description>Имплантирует деревянный анус.</AttachTreeAnus.description>
+	<AttachTreeAnus.jobString>Имплантирует анус из коры</AttachTreeAnus.jobString>
+
+	<AttachTreeBreasts.label>имплантировать грудь из коры</AttachTreeBreasts.label>
+	<AttachTreeBreasts.description>Имплантирует пару деревянных грудей.</AttachTreeBreasts.description>
+	<AttachTreeBreasts.jobString>Имплантирует пару грудей из коры</AttachTreeBreasts.jobString>
+
+	<AttachBigRaceBreats.label>имплантировать грудь</AttachBigRaceBreats.label>
+	<AttachBigRaceBreats.description>Имплантирует пару грудей.</AttachBigRaceBreats.description>
+	<AttachBigRaceBreats.jobString>Имплантирует пару грудей</AttachBigRaceBreats.jobString>
+
+	<AttachHorseAnus.label>имплантировать анус лошади</AttachHorseAnus.label>
+	<AttachHorseAnus.description>Имплантирует анус лошади.</AttachHorseAnus.description>
+	<AttachHorseAnus.jobString>Имплантирует анус лошади</AttachHorseAnus.jobString>
+
+	<AttachCatAnus.label>имплантировать анус кошки</AttachCatAnus.label>
+	<AttachCatAnus.description>Имплантирует анус кошки.</AttachCatAnus.description>
+	<AttachCatAnus.jobString>Имплантирует анус кошки</AttachCatAnus.jobString>
+
+	<AttachDogAnus.label>имплантировать анус собаки</AttachDogAnus.label>
+	<AttachDogAnus.description>Имплантирует анус собаки.</AttachDogAnus.description>
+	<AttachDogAnus.jobString>Имплантирует анус собаки</AttachDogAnus.jobString>
+
+	<AttachDragonAnus.label>имплантировать анус дракона</AttachDragonAnus.label>
+	<AttachDragonAnus.description>Имплантирует анус дракона.</AttachDragonAnus.description>
+	<AttachDragonAnus.jobString>Имплантирует анус дракона</AttachDragonAnus.jobString>
+
+	<Attach_AntherPenis.label>имплантировать пыльник</Attach_AntherPenis.label>
+	<Attach_AntherPenis.description>Имплантирует пыльник цветка.</Attach_AntherPenis.description>
+	<Attach_AntherPenis.jobString>Имплантирует пыльник</Attach_AntherPenis.jobString>
+
+	<Install_PistolVagina.label>имплантировать пестик</Install_PistolVagina.label>
+	<Install_PistolVagina.description>Имплантирует пестик цветка.</Install_PistolVagina.description>
+	<Install_PistolVagina.jobString>Имплантирует пестик</Install_PistolVagina.jobString>
+
+
+	<!-- Cervine -->
+
+	<AttachCervineVagina.label>имплантировать вагину оленя</AttachCervineVagina.label>
+	<AttachCervineVagina.description>Имплантирует вагину оленя.</AttachCervineVagina.description>
+	<AttachCervineVagina.jobString>Имплантирует вагину оленя</AttachCervineVagina.jobString>
+
+	<AttachCervineAnus.label>имплантировать анус оленя</AttachCervineAnus.label>
+	<AttachCervineAnus.description>Имплантирует анус оленя.</AttachCervineAnus.description>
+	<AttachCervineAnus.jobString>Имплантирует анус оленяп</AttachCervineAnus.jobString>
+
+
+</LanguageData>

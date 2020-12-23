@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TraitDef>
+		<defName>Cross_Dresser_Extreme</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>cross dresser extreme</label>
+				<description>{PAWN_nameDef} has to wearing clothes of the opposite gender.</description>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>Nudist</li>
+			<li>Cross_Dresser_Indifferent</li>
+			<li>Cross_Dresser</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+	<ThoughtDef>
+		<defName>Cross_Dresser_Extreme</defName>
+		<workerClass>ThoughtWorker_WrongApparelGender</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>Cross_Dresser_Extreme</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>cross dressing</label>
+				<description>I'm wearing apparel that was clearly made for {0}s! Amazing.</description>
+				<baseMoodEffect>11</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Cross_Dresser_Extreme_Reee</defName>
+		<workerClass>ThoughtWorker_WrongApparelGender</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<invert>true</invert>
+		<requiredTraits>
+			<li>Cross_Dresser_Extreme</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>dressing normaly</label>
+				<description>I want to wear {0}s clohtes! I hate this.</description>
+				<baseMoodEffect>-7</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

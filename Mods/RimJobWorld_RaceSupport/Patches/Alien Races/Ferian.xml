@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Ferian -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ferian Race</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationAttributeSet">
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AFerian"]</xpath>
+					<attribute>ParentName</attribute>
+					<value>BasePawn</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

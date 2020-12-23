@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Orc -->
+
+	<OrcPenis.label>добавить пенис орка</OrcPenis.label>
+
+
+	<!-- Elf -->
+
+	<ElfPenis.label>добавить пенис эльфа</ElfPenis.label>
+
+
+	<!-- Dino -->
+
+	<DinoPenis.label>добавить пенис динозавра</DinoPenis.label>
+	<MonkeyPenis.label>добавить пенис обезьяны</MonkeyPenis.label>
+	<PigPenis.label>добавить пенис свиньи</PigPenis.label>
+	<BearPenis.label>добавить пенис медведя</BearPenis.label>
+	<TurtlePenis.label>добавить пенис черепахи</TurtlePenis.label>
+	<ElephantPenis.label>добавить пенис слона</ElephantPenis.label>
+	<BovinePenis.label>добавить пенис быка</BovinePenis.label>
+	<TentaclePenis.label>добавить тентакли</TentaclePenis.label>
+	<NecroPenis.label>добавить гнилой пенис</NecroPenis.label>
+	<VinePenis.label>добавить лозы</VinePenis.label>
+	<MarinePenis.label>добавить водный пенис</MarinePenis.label>
+	<CactoidPenis.label>добавить пенис кактоида</CactoidPenis.label>
+	<GolemPenis.label>добавить каменный пенис</GolemPenis.label>
+	<GhoulPenis.label>добавить облученный пенис</GhoulPenis.label>
+	<TreePenis.label>добавить пенис из коры</TreePenis.label>
+
+
+	<!-- Flower -->
+
+	<AntherPenis.label>добавить пыльник</AntherPenis.label>
+
+
+</LanguageData>

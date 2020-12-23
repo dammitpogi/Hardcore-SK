@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<insatiablesexdrive.degreeDatas.0.label>сексуально ненасытный</insatiablesexdrive.degreeDatas.0.label>
+	<insatiablesexdrive.degreeDatas.0.description>Независимо от того, как часто {PAWN_nameDef} анимается сексом, {PAWN_pronoun} никогда не удовлетворяется. {PAWN_possessive} похоть не знает границ.</insatiablesexdrive.degreeDatas.0.description>
+
+	<heatedsexdrive.degreeDatas.0.label>сексуально возбужденный</heatedsexdrive.degreeDatas.0.label>
+	<heatedsexdrive.degreeDatas.0.description>Половое влечение {PAWN_nameDef} стимулируется гораздо сильнее, чем у других. {PAWN_pronoun} хочет секса гораздо чаще чем другие.</heatedsexdrive.degreeDatas.0.description>
+
+	<botheredsexdrive.degreeDatas.0.label>сексуально обеспокоенный</botheredsexdrive.degreeDatas.0.label>
+	<botheredsexdrive.degreeDatas.0.description>Половое влечение {PAWN_nameDef} стимулируется немного сильнее, чем у других. {PAWN_pronoun} хочет секса чаще чем другие.</botheredsexdrive.degreeDatas.0.description>
+
+	<collectedsexdrive.degreeDatas.0.label>сексуально сдержанный</collectedsexdrive.degreeDatas.0.label>
+	<collectedsexdrive.degreeDatas.0.description>Половое влечение {PAWN_nameDef} стимулируется немного меньше, чем у других. {PAWN_pronoun} хочет секса реже чем другие.</collectedsexdrive.degreeDatas.0.description>
+
+	<cooledsexdrive.degreeDatas.0.label>сексуально охлажденный</cooledsexdrive.degreeDatas.0.label>
+	<cooledsexdrive.degreeDatas.0.description>Половое влечение {PAWN_nameDef} стимулируется гораздо меньше, чем у других. {PAWN_pronoun} хочет секса гораздо реже чем другие.</cooledsexdrive.degreeDatas.0.description>
+
+	<inhibitedsexdrive.degreeDatas.0.label>сексуально подавленный</inhibitedsexdrive.degreeDatas.0.label>
+	<inhibitedsexdrive.degreeDatas.0.description>{PAWN_nameDef} видит своё тело как храм, {PAWN_pronoun} может сдерживать свою потребность в сексе.</inhibitedsexdrive.degreeDatas.0.description>
+
+
+</LanguageData>

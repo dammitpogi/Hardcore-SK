@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>MoyoMilk</defName>
+		<label>moyo milk</label>
+		<description>Milk from a moyo. tainted with traces of deepblue.</description>
+		<graphicData>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/Milk/Moyo</texPath>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>7.0</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<Nutrition>0.4</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>8</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<!-- <foodType>Meal</foodType> -->
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>ShallowBlue</hediffDef>
+					<severity>0.015</severity>
+					<!-- <severity>0.007</severity> -->
+					<!-- <toleranceChemical>Alcohol</toleranceChemical> -->
+				</li>
+				<!-- <li Class="IngestionOutcomeDoer_GiveHediff"> -->
+					<!-- <hediffDef>DeepBlueTolerance</hediffDef> -->
+					<!-- <severity>0.003</severity> -->
+					<!-- <divideByBodySize>true</divideByBodySize> -->
+				<!-- </li> -->
+			</outcomeDoers>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<HediffDef>
+		<defName>ShallowBlue</defName>
+		<label>shallow blue</label>
+		<description>A substance found in moyo milk comparable to a light DeepBlue taint in their milk.</description>
+		<descriptionHyperlinks>
+			<ThingDef>MoyoMilk</ThingDef>
+			<!-- <HediffDef>DeepBlues</HediffDef> -->
+		</descriptionHyperlinks>		
+		<defaultLabelColor>(0.55,0.55,0.80)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.01</severityPerDay>
+				<!-- <severityPerDay>-0.005</severityPerDay> -->
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.005</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.005</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.005</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.005</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.13</minSeverity>
+				<restFallFactor>0.99</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.01</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.01</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.009</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.007</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.25</minSeverity>
+				<restFallFactor>0.98</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.02</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.015</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.01</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.009</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.50</minSeverity>
+				<restFallFactor>0.97</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.01</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.015</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.01</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.70</minSeverity>
+				<restFallFactor>0.96</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.08</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.017</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.015</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.85</minSeverity>
+				<restFallFactor>0.95</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.12</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.02</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.02</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<restFallFactor>0.94</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.04</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.075</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.04</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.95</minSeverity>
+				<restFallFactor>0.93</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.17</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.07</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.07</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>1.0</minSeverity>
+				<restFallFactor>0.92</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<RecipeDef>
+		<defName>Distill_MoyoMilk</defName>
+		<label>distilli moyomilk</label>
+		<description>distilli moyomilk into abyssSerum.</description>
+		<jobString>Distilli MoyoMilk.</jobString>
+		<workAmount>350</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workSkill>Intellectual</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<!-- <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass> -->
+		<recipeUsers>
+			<li>DrugLab</li>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MoyoMilk</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<AbyssSerum>1</AbyssSerum>
+		</products>
+		<!-- <fixedIngredientFilter> -->
+			<!-- <categories> -->
+				<!-- <li>FoodRaw</li> -->
+			<!-- </categories> -->
+			<!-- <thingDefs> -->
+				<!-- <li>MoyoMilk</li> -->
+			<!-- </thingDefs> -->
+		<!-- </fixedIngredientFilter> -->
+		<researchPrerequisite>DeepBlue_Research</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>8</Intellectual>
+		</skillRequirements>
+		<!-- <bulkRecipeCount>4</bulkRecipeCount> -->
+	</RecipeDef>
+</Defs>

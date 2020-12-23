@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <Rimworld_Animations.AnimationDef>
+    <defName>Dog_Doggystyle</defName>
+    <label>dog doggystyle</label>
+    <sounds>true</sounds>
+    <sexTypes>
+    </sexTypes>
+    <actors>
+    </actors>
+	<animationStages>
+	</animationStages>
+	</Rimworld_Animations.AnimationDef>
+	
+	<!-- Cowgirl overwrite is located at the end of AnimalPatchBeastCowgirl.xml -->
+</Defs>

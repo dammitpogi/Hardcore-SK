@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.RaceGroupDef>
+		
+		<defName>Should_Not_Have</defName>
+		
+		<raceNames>
+			<!-- Boats -->
+			<li>SPBoats_Caravel</li>
+			<li>SPBoats_FishingBoat</li>
+			<li>SPBoats_Galleon</li>
+			<li>SPBoats_PaddleSteamer</li>
+			<li>SPBoats_RowBoat</li>
+			<!-- /Boats -->
+		</raceNames>
+		
+		<anuses></anuses>
+		<femaleBreasts></femaleBreasts>
+		<femaleGenitals></femaleGenitals>
+		<maleBreasts></maleBreasts>
+		<maleGenitals></maleGenitals>
+		
+		<tags></tags>
+		
+		<raceSexDrive>0.001</raceSexDrive>	
+		<hasSingleGender>true</hasSingleGender>	
+		<hasSexNeed>false</hasSexNeed>	
+		<hasFertility>false</hasFertility>	
+		<hasPregnancy>false</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>	
+		<ImplantEggs>false</ImplantEggs>
+	</rjw.RaceGroupDef>
+</Defs>

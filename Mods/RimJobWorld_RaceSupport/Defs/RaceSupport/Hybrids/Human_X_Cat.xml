@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- You a cat fucker ? Nyaa! -->
+	<rjw.RaceGroupDef>
+		<defName>Human_Orassan_Nyaron</defName>
+		<raceNames>
+		</raceNames>
+		
+		<hybridRaceParents>
+			<li>Human</li>
+			<!-- <li>Alien_Orassan</li> -->
+			<li>Alien_OrassanHumanHybrid</li>
+		</hybridRaceParents>
+
+		<hybridChildKindDef>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerTribal</li>
+			<li>NyaronPlayerTribal</li>
+			<li>Colonist</li>
+			<!-- <li>OrassanVillager</li> -->
+			<li>Maidnukos</li>
+		</hybridChildKindDef>
+	</rjw.RaceGroupDef>
+
+
+	<rjw.RaceGroupDef>
+		<defName>Human_Nyaron</defName>
+		<raceNames>
+			<!-- <li>Human</li> -->
+		</raceNames>
+		
+		<hybridRaceParents>
+			<li>Human</li>
+			<li>Alien_Nyaron</li>
+		</hybridRaceParents>
+
+		<hybridChildKindDef>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerTribal</li>
+			<li>Maidnukos</li>
+			<li>Colonist</li>
+		</hybridChildKindDef>
+	</rjw.RaceGroupDef>
+	
+	
+	<rjw.RaceGroupDef>
+		<defName>Human_Nuko_Nyaron</defName>
+		<raceNames>
+			<!-- <li>Human</li> -->
+		</raceNames>
+		
+		<hybridRaceParents>
+			<li>Human</li>
+			<li>Maidnukos</li>
+		</hybridRaceParents>
+
+		<hybridChildKindDef>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerColonist</li>
+			<li>NyaronPlayerTribal</li>
+			<li>Colonist</li>
+			<li>OrassanVillager</li>
+			<li>Maidnukos</li>
+		</hybridChildKindDef>
+	</rjw.RaceGroupDef>
+	
+</Defs>

@@ -388,7 +388,7 @@
   <li>
     <key>FollowSelected</key>
     <value>
-      <keyBindingA>PageUp</keyBindingA>
+      <keyBindingA>None</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
@@ -465,7 +465,7 @@
   <li>
     <key>DesignatorAllowAll</key>
     <value>
-      <keyBindingA>Home</keyBindingA>
+      <keyBindingA>PageUp</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>

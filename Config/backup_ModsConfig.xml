@@ -6,23 +6,32 @@
         <li>ludeon.rimworld</li>
         <li>ludeon.rimworld.royalty</li>
         <li>unlimitedhugs.hugslib</li>
+        <li>fluffy.followme</li>
+        <li>skyarkhangel.rimthemeslite</li>
+        <li>dame.interestsframework</li>
         <li>erdelf.humanoidalienraces</li>
+        <li>dammitpogi.anothermusiccollab</li>
         <li>ceteam.combatextended</li>
         <li>skyarkhangel.hsk</li>
         <li>killface.facialstuff</li>
         <li>diannetea.facialstuffdefaults</li>
         <li>dubwise.dubsperformanceanalyzerbutchered</li>
         <li>neptimus7.progressrenderer</li>
-        <li>skyarkhangel.rimthemeslite</li>
+        <li>fluffy.musicmanager</li>
+        <li>loonyladle.rimworld.dropall</li>
         <li>killface.alienfaces</li>
+        <li>arandomkiwi.rimsaves</li>
         <li>brrainz.cameraplus</li>
         <li>jaxe.rimhud</li>
         <li>skyarkhangel.skynet</li>
+        <li>linkolas.stabilize</li>
         <li>skyarkhangel.skynetfaces</li>
         <li>chjees.androids</li>
         <li>skyarkhangel.androidfaces</li>
         <li>caesarv6.damageindicators</li>
         <li>dubwise.rimefeller</li>
+        <li>krkr.locks2</li>
+        <li>avius.prisonlabor</li>
         <li>neceros.deepscannersettings</li>
         <li>fluffy.worktab</li>
         <li>ghxx.techadvancing</li>
@@ -39,7 +48,7 @@
         <li>ratys.rtfuse</li>
         <li>historic.industrialrollers</li>
         <li>storage.search.rsa</li>
-        <li>fluffy.researchtree</li>
+        <li>notfood.researchpal</li>
         <li>fluffy.relationstab</li>
         <li>automatic.recipeicons</li>
         <li>mehni.pickupandhaul</li>
@@ -52,7 +61,6 @@
         <li>dubwise.dubsmintmenus</li>
         <li>dubwise.dubsmintminimap</li>
         <li>neitsa.preparelanding</li>
-        <li>zylle.mapdesigner</li>
         <li>dubwise.rimatomics</li>
         <li>dhultgren.keepbedownership</li>
         <li>falconne.bwm</li>
@@ -68,11 +76,11 @@
         <li>hatti.cleaningarea</li>
         <li>mlie.dismisstrader</li>
         <li>xercaine.plumbus</li>
+        <li>dylan.csl</li>
         <li>crashm.colorcodedmoodbar.11</li>
         <li>spoonshortage.adogsaidanimalprosthetics</li>
         <li>kikohi.cybernetic</li>
-        <li>gewen.additionaltraits</li>
-        <li>dylan.csl</li>
+        <li>dame.interests</li>
         <li>jaxe.bubbles</li>
         <li>fluffy.areaunlocker</li>
         <li>com.github.alandariva.moreplanning</li>
@@ -95,7 +103,11 @@
         <li>wit.expandedroofing</li>
         <li>avilmask.nonunopinata</li>
         <li>skyarkhangel.realisticdarkness</li>
+        <li>mlie.fallouttraits</li>
+        <li>consolidatedtraits.kv.rw</li>
+        <li>gewen.additionaltraits</li>
         <li>moretraitslots.kv.rw</li>
+        <li>krafs.levelup</li>
         <li>mehni.numbers</li>
         <li>saucypigeon.pawnbadge</li>
         <li>revolus.animalsarefun</li>
@@ -120,6 +132,7 @@
         <li>chippedchap.blueprinttotalstooltip</li>
         <li>erdelf.moddercredit</li>
         <li>co.uk.epicguru.whatsthatmod</li>
+        <li>jaxe.reorderer</li>
         <li>neronix17.wikirim</li>
         <li>glucocorticoid.energytab</li>
         <li>experimental.optimizations</li>

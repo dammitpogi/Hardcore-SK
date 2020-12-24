@@ -47,14 +47,6 @@
 				<enabled>True</enabled>
 			</li>
 			<li>
-				<def>Guests</def>
-				<enabled>True</enabled>
-			</li>
-			<li>
-				<def>Brothel</def>
-				<enabled>True</enabled>
-			</li>
-			<li>
 				<def>Quests</def>
 				<enabled>True</enabled>
 			</li>
@@ -67,11 +59,27 @@
 				<enabled>True</enabled>
 			</li>
 			<li>
-				<def>DubsOptimizer</def>
+				<def>Brothel</def>
+				<enabled>True</enabled>
+			</li>
+			<li>
+				<def>Factions</def>
 				<enabled>True</enabled>
 			</li>
 			<li>
 				<def>Rimatomics</def>
+				<enabled>True</enabled>
+			</li>
+			<li>
+				<def>Guests</def>
+				<enabled>True</enabled>
+			</li>
+			<li>
+				<def>MintMinimap</def>
+				<enabled>True</enabled>
+			</li>
+			<li>
+				<def>DubsOptimizer</def>
 				<enabled>True</enabled>
 			</li>
 			<li>
@@ -80,14 +88,6 @@
 			</li>
 			<li>
 				<def>History</def>
-				<enabled>True</enabled>
-			</li>
-			<li>
-				<def>Factions</def>
-				<enabled>True</enabled>
-			</li>
-			<li>
-				<def>MintMinimap</def>
 				<enabled>True</enabled>
 			</li>
 			<li>

@@ -3,10 +3,11 @@
 	<ModSettings Class="ProgressRenderer.PRModSettings">
 		<renderDesignations>True</renderDesignations>
 		<renderThingIcons>True</renderThingIcons>
+		<renderWeather>False</renderWeather>
 		<whichInterval>9</whichInterval>
 		<timeOfDay>0</timeOfDay>
-		<jpgQuality>100</jpgQuality>
-		<pixelPerCell>16</pixelPerCell>
+		<jpgQuality>90</jpgQuality>
+		<pixelPerCell>24</pixelPerCell>
 		<exportPath>D:\Pogis Shared Folder\RimWorld Progress</exportPath>
 		<createSubdirs>True</createSubdirs>
 		<fileNamePattern>Numbered</fileNamePattern>

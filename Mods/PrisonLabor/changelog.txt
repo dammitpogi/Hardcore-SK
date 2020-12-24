@@ -1,0 +1,231 @@
+Changelog:
+1.2.0
+
+1.1.11
+- Another fixes for roof construction. Prisoners should not stuct in roof is outside their reach
+- Preparation to 1.2 rimworld version
+1.1.10
+- Fixes for construction job. Repairing, hauling resources to frame and blueprint, building frame, smoothing wall and floor should now work correctly.
+- Fix for disappearing work tab. Request from Simple slavery mod author. Simple slavery finally compatible?
+- Added option in menu to allow prisoners rest until fully healed.
+1.1.9
+- NPR fix for previus optimization
+1.1.8
+- Turn on/off prisoner suicide should work now
+- Performance optimization (https://github.com/kbatbouta)
+1.1.7
+- fix for NPR in quarry patches
+1.1.6
+- removed patching for mod SeedsPlease. Potientialy should work with PL without issue. (Not tested)
+- added more checks to NPR exceptions
+1.1.5
+- remove wealth tracker from prisioners mining
+- updated part releated with seed please (no tested)
+- added some checks to remove npr errors
+- added more checks if prisioners should stay in bed
+- Quarry from Quarry mod should works with labor area
+- Added french translation (https://github.com/cprodhomme)
+- fixed deep drills reservation by colonist and prisioners
+1.1.4
+- Fixed forbidden resources extracted by prisoners
+- Fixed labor arena being not respected by colonist
+- Fixed prisoners' reservation issue
+- Extracted resources by prisoners should not be forbidden anymore
+- Refactored part of code to make mod more Rimworld update proof
+- It may require starting new game...
+- Big thanks to discord users who help test dev version specially to Mr. Mauer, McBlackjack, Snails and calliban.
+1.1.3
+- updated to new RimWorld version (https://github.com/Hazzer)
+- fixed active skill (https://github.com/PeteTimesSix)
+1.1.2
+- fixed the bug with creating file on desktop
+1.1.1
+- fixed a bug for pawns without rest need (e.g. Androids) (https://github.com/MerGatto)
+- fixed prisoner tab not scrolling (https://github.com/MerGatto)
+1.1.0
+- updated to RimWorld 1.1
+- added option in settings to opt-out from suicide events
+1.0.3
+- updated Traditional Chinese translation, thanks to shiuanyue
+1.0.2
+- set minimum 500 points for suicide event
+1.0.1
+- lowered chance for suicide incident
+1.0.0
+- fixed tutorial window constantly showing
+- fixed news pop-up auto-showing on minor changes too (it auto-shows only on major changes)
+============== 1.0 Pre-patch ==============
+0.10.1
+- reworked news pop-up window
+- fixed construction job
+- new system for removing mod from save (new button in mod menu)
+- wardens no longer deliver food if prisoners can get it from another room
+- added alert when prisoners can escape
+- prisoners now will pick up weapons if treated bad
+- fixed food reservation throwing errors
+- added prisoner suicides
+- added +5 bonus to mood while prisoner have free time
+- added +5 bonus to mood if prisoner is not supervised and got lazy
+- added +15 bonus to mood if treatment is above 75%
+- added blocking revolts (100%, 95%, 50%, 10%) if overall prisoner treatment is good enough
+- increased base chance for Revolts
+- added blocking mental breaks for prisoners with low treatment levels
+- added treatment drop when prisoner is being beaten
+- fixed cutting some content of bill config in some languages
+- cosmetic changes to bill check-box
+- prisoners will now give offer to join colony if treatment is good enough (random)
+- prisoners will now stay at bed if waiting for surgery
+- prisoners will now work in cold only if "work" time is set
+- prisoners will now seek safe temperature when not supervised
+- prisoners will respect forbidden items, if "inspired"
+- "Treatment happiness" will decrease if health conditions are bad, when prisoners are hungry, or they're working.
+- added new hidden need "Treatment" that indicates level of prison treatment towards prisoner (WIP)
+- now work settings reset after prisoner is recruited, so it should fix some issues
+- finally fixed "OnGui()" error, big thanks to @notfood (https://github.com/notfood)
+- fixed blurred effect on settings window
+- fixed Revolts
+============== BETA VERSION ==============
+0.9.11
+- fixed compatibility with Fluffy's WorkTab (final)
+0.9.10
+- hotfixed compatibility with Fluffy's WorkTab (still have some visual flaws)
+0.9.9
+- added sub-tabs in "Work" Tab and "Assign" Tab for "Colonists" and "Prisoners"
+- added renaming Prisoners for imprisonment time (pawns will restore old names after releasing)
+0.9.8
+- fixed SeedsPlease compatibility
+0.9.7
+- added warning message before placing labor area for the first time
+0.9.6
+- updated to RimWorld 1.0
+0.9.5
+- updated to RimWorld Beta 19
+0.9.4
+- disabled Warden and Jailor types of work for prisoner labor, it should fix bug, where jailors do not warden inside labor area
+0.9.3
+- fixed compatibility with No Water no Life
+- fixed compatibility with Dubs Bad Hygiene Mod
+- fixed error with loading old saves
+0.9.2
+- fixed seeds please compatibility issue
+- added option to disable revolts
+0.9.1
+- changed max. skill required for non-advanced growing by prisoners to 6 instead of 0
+- added new work type Jailor
+- fixed drawing icons on world map
+- fixed disabling mod from existing saves
+- fixed incorrectly showing "advanced growing by prisoners" option
+0.9.0
+- added option to disable icons above prisoners heads in mod menu
+- corrected casing in default prisoner interaction mode option in mod menu
+- fixed error "null reference in onGui()" when loading save
+============== BETA 18 COMPATIBILITY PATCHES ==============
+0.8.9.5
+- cleared some code debris, hope it fix the "unknown bug"
+0.8.9.4
+- fixed timetables
+- fixed bill checkboxes
+0.8.9.3
+- fixed prison labor area bug
+- fixed watching sleeping prisoners
+- fixed forbidden bug
+0.8.9.2
+- disabled bill button
+0.8.9.1
+- fixed harmony patches (work tab should appear now)
+0.8.9
+- updated libraries to RimWorld b18
+- minor fixes related to updating to RimWorld b18
+===========================================================
+0.8.8
+- changed slow from prisoners chains to act as factor instead offset
+- fixed compatibility issues with Seeds Please (again)
+0.8.7
+- fixed bug with dropping motivation while in bed
+- prisoners will now get different weapons when revolt triggers (molotovs, bows, or clubs)
+- replaced original jobs with "tweak" jobs (instead of overriding them, this fix is for users who use "WorkTab" by Fluffy)
+- removed warning message from logs
+- prisoners will now have 50% of normal speed in chains (instead of 35%)
+- prisoners will now break chains after some period of time instead of immediately (matter in incidents, breakouts etc.)
+- wardens will now try to motivate most prisoners at once, but with priority to motivate lowest motivation first
+- fixed bug with animals do not respect reservations (and vice versa)
+0.8.6
+- fixed bug that Sowing job do not comply to Labor Area
+- removed JoyGiver debris
+0.8.5
+- reduced number of null reference errors with OnGui() method.
+- single warden will be able to maintain 7 prisoners, instead of 5 (because of laziness rate reduction)
+- decreased laziness rate to 0.002, instead of 0.003 (prisoners will get lazy 1.5x slower)
+- decreased manipulation to 70% (instead of 80%)
+0.8.4
+- fixed null reference exception at loading game
+0.8.3
+- fixed bugs with disabling mod (now you can safely disable mod again)
+- fixed bug with prioritizing work
+0.8.2
+- fixed drawing icons on world
+0.8.1
+- added slider to Bills (temporary fix)
+- fixed Bill "Prisoner only" button (I think, let me know if you still experience errors)
+- fixed prisoners aren't working when Motivation is disabled (via Settings)
+- fixed null-reference error on some revolts incidents
+0.8.0
+- added revolts
+- reduced manipulation capability of prisoners (now they have 80% of normal manipulation, down from 100%)
+- added default prisoner interaction mode option to settings menu
+- fixed comatibility issues with Dubs Hygiene and Central Heating Mod (prisoners now use toilets and showers)
+- added "Labor area" tool in "Zones" category
+- added "Prisoner only"("Colony only", "Colonists only") button in bill menu
+- fixed forbidden bug with harvesting plants (again)
+- added SeedsPlease compatibility
+- added tutorials triggers (now all tutorials will be shown)
+- added watched tutorials to properties (tutorials will no longer be shown after reenabling mod)
+- excluded supervising from labor
+- reworked inspiration: Now insiration is AOE around warden, and will prevent prisoners from escaping.
+- added icons above prisoners indicating whenever he's being motivated/inspired
+- fixed Toil reservation bug (not respecting prisoners' job)
+- rewritten news dialog
+- perfomance and code improvements
+- added "Work and recruit" option
+0.7
+- fixed "failing to reserve food" bug (that one with circling warden around food)
+- prisoners now stop working (while "anything" time) while starving instead of hungry. They will still get minor debuff
+- wardens will no longer watch over not working prisoners
+- prisoners will no longer work if waiting for operation
+- fixed bug preventing prisoners from cleaning
+- added "starving prisoners" alert
+- added settings
+- changed "Your prisoner stopped working" message to "Prisoners aren't working" alert
+0.6a
+- fixed some bugs
+0.6
+- changed mechanics of getting food by prisoners
+- added time restrictions
+- changed "Laziness" to "Motivation" and inverted
+- added WorkTab by Fluffy compatibility
+0.5a
+- fixed that new subscribers see all "old player" messages
+- fixed reserving food for prisoners
+- fixed "work settings not initialized" error
+0.5
+- added growing to available jobs
+- added prisoner work priorities to "Work" tab
+- food is no longer reserved in prison cell unless is brought by warden
+- food is now delivered by Wardens even if prisoner get out of his prison cell
+- disabled passive "Laziness" when prisoner have no work to do
+0.4
+- added "Laziness" bar in "Needs" tab
+- fixed plant cut / harvest result being forbidden
+- added German translation
+0.3b
+- fixed "Forbidden" bug
+0.3a
+- wardens no longer watch over hungry or tired prisoners
+0.3
+- added work of Warden type that supervise prisoners
+- prisoners will get lazy
+- added version checker
+- added stat laziness
+- added "Work" prisoner interaction mode
+0.2a
+- added tutorial in "LearningHelper"

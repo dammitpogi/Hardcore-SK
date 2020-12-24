@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Prison Labor</name>
+	<author>Avius</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+    <li>1.2</li>
+	</supportedVersions>
+	<packageId>avius.prisonlabor</packageId>
+	<loadAfter>
+    <li>brrainz.harmony</li>
+	</loadAfter>
+	<modDependencies>
+	<li>
+	  <packageId>brrainz.harmony</packageId>
+	  <displayName>Harmony</displayName>
+	  <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+	  <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+	</li>
+	</modDependencies>
+
+	<description>Version 1.1.11
+
+This mod force prisoners to work. To enable this feature prisoners must have "Force to work" option checked ("Prisoner" tab). Prison labor needs management that consist:
+- Motivation - prisoners need to be motivated by presence of colonists. Wardens have new job - supervising prisoners. Low motivation can lead to revolts.
+- Work assignment - prisoners that have option "Force to work" are added to "Work" tab.
+- Time restrictions - prisoners that have option "Force to work" are added to "Restrict" tab.
+- Prison area - prisoners in order to work need to reach target. You can check "Hold open" option on doors. Be aware, they will try to run if they see opportunity.
+- "Prisoners only" tools - You can mark orders and bills by tools that exclude colonist from work.
+
+This is beta version. Some ascpects of mod still need to be balanced (like motivation). There can be still some bugs.</description>
+</ModMetaData>
+

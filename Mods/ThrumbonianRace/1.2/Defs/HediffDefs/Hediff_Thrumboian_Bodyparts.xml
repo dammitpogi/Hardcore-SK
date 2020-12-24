@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef Name="SurgeryThrumboianHorn" ParentName="SurgeryFlesh" Abstract="True">
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<workAmount>2000</workAmount>
+	<recipeUsers>
+		<li>Alien_Thrumboian</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>2</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+	</fixedIngredientFilter>
+</RecipeDef>
+
+<!-- Steel Thrumboian horn -->
+
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>SteelThrumboianHorn</defName>
+	<label>steel horn</label>
+	<labelNoun>a steel horn</labelNoun>
+	<description>An installed steel Thrumboian horn.</description>
+	<descriptionHyperlinks><ThingDef>SteelThrumboianHorn</ThingDef></descriptionHyperlinks>
+	<spawnThingOnRemoved>SteelThrumboianHorn</spawnThingOnRemoved>
+	<addedPartProps>
+		<solid>true</solid>
+	</addedPartProps>
+	<comps>
+		<li Class="HediffCompProperties_VerbGiver">
+			<tools>
+				<li>
+					<label>horn</label>
+					<capacities>
+						<li>Scratch</li>
+						<li>Stab</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>2</cooldownTime>
+					<chanceFactor>0.33</chanceFactor>
+				</li>
+			</tools>
+		</li>
+	</comps>
+</HediffDef>
+
+<ThingDef ParentName="BodyPartProstheticMakeableBase">
+	<defName>SteelThrumboianHorn</defName>
+	<label>steel thrumboian horn</label>
+	<description>A prosthesis that serves as a sturdy replacement for a Thrumboian horn. It is similar strength to the original horn for combat.</description>
+	<descriptionHyperlinks><RecipeDef>InstallSteelThrumboianHorn</RecipeDef></descriptionHyperlinks>
+	<techLevel>Medieval</techLevel>
+	<costList>
+		<Steel>30</Steel>
+	</costList>
+	<statBases>
+		<Mass>5</Mass>
+	</statBases>
+	<techHediffsTags>
+		<li>Simple</li>
+	</techHediffsTags>
+</ThingDef>
+
+<RecipeDef ParentName="SurgeryThrumboianHorn">
+	<defName>InstallSteelThrumboianHorn</defName>
+	<label>install steel horn</label>
+	<description>Install a steel horn to replace a horn.</description>
+    <descriptionHyperlinks><ThingDef>SteelThrumboianHorn</ThingDef></descriptionHyperlinks>
+	<jobString>Installing steel horn</jobString>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>SteelThrumboianHorn</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>SteelThrumboianHorn</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>ThrumboianHorn</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>SteelThrumboianHorn</addsHediff>
+</RecipeDef>
+
+</Defs>

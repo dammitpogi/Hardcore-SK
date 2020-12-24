@@ -8,10 +8,12 @@
         <li>unlimitedhugs.hugslib</li>
         <li>fluffy.followme</li>
         <li>skyarkhangel.rimthemeslite</li>
+        <li>oskarpotocki.vanillafactionsexpanded.core</li>
         <li>dame.interestsframework</li>
         <li>erdelf.humanoidalienraces</li>
         <li>dammitpogi.anothermusiccollab</li>
         <li>ceteam.combatextended</li>
+        <li>newcolonist.adaptive.threats</li>
         <li>skyarkhangel.hsk</li>
         <li>killface.facialstuff</li>
         <li>diannetea.facialstuffdefaults</li>
@@ -19,6 +21,7 @@
         <li>neptimus7.progressrenderer</li>
         <li>fluffy.musicmanager</li>
         <li>loonyladle.rimworld.dropall</li>
+        <li>zylle.mapdesigner</li>
         <li>killface.alienfaces</li>
         <li>arandomkiwi.rimsaves</li>
         <li>brrainz.cameraplus</li>
@@ -29,25 +32,25 @@
         <li>chjees.androids</li>
         <li>skyarkhangel.androidfaces</li>
         <li>caesarv6.damageindicators</li>
-        <li>dubwise.rimefeller</li>
         <li>krkr.locks2</li>
+        <li>dubwise.rimefeller</li>
         <li>avius.prisonlabor</li>
-        <li>neceros.deepscannersettings</li>
+        <li>weilbyte.snapout</li>
         <li>fluffy.worktab</li>
         <li>ghxx.techadvancing</li>
         <li>tammybee.statueofcolonist</li>
+        <li>neceros.deepscannersettings</li>
         <li>tammybee.statueofcolonist.alienracepatch</li>
-        <li>weilbyte.snapout</li>
+        <li>savestoragesettings.kv.rw</li>
         <li>skyarkhangel.simplesidearms</li>
         <li>syrchalis.setupcamp</li>
         <li>notfood.seedsplease</li>
-        <li>savestoragesettings.kv.rw</li>
         <li>fluffy.shitrimworldsays</li>
         <li>maxzicode.zitools</li>
         <li>ratys.rtsolarflareshield</li>
+        <li>storage.search.rsa</li>
         <li>ratys.rtfuse</li>
         <li>historic.industrialrollers</li>
-        <li>storage.search.rsa</li>
         <li>notfood.researchpal</li>
         <li>fluffy.relationstab</li>
         <li>automatic.recipeicons</li>
@@ -56,14 +59,14 @@
         <li>oblitus.mylittleplanet</li>
         <li>kosaro.fahrenheitandcelsius</li>
         <li>multilangcolorfultraits.pirateby</li>
+        <li>falconne.bwm</li>
         <li>tgc.moreinfobox</li>
         <li>haplo.miscellaneous.training</li>
         <li>dubwise.dubsmintmenus</li>
         <li>dubwise.dubsmintminimap</li>
+        <li>dhultgren.keepbedownership</li>
         <li>neitsa.preparelanding</li>
         <li>dubwise.rimatomics</li>
-        <li>dhultgren.keepbedownership</li>
-        <li>falconne.bwm</li>
         <li>arandomkiwi.huntforme</li>
         <li>orion.hospitality</li>
         <li>orion.gastronomy</li>
@@ -90,26 +93,30 @@
         <li>unlimitedhugs.allowtool</li>
         <li>uuugggg.smartmedicine</li>
         <li>skyarkhangel.survivaltoolslite</li>
+        <li>solaris.ratkinracemod.fs.hsk</li>
         <li>skyarkhangel.degradation</li>
         <li>solaris.ratkinracemod</li>
-        <li>solaris.ratkinracemod.fs.hsk</li>
         <li>skyarkhangel.asarirace</li>
         <li>rim.job.world</li>
         <li>abraxas.patches</li>
         <li>abraxas.rjw.racesupport</li>
         <li>c0ffee.rimworld.animations</li>
         <li>c0ffee.sextoysmasturbation</li>
-        <li>skyarkhangel.fencesandfloors</li>
         <li>wit.expandedroofing</li>
+        <li>skyarkhangel.fencesandfloors</li>
         <li>avilmask.nonunopinata</li>
         <li>skyarkhangel.realisticdarkness</li>
         <li>mlie.fallouttraits</li>
         <li>consolidatedtraits.kv.rw</li>
         <li>gewen.additionaltraits</li>
         <li>moretraitslots.kv.rw</li>
+        <li>oskarpotocki.vfe.mechanoid</li>
+        <li>tarojun.thrumboianrace</li>
+        <li>fs.reviarace</li>
         <li>krafs.levelup</li>
         <li>mehni.numbers</li>
         <li>saucypigeon.pawnbadge</li>
+        <li>nilchei.alternativeai</li>
         <li>revolus.animalsarefun</li>
         <li>tyler.banishanimals</li>
         <li>haplo.miscellaneous.robots</li>
@@ -121,10 +128,10 @@
         <li>skyarkhangel.mineralscanner</li>
         <li>saucypigeon.realisticplanets</li>
         <li>skyarkhangel.realisticterraform</li>
-        <li>fluffy.medicaltab</li>
-        <li>fluffy.backuppower</li>
-        <li>avius.locks</li>
+        <li>co.uk.epicguru.antimatterannihilation</li>
         <li>skyarkhangel.arcanetechnology</li>
+        <li>fluffy.backuppower</li>
+        <li>fluffy.medicaltab</li>
         <li>name.krypt.rimworld.moddiff</li>
         <li>zacharyfoster.minerals</li>
         <li>zacharyfoster.mineralsfrozen</li>

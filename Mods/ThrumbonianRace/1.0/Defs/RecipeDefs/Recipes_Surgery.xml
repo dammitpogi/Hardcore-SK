@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<RecipeDef Name="SurgeryThrumboianHorn" ParentName="SurgeryFlesh" Abstract="True">
+	<recipeUsers>
+		<li>Alien_Thrumboian</li>
+	</recipeUsers>
+</RecipeDef>
+
+<RecipeDef ParentName="SurgeryThrumboianHorn">
+	<defName>InstallSteelThrumboianHorn</defName>
+	<label>install steel horn</label>
+	<description>Install a steel horn to replace a horn.</description>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>Installing steel horn</jobString>
+	<workAmount>2500</workAmount>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>2</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>SteelThrumboianHorn</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>SteelThrumboianHorn</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>ThrumboianHorn</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>SteelThrumboianHorn</addsHediff>
+</RecipeDef>
+
+</Defs>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<FactionDef>
+	<defName>ThrumboianPlayerTribe</defName>
+	<label>Thrumboianopia</label>
+	<description>A rare gathering of Thrumboians.</description>
+	<isPlayer>true</isPlayer>
+	<basicMemberKind>ThrumboianTribal</basicMemberKind>
+	<pawnSingular>tribesman</pawnSingular>
+	<pawnsPlural>tribespeople</pawnsPlural>
+	<techLevel>Neolithic</techLevel>
+	<homeIconPath>World/WorldObjects/TribalSettlement</homeIconPath>
+	<expandingIconTexture>World/ThrumboBase</expandingIconTexture>
+	<colorSpectrum>
+		<li>(0, 0.737, 0.847)</li>
+	</colorSpectrum>
+	<backstoryCategories>
+		<li>Tribal</li>
+	</backstoryCategories>
+	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	<factionNameMaker>NamerFactionTribal</factionNameMaker>
+	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+	<geneticVariance>1</geneticVariance>
+	<forageabilityFactor>1.7</forageabilityFactor>
+	<startingResearchTags>
+		<li>TribalStart</li>
+	</startingResearchTags>
+	<recipePrerequisiteTags>
+		<li>Tribal</li>
+	</recipePrerequisiteTags>
+	<hairTags>
+		<li>Urban</li>
+		<li>Punk</li>
+		<li>Rural</li>
+		<li>Tribal</li>
+	</hairTags>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>Cloth</li>
+		</thingDefs>
+	</apparelStuffFilter>
+</FactionDef>
+
+</Defs>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ScenarioDef>
+	<defName>ThrumboainScenario</defName>
+	<label>Thrumboian Wanderer</label>
+	<description>A Thrumboian, a humanoid Thrumbo, in the wilderness with a Thrumbo or two just living life.</description>
+	<scenario>
+		<summary>A lone Thrumboian and their Thrumbo.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>ThrumboianPlayerTribe</factionDef>
+		</playerFaction>
+		<parts>
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnCount>1</pawnCount>
+				<pawnChoiceCount>3</pawnChoiceCount>
+			</li>
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<method>Standing</method>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Hay</thingDef>
+				<count>500</count>
+			</li>
+			<li Class="ScenPart_StartingAnimal">
+				<def>StartingAnimal</def>
+				<animalKind>Thrumbo</animalKind>
+				<count>1</count>
+				<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_ScatterThingsAnywhere">
+				<def>ScatterThingsAnywhere</def>
+				<thingDef>ShipChunk</thingDef>
+				<count>10</count>
+			</li>
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>You and your Thrumbo feel a strange sensation, almost like you are being watched. You shrug it off and continue what you were doing.</text>
+				<closeSound>GameStartSting</closeSound>
+			</li>
+		</parts>
+	</scenario>
+</ScenarioDef>
+
+</Defs>

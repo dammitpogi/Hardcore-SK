@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Adaptive Threats</name>
+	<author>newcolonist</author>
+	<supportedVersions>
+      <li>1.1</li>
+	  <li>1.2</li>
+    </supportedVersions>
+	  <targetVersion>1.0.2059</targetVersion>
+    <packageId>newcolonist.adaptive.threats</packageId>
+	<description>
+Adaptive Threats is the 1.1 - 1.2 version of Adaptive Cassie Storyteller. It applies on top of the storyteller. This version takes into account the body size of your colonists (i.e. a proxy for age in mods with children, or vanilla teens).
+
+The storyteller determines the pace of the threats (phoebe - chill, cassandra - steady, randy - random) and this mod rebalances the threat scale based on the story relevance of your colonists (a hidden game stat), much less on wealth.
+
+There are three difficulty levels, Default (recommended), Chill and Hardcore. The differences will build up over time depending on the fate of your colonists.
+
+It changes the curve of the threats, whereas the 1.2 vanilla custom difficulty is based on static parameters, which makes this mod still relevant in a custom difficulty.
+	</description>
+</ModMetaData>

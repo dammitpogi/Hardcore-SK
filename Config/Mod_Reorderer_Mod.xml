@@ -184,6 +184,18 @@
 				<def>Planning</def>
 				<enabled>True</enabled>
 			</li>
+			<li>
+				<def>VFE_Factory</def>
+				<enabled>True</enabled>
+			</li>
+			<li>
+				<def>ReviaCategory</def>
+				<enabled>True</enabled>
+			</li>
+			<li>
+				<def>Antimatter</def>
+				<enabled>True</enabled>
+			</li>
 		</DesignationCategoryStates>
 	</ModSettings>
 </SettingsBlock>

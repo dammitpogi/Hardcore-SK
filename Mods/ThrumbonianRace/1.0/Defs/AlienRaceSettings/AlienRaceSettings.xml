@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.RaceSettings>
+	<defName>ThrumboianRaceSettings</defName>
+	<pawnKindSettings>
+		<alienslavekinds>
+			<li>
+				<kindDefs>
+					<li>ThrumboianSlave</li>
+				</kindDefs>
+				<chance>10</chance>
+			</li>
+		</alienslavekinds>
+		<alienrefugeekinds>
+			<li>
+				<kindDefs>
+					<li>ThrumboianSlave</li>
+					<li>Thrumboian_Penitent</li>
+				</kindDefs>
+				<chance>10</chance>
+			</li>
+		</alienrefugeekinds>
+		<startingColonists>
+			<li>
+				<pawnKindEntries>
+					<li>
+						<kindDefs>
+							<li>ThrumboianTribal</li>
+						</kindDefs>
+						<chance>2</chance>
+					</li>
+				</pawnKindEntries>
+				<factionDefs>
+					<li>PlayerTribe</li>
+				</factionDefs>
+			</li>
+		</startingColonists>
+		<alienwandererkinds>
+			<li>
+				<pawnKindEntries>
+					<li>
+						<kindDefs>
+							<li>Thrumboian_Penitent</li>
+							<li>Thrumboian_Archer</li>
+							<li>Thrumboian_Warrior</li>
+							<li>Thrumboian_Hunter</li>
+						</kindDefs>
+						<chance>2</chance>
+					</li>
+				</pawnKindEntries>
+				<factionDefs>
+					<li>PlayerColony</li>
+					<li>PlayerTribe</li>
+				</factionDefs>
+			</li>
+		</alienwandererkinds>
+	</pawnKindSettings>
+</AlienRace.RaceSettings>
+  
+</Defs>

@@ -421,5 +421,9 @@
       <key>PrisonLabor_Treatment</key>
       <value>0</value>
     </li>
+    <li>
+      <key>ReviaBloodstoneSacrifice</key>
+      <value>0</value>
+    </li>
   </knowledge>
 </ConceptKnowledge>

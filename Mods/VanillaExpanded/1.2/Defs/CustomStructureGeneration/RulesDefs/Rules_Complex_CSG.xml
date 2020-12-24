@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RuleDef>
+    <defName>KCSG_Settlement</defName>
+    <symbol>kcsg_settlement</symbol>
+    <resolvers>
+      <li Class="KCSG.SymbolResolver_KCSG_Settlement" />
+    </resolvers>
+  </RuleDef>
+
+  <RuleDef>
+    <defName>KCSG_RoomGenFromStructure</defName>
+    <symbol>kcsg_roomsgenfromstructure</symbol>
+    <resolvers>
+      <li Class="KCSG.SymbolResolver_KCSG_RoomGenFromStructure" />
+    </resolvers>
+  </RuleDef>
+</Defs>

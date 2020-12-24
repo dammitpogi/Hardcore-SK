@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<PawnKindDef Name="ThrumboianBaseTribal" Abstract="True">
+	<race>Alien_Thrumboian</race>
+	<defaultFactionType>ThrumboianTribe</defaultFactionType>
+	<backstoryCategories>
+		<li>Tribal</li>
+	</backstoryCategories>
+	<maxGenerationAge>100</maxGenerationAge>
+	<chemicalAddictionChance>0.01</chemicalAddictionChance>
+	<invNutrition>2.55</invNutrition>
+	<invFoodDef>Pemmican</invFoodDef>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	<apparelTags>
+		<li>Neolithic</li>
+	</apparelTags>
+</PawnKindDef>
+
+<PawnKindDef ParentName="ThrumboianBaseTribal">
+	<defName>Thrumboian_Penitent</defName>
+	<label>Thrumboian penitent</label>
+	<combatPower>50</combatPower>
+    <chemicalAddictionChance>0.10</chemicalAddictionChance>
+	<invNutrition>1</invNutrition>
+	<itemQuality>Poor</itemQuality>
+	<gearHealthRange>0.2~1.1</gearHealthRange>
+	<apparelMoney>50~100</apparelMoney>
+	<weaponMoney>90~150</weaponMoney>
+	<weaponTags>
+		<li>NeolithicMeleeBasic</li>
+	</weaponTags>
+	<techHediffsMoney>50~50</techHediffsMoney>
+	<techHediffsTags>
+		<li>Poor</li>
+	</techHediffsTags>
+	<techHediffsChance>0.15</techHediffsChance>
+</PawnKindDef>
+
+<PawnKindDef ParentName="ThrumboianBaseTribal">
+	<defName>Thrumboian_Archer</defName>
+	<label>Thrumboian archer</label>
+	<combatPower>63</combatPower>
+	<itemQuality>Poor</itemQuality>
+	<gearHealthRange>0.5~1.8</gearHealthRange>
+	<apparelMoney>180~350</apparelMoney>
+	<weaponMoney>80~80</weaponMoney>
+	<weaponTags>
+		<li>NeolithicRangedBasic</li>
+	</weaponTags>
+	<techHediffsMoney>50~50</techHediffsMoney>
+	<techHediffsTags>
+		<li>Poor</li>
+	</techHediffsTags>
+	<techHediffsChance>0.03</techHediffsChance>
+</PawnKindDef>
+
+<PawnKindDef ParentName="ThrumboianBaseTribal">
+	<defName>Thrumboian_Warrior</defName>
+	<label>Thrumboian warrior</label>
+	<combatPower>75</combatPower>
+	<itemQuality>Poor</itemQuality>
+	<canBeSapper>true</canBeSapper>
+	<gearHealthRange>0.5~1.8</gearHealthRange>
+	<apparelMoney>200~300</apparelMoney>
+	<weaponMoney>150~150</weaponMoney>
+	<weaponTags>
+		<li>NeolithicMeleeDecent</li>
+	</weaponTags>
+</PawnKindDef>
+
+<PawnKindDef ParentName="ThrumboianBaseTribal" Name="Thrumboian_Hunter">
+	<defName>Thrumboian_Hunter</defName>
+	<label>Thrumboian hunter</label>
+	<combatPower>80</combatPower>
+	<gearHealthRange>0.5~1.8</gearHealthRange>
+	<apparelMoney>200~300</apparelMoney>
+	<weaponMoney>100~100</weaponMoney>
+	<weaponTags>
+		<li>NeolithicRangedDecent</li>
+	</weaponTags>
+</PawnKindDef>
+  
+<PawnKindDef ParentName="Thrumboian_Hunter">
+	<defName>Thrumboian_Trader</defName>
+	<label>trader</label>
+	<trader>true</trader>
+	<apparelRequired>
+		<li>Apparel_TribalHeaddress</li>
+	</apparelRequired>
+</PawnKindDef>
+
+<PawnKindDef ParentName="ThrumboianBaseTribal">
+	<defName>Thrumboian_Berserker</defName>
+	<label>berserker</label>
+	<combatPower>105</combatPower>
+	<baseRecruitDifficulty>0.4</baseRecruitDifficulty>
+	<canBeSapper>true</canBeSapper>
+	<apparelMoney>200~550</apparelMoney>
+	<weaponMoney>300~300</weaponMoney>
+	<weaponTags>
+		<li>NeolithicMeleeAdvanced</li>
+		<li>MedievalMeleeDecent</li>
+		<li>MedievalMeleeAdvanced</li>
+	</weaponTags>
+	<combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+	<combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+</PawnKindDef>
+
+<PawnKindDef ParentName="ThrumboianBaseTribal">
+	<defName>Thrumboian_HeavyArcher</defName>
+	<label>heavy archer</label>
+	<combatPower>105</combatPower>
+	<baseRecruitDifficulty>0.4</baseRecruitDifficulty>
+	<apparelMoney>200~550</apparelMoney>
+	<weaponMoney>250~250</weaponMoney>
+	<weaponTags>
+		<li>NeolithicRangedHeavy</li>
+		<li>NeolithicRangedChief</li>
+	</weaponTags>
+	<combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+	<combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+</PawnKindDef>
+
+<PawnKindDef ParentName="ThrumboianBaseTribal">
+	<defName>Thrumboian_ChiefRanged</defName>
+	<label>chief</label>
+	<factionLeader>true</factionLeader>
+	<combatPower>140</combatPower>
+	<baseRecruitDifficulty>0.7</baseRecruitDifficulty>
+	<minGenerationAge>30</minGenerationAge>
+	<maxGenerationAge>120</maxGenerationAge>
+	<itemQuality>Normal</itemQuality>
+	<canBeSapper>true</canBeSapper>
+	<apparelMoney>450~750</apparelMoney>
+	<apparelRequired>
+		<li>Apparel_PlateArmor</li>
+	</apparelRequired>
+	<weaponMoney>500~1000</weaponMoney>
+	<weaponTags>
+		<li>NeolithicRangedChief</li>
+	</weaponTags>
+	<combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+	<combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+</PawnKindDef>
+  
+<PawnKindDef ParentName="ThrumboianBaseTribal">
+	<defName>Thrumboian_ChiefMelee</defName>
+	<label>chief</label>
+	<factionLeader>true</factionLeader>
+	<combatPower>140</combatPower>
+	<baseRecruitDifficulty>0.7</baseRecruitDifficulty>
+	<minGenerationAge>30</minGenerationAge>
+	<maxGenerationAge>120</maxGenerationAge>
+	<itemQuality>Normal</itemQuality>
+	<canBeSapper>true</canBeSapper>
+	<apparelMoney>450~750</apparelMoney>
+	<apparelRequired>
+		<li>Apparel_PlateArmor</li>
+	</apparelRequired>
+	<weaponMoney>500~1000</weaponMoney>
+	<weaponTags>
+		<li>NeolithicMeleeAdvanced</li>
+		<li>MedievalMeleeAdvanced</li>
+	</weaponTags>
+	<combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+	<combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+</PawnKindDef>
+ 
+<PawnKindDef>
+	<defName>ThrumboianSlave</defName>
+	<label>slave</label>
+	<race>Alien_Thrumboian</race>
+	<combatPower>45</combatPower>
+	<baseRecruitDifficulty>0.30</baseRecruitDifficulty>
+	<backstoryCategories>
+		<li>Tribal</li>
+	</backstoryCategories>
+	<defaultFactionType>TribeCivil</defaultFactionType>
+	<itemQuality>Poor</itemQuality>
+	<isFighter>false</isFighter>
+	<chemicalAddictionChance>0.03</chemicalAddictionChance>
+	<gearHealthRange>0.2~0.8</gearHealthRange>
+	<apparelTags>
+		<li>Neolithic</li>
+	</apparelTags>
+	<apparelMoney>0~50</apparelMoney>
+	<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+	<techHediffsChance>0.03</techHediffsChance>
+	<techHediffsMoney>50~50</techHediffsMoney>
+	<techHediffsTags>
+		<li>Poor</li>
+	</techHediffsTags>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	<invNutrition>1</invNutrition>
+	<invFoodDef>Pemmican</invFoodDef>
+</PawnKindDef>
+
+</Defs>

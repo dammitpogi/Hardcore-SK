@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Thrumboian Race</name>
+	<author>Naharri, Tarojun</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>tarojun.thrumboianrace</packageId>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+    </modDependencies>
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+	<description>This is a alien race mod of half-human, half-thrumbo, the Thrumboian. This is the ported version for RimWorld 1.1, and also contains many bug fixes for 1.0, compared with the original mod.
+
+There have been a lot of balance reworks, so they will not be exactly how the original old mod.
+
+Stats:
+Move speed: 5.25
+Comfortable temperatures: -65 to 50 celcius
+Nutrition required per day: 2.4 (Compare 1.6 for normal human)
+Eating speed: +75%
+Flammability: 75%
+Toxic sensitivity: 75%
+Natural Blunt/Sharp/Heat armour: 20% / 30% / 30%
+Global work speed: +10%
+Social impact: +10%
+Hunting stealth: -50%
+Butcher efficiency and speed: -25%
+Plantwork speed: +50%
+Plant harvest yield: +25%
+Immunity gain speed: +10%
+
+Chances to have the following traits: Tough (25%), Pretty (5%), Beautiful (5%).
+Cannot get the following traits: Jealous, Greedy, Cannibal, Chemical fascination, Chemical interest, Annoying Voice, Creepy Breathing, Pyromaniac, or Wimp.
+
+Thrumboian are vegetarian, and can graze on the vegetation and eating hay. They however cannot eat trees like the normal thrumbos.
+
+When injured and bleeding, they become increasingly deadlier in melee combat, with both accuracy and evasion getting boosted. Their aim time gets reduced, but with less accuracy. When they sufficiently injured, their body gets more tougher, further increasing natural armour, ignoring some more pain, making them even more difficult to keep down.
+
+Requires Humanoid Alien Races 2.0, and this mod is to be loaded after it. Like all alien race mods, it is recommended to be loaded in the last load order category of mods where alien race mods reside.
+
+Original author and credits of this race goes to Naharri.
+</description>
+</ModMetaData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<ThingDef ParentName="BodyPartProstheticBase">
+	<defName>SteelThrumboianHorn</defName>
+	<label>steel thrumboian horn</label>
+	<description>A prosthesis that serves as a sturdy replacement for a Thrumboian horn. It is similar strength to the original horn for combat.</description>
+	<techLevel>Medieval</techLevel>
+	<costList>
+		<Steel>30</Steel>
+	</costList>
+	<statBases>
+		<Mass>5</Mass>
+	</statBases>
+	<techHediffsTags>
+		<li>Simple</li>
+	</techHediffsTags>
+</ThingDef>
+  
+</Defs>

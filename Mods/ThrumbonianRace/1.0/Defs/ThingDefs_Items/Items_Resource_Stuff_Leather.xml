@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="LeatherBase">
+	<defName>Leather_AlienThrumboian</defName>
+	<label>Thrumboian leather</label>
+	<description>Tanned, dried, scraped Thrumboian skin and fur. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates as well as thrumbo fur.</description>
+	<graphicData>
+		<color>(233,233,233)</color>
+	</graphicData>
+	<statBases>
+		<MarketValue>6.2</MarketValue>
+		<StuffPower_Armor_Sharp>0.845</StuffPower_Armor_Sharp>
+		<StuffPower_Armor_Blunt>0.276</StuffPower_Armor_Blunt>
+		<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+		<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+	</statBases>
+	<stuffProps>
+		<color>(233,233,233)</color>
+		<commonality>0.0025</commonality>
+	</stuffProps>
+</ThingDef>
+
+</Defs>

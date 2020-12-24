@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<PawnKindDef Abstract="True" Name="BasePlayerThrumboian">
+	<race>Alien_Thrumboian</race>
+	<combatPower>45</combatPower>
+	<isFighter>true</isFighter>
+	<maxGenerationAge>100</maxGenerationAge>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	<forceNormalGearQuality>true</forceNormalGearQuality>
+</PawnKindDef>
+ 
+<PawnKindDef ParentName="BasePlayerThrumboian">
+	<defName>ThrumboianTribal</defName>
+	<label>member</label>
+	<defaultFactionType>ThrumboianPlayerTribe</defaultFactionType>
+	<backstoryCategories>
+		<li>Tribal</li>
+	</backstoryCategories>
+	<chemicalAddictionChance>0.01</chemicalAddictionChance>
+	<apparelTags>
+		<li>Neolithic</li>
+	</apparelTags>
+	<apparelMoney>200~200</apparelMoney>
+	<techHediffsMoney>50~50</techHediffsMoney>
+	<techHediffsTags>
+		<li>Poor</li>
+	</techHediffsTags>
+	<techHediffsChance>0.01</techHediffsChance>
+</PawnKindDef>
+
+</Defs>

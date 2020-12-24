@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<HediffGiverSetDef>
+	<defName>Thrumboian</defName>
+	<hediffGivers>
+		<li Class="HediffGiver_Bleeding">
+			<hediff>ThrumboianCombat</hediff>
+		</li>
+	</hediffGivers>
+</HediffGiverSetDef>
+
+<HediffDef>
+    <defName>ThrumboianCombat</defName>
+    <label>Thrumboian fury</label>
+    <defaultLabelColor>(255.0, 0.1, 0.50)</defaultLabelColor>
+	<isBad>false</isBad>
+    <stages>
+		<li>
+			<label>annoyed</label>
+			<becomeVisible>false</becomeVisible>
+		</li>
+		<li>
+			<minSeverity>0.05</minSeverity>
+			<label>annoyed</label>
+			<painOffset>-0.10</painOffset>
+			<statOffsets>
+				<MeleeHitChance>4</MeleeHitChance>
+				<MeleeDodgeChance>5</MeleeDodgeChance>
+				<AimingDelayFactor>-0.05</AimingDelayFactor>
+			</statOffsets>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>0.06</offset>
+				</li>
+			</capMods>
+		</li>
+		<li>
+			<minSeverity>0.15</minSeverity>
+			<label>angry</label>
+			<painOffset>-0.25</painOffset>
+			<statOffsets>
+				<MeleeHitChance>6</MeleeHitChance>
+				<MeleeDodgeChance>10</MeleeDodgeChance>
+				<AimingDelayFactor>-0.1</AimingDelayFactor>
+				<ShootingAccuracyPawn>-1</ShootingAccuracyPawn>
+				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			</statOffsets>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>0.12</offset>
+				</li>
+			</capMods>
+		</li>
+		<li>
+			<minSeverity>0.40</minSeverity>
+			<label>enraged</label>
+			<painOffset>-0.40</painOffset>
+			<statOffsets>
+				<MeleeHitChance>8</MeleeHitChance>
+				<MeleeDodgeChance>15</MeleeDodgeChance>
+				<AimingDelayFactor>-0.2</AimingDelayFactor>
+				<ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+				<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.30</ArmorRating_Heat>
+			</statOffsets>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>0.05</offset>
+				</li>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>0.18</offset>
+				</li>
+			</capMods>
+		</li>
+		<li>
+			<minSeverity>0.50</minSeverity>
+			<label>furious</label>
+			<painOffset>-0.50</painOffset>
+			<statOffsets>
+				<MeleeHitChance>12</MeleeHitChance>
+				<MeleeDodgeChance>20</MeleeDodgeChance>
+				<AimingDelayFactor>-0.4</AimingDelayFactor>
+				<ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+				<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.50</ArmorRating_Heat>
+			</statOffsets>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>0.10</offset>
+				</li>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>0.24</offset>
+				</li>
+			</capMods>
+		</li>
+    </stages>
+</HediffDef>
+
+</Defs>

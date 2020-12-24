@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="NPS.Settings">
+		<showHot>True</showHot>
+		<showCold>True</showCold>
+		<doTides>True</doTides>
+		<spawnLavaOnlyInBiome>True</spawnLavaOnlyInBiome>
+		<allowLavaEruption>True</allowLavaEruption>
+		<regenCells>False</regenCells>
+	</ModSettings>
+</SettingsBlock>

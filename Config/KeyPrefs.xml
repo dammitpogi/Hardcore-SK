@@ -129,14 +129,14 @@
   <li>
     <key>ToggleRoomStatsDisplay</key>
     <value>
-      <keyBindingA>G</keyBindingA>
+      <keyBindingA>None</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
   <li>
     <key>ToggleBeautyDisplay</key>
     <value>
-      <keyBindingA>T</keyBindingA>
+      <keyBindingA>None</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
@@ -563,14 +563,14 @@
   <li>
     <key>MainTab_Wildlife</key>
     <value>
-      <keyBindingA>F5</keyBindingA>
+      <keyBindingA>None</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
   <li>
     <key>MainTab_Research</key>
     <value>
-      <keyBindingA>F5</keyBindingA>
+      <keyBindingA>None</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
@@ -591,7 +591,7 @@
   <li>
     <key>MainTab_History</key>
     <value>
-      <keyBindingA>F9</keyBindingA>
+      <keyBindingA>None</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>

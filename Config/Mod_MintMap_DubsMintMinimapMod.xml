@@ -25,6 +25,9 @@
 			<show>True</show>
 			<col>RGBA(1.000, 0.000, 0.000, 1.000)</col>
 		</Hostiles>
+		<StaticRectPos>(1701.0, 874.0)</StaticRectPos>
+		<MinimapOpen>True</MinimapOpen>
+		<ShowAnimals>True</ShowAnimals>
 		<ShowCorpses>True</ShowCorpses>
 		<multi21>200</multi21>
 		<LastVersion>Dubs Mint Minimap 1.3.685</LastVersion>

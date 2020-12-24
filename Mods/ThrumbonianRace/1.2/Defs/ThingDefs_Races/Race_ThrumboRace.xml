@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+<ThingDef ParentName="BaseHumanlikePawn" Name="ThrumboianPawnBase" Abstract="True">
+	<statBases><Mass>50</Mass></statBases>
+</ThingDef>
+  
+<AlienRace.ThingDef_AlienRace ParentName="ThrumboianPawnBase">
     <defName>Alien_Thrumboian</defName>
     <label>thrumboian</label>
     <description>A mysterious race of half-human, half-thrumbo. No one knows for sure if the Thrumboians are natives whom have kept in hiding till now, a genetic experiement, or something else. However, there is no denying their natural abilities are above average.</description>

@@ -32,7 +32,7 @@
 		<cum_overlays>False</cum_overlays>
 		<sex_minimum_age>13</sex_minimum_age>
 		<sex_free_for_all>18</sex_free_for_all>
-		<sexneed_decay_rate>1</sexneed_decay_rate>
+		<sexneed_decay_rate>0.3510275</sexneed_decay_rate>
 		<nonFutaWomenRaping_MaxVulnerability>0.8</nonFutaWomenRaping_MaxVulnerability>
 		<rapee_MinVulnerability_human>1.2</rapee_MinVulnerability_human>
 		<male_nymph_chance>0</male_nymph_chance>

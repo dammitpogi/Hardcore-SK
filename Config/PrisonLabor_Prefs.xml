@@ -3,16 +3,18 @@
   <defaultInteraction>PrisonLabor_workOption</defaultInteraction>
   <allowed_works></allowed_works>
   <allow_all_worktypes>False</allow_all_worktypes>
-  <advanced_growing>False</advanced_growing>
+  <advanced_growing>True</advanced_growing>
   <enable_motivation_mechanics>True</enable_motivation_mechanics>
-  <enable_motivation_icons>True</enable_motivation_icons>
+  <enable_motivation_icons>False</enable_motivation_icons>
   <enable_revolts>True</enable_revolts>
-  <show_treatment_happiness>False</show_treatment_happiness>
+  <show_treatment_happiness>True</show_treatment_happiness>
   <enable_suicide>True</enable_suicide>
   <enable_full_heal_rest>True</enable_full_heal_rest>
-  <last_version>v1_2_0</last_version>
+  <debug>False</debug>
+  <last_version>v1_1_10</last_version>
   <show_news>True</show_news>
   <enable_reports>False</enable_reports>
   <tutorials_flags>Introduction</tutorials_flags>
-  <version>v1_2_0</version>
+  <version>v1_1_10</version>
+  <maxPrisonerPerGuard>4</maxPrisonerPerGuard>
 </PrisonLaborPrefsData>

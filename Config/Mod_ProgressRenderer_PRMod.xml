@@ -4,7 +4,7 @@
 		<renderDesignations>True</renderDesignations>
 		<renderThingIcons>True</renderThingIcons>
 		<renderWeather>False</renderWeather>
-		<whichInterval>9</whichInterval>
+		<whichInterval>14</whichInterval>
 		<timeOfDay>0</timeOfDay>
 		<jpgQuality>90</jpgQuality>
 		<pixelPerCell>24</pixelPerCell>

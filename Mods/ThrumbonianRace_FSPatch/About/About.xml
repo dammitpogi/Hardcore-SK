@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Thrumboian Facial Stuff</name>
+	<author>dammitPogi</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>dammitpogi.thrumboianrace_fspatch</packageId>
+  <modDependencies>
+	<li>
+      <packageId>tarojun.thrumboianrace</packageId>
+      <displayName>Thrumboian Race</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>tarojun.thrumboianrace</li>
+  </loadAfter>
+  <description>
+    A patch for Facial Stuff and the Thrumbonian Race Mod.
+</ModMetaData>

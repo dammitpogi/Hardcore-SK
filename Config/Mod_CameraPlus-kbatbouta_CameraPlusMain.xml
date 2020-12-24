@@ -6,6 +6,7 @@
 		<zoomedInDollyPercent>1.1</zoomedInDollyPercent>
 		<zoomedOutScreenEdgeDollyFactor>0.35</zoomedOutScreenEdgeDollyFactor>
 		<zoomedInScreenEdgeDollyFactor>0.55</zoomedInScreenEdgeDollyFactor>
+		<soundNearness>0.4962781</soundNearness>
 		<hideNamesWhenZoomedOut>False</hideNamesWhenZoomedOut>
 		<dotSize>0</dotSize>
 		<hideThingLabelBelow>0</hideThingLabelBelow>

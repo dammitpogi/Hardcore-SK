@@ -27,17 +27,13 @@
 							<li>GAT_Morbid</li>
 							<li>GAT_CarefulSurgeon</li>
 							<li>GAT_ProfessionalButcher</li>
-							<li>GAT_ProfessionalTailor</li>
 							<li>GAT_LovedByAnimals</li>
-							<li>GAT_AvidArtist</li>
 							<li>GAT_GeniusResearcher</li>
 							<li>GAT_GreenestThumb</li>
 							<li>GAT_EfficientBuilder</li>
 							<li>GAT_FastMiner</li>
 						</keys>
 						<values>
-							<li />
-							<li />
 							<li />
 							<li />
 							<li />

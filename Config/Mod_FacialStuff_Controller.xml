@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="FacialStuff.Settings">
+		<develop>False</develop>
+		<hideShellWhileRoofed>True</hideShellWhileRoofed>
+		<useWrinkles>True</useWrinkles>
+		<useMouth>True</useMouth>
+		<useHands>True</useHands>
+		<showRoyalHeadgear>True</showRoyalHeadgear>
+		<mergeHair>True</mergeHair>
+		<hideHatWhileRoofed>True</hideHatWhileRoofed>
+		<hideHatInBed>True</hideHatInBed>
+		<showExtraParts>True</showExtraParts>
+		<useWeirdHairChoices>True</useWeirdHairChoices>
+		<filterHats>True</filterHats>
+		<sameBeardColor>True</sameBeardColor>
+		<makeThemBlink>True</makeThemBlink>
+		<useCaching>False</useCaching>
+		<useNastyGrin>True</useNastyGrin>
+		<useHeadRotator>True</useHeadRotator>
+		<showBodyChange>False</showBodyChange>
+		<showGenderAgeChange>False</showGenderAgeChange>
+		<ignoreWhileDrafted>False</ignoreWhileDrafted>
+		<ignoreRenderBody>False</ignoreRenderBody>
+		<layerInRoom>Middle</layerInRoom>
+		<layerInPrivateRoom>OnSkin</layerInPrivateRoom>
+		<layerInBed>OnSkin</layerInBed>
+	</ModSettings>
+</SettingsBlock>

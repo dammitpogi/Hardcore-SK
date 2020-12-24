@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Fields>
+    <Field Name="PLIndexValid" FieldType="bool" TargetType="Verse.Thing" />
+    <Field Name="PLIsPawn" FieldType="bool" TargetType="Verse.Thing" />
+    <Field Name="PLIsWatched" FieldType="bool" TargetType="Verse.Thing" />
+    <Field Name="PLInspirationValue" FieldType="System.Single" TargetType="Verse.Thing" />
+    <Field Name="PLInnerPawn" FieldType="Verse.Pawn" TargetType="Verse.Thing" />
+    <Field Name="PLIndex_X" FieldType="System.Int32" TargetType="Verse.Thing" />
+    <Field Name="PLIndex_Z" FieldType="System.Int32" TargetType="Verse.Thing" />
+    <Field Name="PLDoorCanBeOpenedByPrisoners" FieldType="bool" TargetType="RimWorld.Building_Door" />
+</Fields>

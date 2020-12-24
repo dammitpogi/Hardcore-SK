@@ -185,10 +185,6 @@
 				<enabled>True</enabled>
 			</li>
 			<li>
-				<def>VFE_Factory</def>
-				<enabled>True</enabled>
-			</li>
-			<li>
 				<def>ReviaCategory</def>
 				<enabled>True</enabled>
 			</li>

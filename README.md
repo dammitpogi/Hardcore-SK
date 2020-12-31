@@ -1,8 +1,8 @@
 # Description:
 
-The main idea of the Rimworld to overcome difficulties that you'll encounter when landing on the planet... The more problems you will have, the more interesting it will be your story... You have a goal, a heavy goal - to survive. It make Rimworld worth replaying again and again...
+The main idea of your trek through your personal Rimworld is to overcome difficulties that you'll encounter upon landing... The more problems you will have, the more interesting your story will be... Your goal, as heavy as it is simple, is to survive.
 
-Main focus based on the growing complexity of the gameplay. Trying to achieve greater..Maximally immerse the player into gameplay and stay there for a long time. More than 100 research are waiting. When you start playing, you immediately understand everything... Campfire welcomes you.
+The main focus of this pack is based on growing the complexity of progress. To achieve maximum immersion of the player into the gameplay and to stay there for a long time. More than a hundred additional 100 researches and practically all materials now have a production chain. When you start playing, the goals of each phase of survival should appear paramount. Otherwise. Know that campfires welcome you.
 
 Cheat Sheet
 https://docs.google.com/spreadsheets/d/15plqVpwOR3apQaVIy-VjFIngLyA1D0y5ont7KYbxkaQ

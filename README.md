@@ -1,6 +1,6 @@
 # Description:
 
-The main idea of your trek through your personal Rimworld is to overcome difficulties that you'll encounter upon landing... The more problems you will have, the more interesting your story will be... Your goal, as heavy as it is simple, is to survive.
+The main idea of your trek through Rimworld is to overcome difficulties that you'll encounter upon landing... The more problems you will have, the more interesting your story will be... Your goal, as heavy as it is simple, is to survive.
 
 The main focus of this pack is based on growing the complexity of progress. To achieve maximum immersion of the player into the gameplay and to stay there for a long time. More than a hundred additional 100 researches and practically all materials now have a production chain. When you start playing, the goals of each phase of survival should appear paramount. Otherwise. Know that campfires welcome you.
 

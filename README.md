@@ -1,5 +1,3 @@
-<center><img src="http://s008.radikal.ru/i304/1512/b8/e77f133acb4e.gif"></center>
-
 # Description:
 
 The main idea of the Rimworld to overcome difficulties that you'll encounter when landing on the planet... The more problems you will have, the more interesting it will be your story... You have a goal, a heavy goal - to survive. It make Rimworld worth replaying again and again...
@@ -10,10 +8,6 @@ Cheat Sheet
 https://docs.google.com/spreadsheets/d/15plqVpwOR3apQaVIy-VjFIngLyA1D0y5ont7KYbxkaQ
 Known Compatible Optional Mods
 https://docs.google.com/spreadsheets/d/1i5eWzeJCNSgWl-q8cnTRsiOXZOcvtZAWdtRA1BNn0HY
-
-Feel free to join us on our Discord Server!
-https://discord.gg/FMPRSKr
-(Validated Account Required)
 
 ## Manual installation:
 
@@ -50,30 +44,5 @@ And copy "ModsConfig.xml", which is at the root of the archive modpack.
 ## RimWorld ReShade Guide:
 When a lot of people hear of ReShade, first thought often comes to games in 3D space, such as PUBG and Skyrim. However, ReShade is versatile enough to work with games even like Rimworld and have stunning results.
 Learn more: https://imgur.com/a/DrYqGaY
-
-____
-A big thank you to the Patreons! ( https://www.patreon.com/skyarkhangel , in no particular order.)
-<br>Szara Kryik, Sonsalt, Makzilla, Schio, GuiltyHollow, ErdTod, Sol, Tie, Zachary F, Fsempri, Andrey, Dudok22, Hoouin K, PuffTheMagicDragon,
-PatchDotExe, Cawi, XLegionX007, НечтоХрустящее, Kristijan, sKeptr, White Sonja, Esterior, Igor Barbarossa, Kiko20, Ky6000, NiciusB, plenumolog, томαѕz, Dan Rowan, dissolvedz, Erilaz, Fsempri, GuardianDll, Kage No Ryuu, Titan399, zaartix, Zag, Нея, CADUCTO, JailBot, Dibbura, donnie, ignorer, korovyev, NiciusB, Nightray, Vuursteen and Егор Х! 
-____
-<br>
-SK Team:
-<br>Main dev. - Skyarkhangel
-<br>Co-ordinator - Zakhad, Sidfu, Dzeniba
-<br>Discord stuff - Ziemens, SomethingCrunchy (НечтоХрустящее), MightyGooga, GG, AnotherFireFox, Flonz, Szara Kryik, Ashardalon
-<br>Artists - cattleya ( https://www.patreon.com/cattleya ), Abhay, ApelAirplane
-<br>Coders - Jeremy(PirateBY, TGC, NotFood, Void, Zachary F
-<br>XML modders - Sidfu, ArpoMo6, AndreiAvinov (Kiri), SomethingCrunchy (НечтоХрустящее), GuardianDll, Spaniard829 
-<br>Guide Writers - Murdantiks, Adenia, Soyaman, Tombomcbombo
-<br>Translators - Rey, Ivanzyfer, FaHT1k, mora145, totobrother, Desert Rain
-<br>
-<br>
-Special Thanks to:
-<br>SpoonShortage, Mrofa, Fluffy, Zhentar, Brrainz, Dubwise, Erdelf, Greeny, Hunt3rKill3r, Lambert2191, Vuursteen, Tuvia, Dunkhan, jnkyacc, Jalordon, Varmonger, funs777, olizit, Quelling, pongvin, zachary-foster, funs777, lex1975, evgeny-k, Moon, Leiarr, Glucocorticoid, Voker57, Pardonius, Sonsalt, Jeremy(PirateBY), TGC, qwerty19106, Rhyssia, Adenia.
-
-<br>And to anyone else we might have missed!
-<br>
-<br>
-____
 
 The content of all individual mods is licensed under their respective licenses.

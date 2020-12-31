@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Cookie Traits</name>
+  <author>LadyCookie</author>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>lc.cookietweaks</packageId>
+  <description>A series of small traits for the game.
+
+NEW TRAITS:
+- Indifferent: This pawn doesn't care if others die or are sold to slavery, but unlike a Psychopath, they can socialize normally.
+- Immortal: This pawn takes no damage. Only available through character editing.
+- Psionic: This pawn has a higher neural heat limit and recovery rate.
+- Lone Wolf: This pawn is very good at working alone, but is bad at negotiation and socialization (except trading). Intended for solo playthroughs.
+
+PROFESSION TRAITS
+These traits exist for the sole purpose of easy definition of professions. They are all very common, but a pawn can only have one of these.
+- Gunslinger: +2 Shooting, +20% Shooting accuracy, -20% Aim time
+- Duelist: +2 Melee, -20% Melee hit chance, +25% Dodge chance
+- Tanker: +2 Melee, -20% Damage taken, +20% Pain shock threshold
+- Fighter: +2 Melee, +20% Melee DPS and armor penetration 
+- Mason: +2 Construction, +20% Construct speed and success chance
+- Shepherd: +2 Animals, +20% Animal gather speed, yield and tame chance
+- Hunter: +2 Animals, +20% Hunting stealth and train chance
+- Artisan: +2 Art, +20% General labor speed and smelting speed
+- Nurse: +2 Medical, +20% tending speed and quality
+- Surgeon: +2 Medical, +20% Operation speed and success chance
+- Chef: +2 Cook, +20% Cooking speed, -20% Food poisoning chance
+- Miner: +2 Mining, +20% Mining yield and speed, x3 faster smoothing
+- Diplomat: +2 Social, +20% Trade price improvement, negotiation ability and social impact
+- Scientist: +2 Intellectual, +20% Research speed and Drug synthesis speed
+- Researcher: +2 Intellectial, 150% Research speed factor
+- Herbalist: +2 Plants, +20% plant work speed and harvest yield
+- Hauler: +20% Move speed, +50 Carry capacity
+</description>
+  <url>
+  </url>
+</ModMetaData>

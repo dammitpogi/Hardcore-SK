@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Patch_IncidentWorker_RaidEnemy_GetLetterText -->
+	<!-- {0}:Count / {1}:Unit -->
+	<RaiderInfo.CountOfRaiders>Numero de asaltantes ： {0}{1}</RaiderInfo.CountOfRaiders>
+
+	<!-- Alert_RaiderLeft -->
+	<RaiderInfo.RaiderLeftLabel>Enemigos restantes</RaiderInfo.RaiderLeftLabel>
+	<!-- {0}:factionName / {1}:Count / {2}:Unit -->
+	<RaiderInfo.RaiderLeft>{0} : {1}{2} restantes</RaiderInfo.RaiderLeft>
+	<RaiderInfo.RaiderLeftUnitOfHuman></RaiderInfo.RaiderLeftUnitOfHuman>
+	<RaiderInfo.RaiderLeftUnitOfNonHuman></RaiderInfo.RaiderLeftUnitOfNonHuman>
+
+	<!-- Alert_MechAssembler -->
+	<RaiderInfo.MechAssemblerLabel>Mech assembling in {0}</RaiderInfo.MechAssemblerLabel>
+	<RaiderInfo.MechAssemblerDescBase>The following mechanoids are Assembled.\n\n{0}</RaiderInfo.MechAssemblerDescBase>
+	<RaiderInfo.MechAssemblerDescItem>- {0}({1} left)</RaiderInfo.MechAssemblerDescItem>
+
+	<!-- RaiderInfoMod -->
+	<RaiderInfo.AlertForInsects>Alerta de insectos.</RaiderInfo.AlertForInsects>
+
+</LanguageData>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SettingsBlock>
 	<ModSettings Class="Adaptive.Adaptive+AdaptiveSettings">
-		<systemToUse>High</systemToUse>
+		<systemToUse>Low</systemToUse>
 	</ModSettings>
 </SettingsBlock>

@@ -6,7 +6,7 @@
   <screenWidth>3840</screenWidth>
   <screenHeight>2160</screenHeight>
   <fullscreen>True</fullscreen>
-  <uiScale>1.75</uiScale>
+  <uiScale>1</uiScale>
   <customCursorEnabled>True</customCursorEnabled>
   <hatsOnlyOnMap>False</hatsOnlyOnMap>
   <plantWindSway>True</plantWindSway>

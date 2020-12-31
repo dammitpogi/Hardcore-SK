@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Patch_IncidentWorker_RaidEnemy_GetLetterText -->
+	<!-- {0}:Count / {1}:Unit -->
+	<RaiderInfo.CountOfRaiders>侵略者數量 ： {0}{1}</RaiderInfo.CountOfRaiders>
+
+	<!-- Alert_RaiderLeft -->
+	<RaiderInfo.RaiderLeftLabel>侵略者殘黨</RaiderInfo.RaiderLeftLabel>
+	<!-- {0}:factionName / {1}:Count / {2}:Unit -->
+	<RaiderInfo.RaiderLeft>{0} : 殘餘{1}{2}</RaiderInfo.RaiderLeft>
+	<RaiderInfo.RaiderLeftUnitOfHuman>人</RaiderInfo.RaiderLeftUnitOfHuman>
+	<RaiderInfo.RaiderLeftUnitOfNonHuman>隻</RaiderInfo.RaiderLeftUnitOfNonHuman>
+
+	<!-- Alert_MechAssembler -->
+	<RaiderInfo.MechAssemblerLabel>機械正在裝配 {0}</RaiderInfo.MechAssemblerLabel>
+	<RaiderInfo.MechAssemblerDescBase>組裝了以下機械體。\n\n{0}</RaiderInfo.MechAssemblerDescBase>
+	<RaiderInfo.MechAssemblerDescItem>- {0}({1} left)</RaiderInfo.MechAssemblerDescItem>
+
+	<!-- RaiderInfoMod -->
+	<RaiderInfo.AlertForInsects>警惕蟲族。</RaiderInfo.AlertForInsects>
+
+</LanguageData>

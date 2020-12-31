@@ -16,5 +16,5 @@
   <enable_reports>False</enable_reports>
   <tutorials_flags>Introduction</tutorials_flags>
   <version>v1_1_10</version>
-  <maxPrisonerPerGuard>4</maxPrisonerPerGuard>
+  <maxPrisonerPerGuard>3.5</maxPrisonerPerGuard>
 </PrisonLaborPrefsData>

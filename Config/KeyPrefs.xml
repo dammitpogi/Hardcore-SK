@@ -213,7 +213,7 @@
   <li>
     <key>Misc11</key>
     <value>
-      <keyBindingA>O</keyBindingA>
+      <keyBindingA>R</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
@@ -472,14 +472,14 @@
   <li>
     <key>DesignatorSelectSimilar</key>
     <value>
-      <keyBindingA>P</keyBindingA>
+      <keyBindingA>F</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
   <li>
     <key>DesignatorHaulUrgently</key>
     <value>
-      <keyBindingA>O</keyBindingA>
+      <keyBindingA>T</keyBindingA>
       <keyBindingB>None</keyBindingB>
     </value>
   </li>

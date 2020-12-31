@@ -1,0 +1,77 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+			  <xpath>*/ThoughtDef[defName="ObservedLayingCorpse"]/nullifyingTraits</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName="ObservedLayingCorpse"]/nullifyingTraits</xpath>
+				<value>
+					<li>LC_Jaded</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+			  <xpath>*/ThoughtDef[defName="DeadMansApparel"]/nullifyingTraits</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName="DeadMansApparel"]/nullifyingTraits</xpath>
+				<value>
+					<li>LC_Jaded</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+			  <xpath>*/ThoughtDef[defName="WitnessedDeathAlly"]/nullifyingTraits</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName="WitnessedDeathAlly"]/nullifyingTraits</xpath>
+				<value>
+					<li>LC_Jaded</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+			  <xpath>*/ThoughtDef[defName="WitnessedDeathNonAlly"]/nullifyingTraits</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName="WitnessedDeathNonAlly"]/nullifyingTraits</xpath>
+				<value>
+					<li>LC_Jaded</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+			  <xpath>*/ThoughtDef[defName="WitnessedDeathNonAlly"]/nullifyingTraits</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName="WitnessedDeathNonAlly"]/nullifyingTraits</xpath>
+				<value>
+					<li>LC_Jaded</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

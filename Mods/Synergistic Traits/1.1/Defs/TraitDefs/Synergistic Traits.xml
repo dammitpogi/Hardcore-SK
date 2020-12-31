@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TraitDef>
+		<defName>fasthands</defName>
+		<commonality>.5</commonality>
+		<degreeDatas>
+			<li>
+				<label>Fast Hands</label>
+				<description>[PAWN_nameDef] has nimble hands and works at a rapid pace.</description>
+				<statFactors>
+					<WorkSpeedGlobal>1.25</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>crackshot</defName>
+		<commonality>.3</commonality>
+		<degreeDatas>
+			<li>
+				<label>Crack Shot</label>
+				<description>[PAWN_nameDef] has exceptional hand-eye coordination and can quickly put [PAWN_possessive] sights on a target.</description>
+				<statFactors>
+					<AimingDelayFactor>0.66</AimingDelayFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>accurateShooter</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Marksman</label>
+				<description>[PAWN_nameDef] is a talented marksman with a deadly aim.</description>
+				<statFactors>
+					<ShootingAccuracyPawn>1.33</ShootingAccuracyPawn>
+				</statFactors>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>swordsman</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Swordsman</label>
+				<description>[PAWN_nameDef] is a natural born warrior and loves the thrill of fighting at close range.</description>
+				<statFactors>
+					<MeleeHitChance>1.4</MeleeHitChance>
+					<MeleeDodgeChance>1.4</MeleeDodgeChance>
+				</statFactors>
+				<skillGains>
+					<li>
+						<key>Melee</key>
+						<value>5</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>foreman</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Foreman</label>
+				<description>[PAWN_nameDef] is a skilled builder, turning the most complicated plans into reality.</description>
+				<statFactors>
+					<ConstructionSpeed>1.33</ConstructionSpeed>
+					<SmoothingSpeed>1.4</SmoothingSpeed>
+					<ConstructSuccessChance>1.1</ConstructSuccessChance>
+					<FixBrokenDownBuildingSuccessChance>1.2</FixBrokenDownBuildingSuccessChance>
+				</statFactors>
+				<skillGains>
+					<li>
+						<key>Construction</key>
+						<value>5</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>ManualSkilled</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>deepdriller</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Deep Driller</label>
+				<description>[PAWN_nameDef] has an extensive knowledge of geology and uses that to [PAWN_possessive] advantage.</description>
+				<statFactors>
+					<DeepDrillingSpeed>1.4</DeepDrillingSpeed>
+					<MiningSpeed>1.25</MiningSpeed>
+					<MiningYield>1.1</MiningYield>
+				</statFactors>
+				<skillGains>
+					<li>
+						<key>Mining</key>
+						<value>6</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	    <requiredWorkTags>
+			<li>Mining</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Souschef</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Sous-chef</label>
+				<description>[PAWN_nameDef] handles ingredients with great care and prepares the most delicious meals.</description>
+				<statFactors>
+					<CookSpeed>1.25</CookSpeed>
+					<FoodPoisonChance>0.5</FoodPoisonChance>
+					<ButcheryFleshSpeed>1.25</ButcheryFleshSpeed>
+					<ButcheryFleshEfficiency>1.25</ButcheryFleshEfficiency>
+				</statFactors>
+				<skillGains>
+					<li>
+						<key>Cooking</key>
+						<value>2</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	    <requiredWorkTags>
+			<li>Cooking</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>pharmacist</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Pharmacist</label>
+				<description>[PAWN_nameDef] is a skilled chemist and proficient in synthesizing drugs.</description>
+				<statFactors>
+					<DrugCookingSpeed>1.5</DrugCookingSpeed>
+					<DrugSynthesisSpeed>1.5</DrugSynthesisSpeed>
+					<ResearchSpeed>1.1</ResearchSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	    <requiredWorkTags>
+			<li>Cooking</li>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Botanist</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Botanist</label>
+				<description>[PAWN_nameDef] is a professional botanist and knows the peculiarities of most plants.</description>
+				<statFactors>
+					<PlantWorkSpeed>1.25</PlantWorkSpeed>
+					<PlantHarvestYield>1.2</PlantHarvestYield>
+					<FoodPoisonChance>0.5</FoodPoisonChance>
+					<ForagedNutritionPerDay>1.5</ForagedNutritionPerDay>
+					<ResearchSpeed>1.1</ResearchSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	    <requiredWorkTags>
+			<li>ManualSkilled</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Rancher</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Rancher</label>
+				<description>[PAWN_nameDef] is a passionate farmer, loving the smell of fresh hay and the sight of grazing animals.</description>
+				<statFactors>
+					<AnimalGatherSpeed>1.4</AnimalGatherSpeed>
+					<AnimalGatherYield>1.2</AnimalGatherYield>
+					<PlantWorkSpeed>1.05</PlantWorkSpeed>
+					<ForagedNutritionPerDay>1.1</ForagedNutritionPerDay>
+					<MeleeDodgeChance>1.15</MeleeDodgeChance>
+					<TrainAnimalChance>1.35</TrainAnimalChance>
+					<TameAnimalChance>1.25</TameAnimalChance>
+					<HuntingStealth>1.25</HuntingStealth>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Artisan</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Artisan</label>
+				<description>[PAWN_nameDef] can move [PAWN_possessive] hands with fine-grained precision.</description>
+				<statFactors>
+					<GeneralLaborSpeed>1.30</GeneralLaborSpeed>
+					<ConstructSuccessChance>1.25</ConstructSuccessChance>
+					<ButcheryMechanoidSpeed>1.1</ButcheryMechanoidSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	    <requiredWorkTags>
+			<li>ManualSkilled</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>fieldmedic</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Field Medic</label>
+				<description>[PAWN_nameDef] sacrifices treatment quality to save as many lives as possible.</description>
+				<statFactors>
+					<MedicalTendQuality>0.9</MedicalTendQuality>
+					<MedicalTendSpeed>1.5</MedicalTendSpeed>
+					<MedicalSurgerySuccessChance>1.1</MedicalSurgerySuccessChance>
+					<MedicalOperationSpeed>1.1</MedicalOperationSpeed>
+				</statFactors>
+				<skillGains>
+					<li>
+						<key>Medicine</key>
+						<value>1</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	    <requiredWorkTags>
+			<li>Caring</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>smith</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Smith</label>
+				<description>[PAWN_nameDef] is a skilled craftsman and knows how to handle various materials.</description>
+				<statFactors>
+					<GeneralLaborSpeed>1.15</GeneralLaborSpeed>
+					<ButcheryMechanoidSpeed>1.35</ButcheryMechanoidSpeed>
+					<ButcheryMechanoidEfficiency>1.25</ButcheryMechanoidEfficiency>
+					<SmeltingSpeed>1.5</SmeltingSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	    <requiredWorkTags>
+			<li>Crafting</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>socialworker</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Social Worker</label>
+				<description>[PAWN_nameDef] is tactful in his social interactions and uses it to [PAWN_possessive] advantage.</description>
+				<statFactors>
+					<TradePriceImprovement>1.15</TradePriceImprovement>
+					<NegotiationAbility>1.4</NegotiationAbility>
+					<SocialImpact>1.4</SocialImpact>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	    <requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>naturalgenius</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Natural Genius</label>
+				<description>[PAWN_nameDef] has an extraordinary intellect accompanied with mental instability.</description>
+				<statFactors>
+					<GlobalLearningFactor>1.5</GlobalLearningFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MentalBreakThreshold>1.2</MentalBreakThreshold>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>wise</defName>
+		<commonality>.3</commonality>
+		<degreeDatas>
+			<li>
+				<label>Wise</label>
+				<description>[PAWN_nameDef] maintains a clear state of mind and remains unfazed by the struggles of life.</description>
+				<statFactors>
+					<GlobalLearningFactor>1.1</GlobalLearningFactor>
+					<ResearchSpeed>1.4</ResearchSpeed>
+					<PsychicSensitivity>1.35</PsychicSensitivity>
+					<MentalBreakThreshold>0.75</MentalBreakThreshold>
+				</statFactors>
+				<skillGains>
+					<li>
+						<key>Intellectual</key>
+						<value>6</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	    <requiredWorkTags>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>peasant</defName>
+		<commonality>.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>Peasant</label>
+				<description>[PAWN_nameDef] rarely stands out and is overlooked by almost everyone [PAWN_pronoun] meets.</description>
+				<statFactors>
+					<TradePriceImprovement>.8</TradePriceImprovement>
+					<RoyalFavorValue>.5</RoyalFavorValue>
+					<PawnBeauty>.5</PawnBeauty>
+				</statFactors>
+				<marketValueFactorOffset>-0.35</marketValueFactorOffset>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+
+
+</Defs>

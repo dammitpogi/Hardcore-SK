@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Patch_IncidentWorker_RaidEnemy_GetLetterText -->
+	<!-- {0}:Count / {1}:Unit -->
+	<RaiderInfo.CountOfRaiders>Количество рейдеров ： {0}{1}</RaiderInfo.CountOfRaiders>
+
+	<!-- Alert_RaiderLeft -->
+	<RaiderInfo.RaiderLeftLabel>Осталость рейдеров</RaiderInfo.RaiderLeftLabel>
+	<!-- {0}:factionName / {1}:Count / {2}:Unit -->
+	<RaiderInfo.RaiderLeft>{0} : {1}{2} осталось</RaiderInfo.RaiderLeft>
+	<RaiderInfo.RaiderLeftUnitOfHuman></RaiderInfo.RaiderLeftUnitOfHuman>
+	<RaiderInfo.RaiderLeftUnitOfNonHuman></RaiderInfo.RaiderLeftUnitOfNonHuman>
+
+	<!-- RaiderInfoMod -->
+	<RaiderInfo.AlertForInsects>Оповещения для насекомых.</RaiderInfo.AlertForInsects>
+
+</LanguageData>

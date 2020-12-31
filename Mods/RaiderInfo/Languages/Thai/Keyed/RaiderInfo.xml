@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Patch_IncidentWorker_RaidEnemy_GetLetterText -->
+	<!-- {0}:Count / {1}:Unit -->
+	<RaiderInfo.CountOfRaiders>จำนวนผู้บุกรุกทั้งหมด ： {0}{1}</RaiderInfo.CountOfRaiders>
+
+	<!-- Alert_RaiderLeft -->
+	<RaiderInfo.RaiderLeftLabel>จำนวนผู้บุกรุกที่เหลือ</RaiderInfo.RaiderLeftLabel>
+	<!-- {0}:factionName / {1}:Count / {2}:Unit -->
+	<RaiderInfo.RaiderLeft>{0} : {1}{2} </RaiderInfo.RaiderLeft>
+	<RaiderInfo.RaiderLeftUnitOfHuman> คน</RaiderInfo.RaiderLeftUnitOfHuman>
+	<RaiderInfo.RaiderLeftUnitOfNonHuman> ตัว</RaiderInfo.RaiderLeftUnitOfNonHuman>
+
+	<!-- Alert_MechAssembler -->
+	<RaiderInfo.MechAssemblerLabel>Mech assembling in {0}</RaiderInfo.MechAssemblerLabel>
+	<RaiderInfo.MechAssemblerDescBase>The following mechanoids are Assembled.\n\n{0}</RaiderInfo.MechAssemblerDescBase>
+	<RaiderInfo.MechAssemblerDescItem>- {0}({1} left)</RaiderInfo.MechAssemblerDescItem>
+
+	<!-- RaiderInfoMod -->
+	<RaiderInfo.AlertForInsects>Alert for insects.</RaiderInfo.AlertForInsects>
+
+</LanguageData>

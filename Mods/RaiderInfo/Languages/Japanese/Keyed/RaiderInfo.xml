@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Patch_IncidentWorker_RaidEnemy_GetLetterText -->
+	<RaiderInfo.CountOfRaiders>襲撃者の数 ： {0}{1}</RaiderInfo.CountOfRaiders>
+
+	<!-- Alert_RaiderLeft -->
+	<RaiderInfo.RaiderLeftLabel>敵対勢力がいる</RaiderInfo.RaiderLeftLabel>
+	<RaiderInfo.RaiderLeft>{0} ： 残り{1}{2}</RaiderInfo.RaiderLeft>
+	<RaiderInfo.RaiderLeftUnitOfHuman>人</RaiderInfo.RaiderLeftUnitOfHuman>
+	<RaiderInfo.RaiderLeftUnitOfNonHuman>体</RaiderInfo.RaiderLeftUnitOfNonHuman>
+
+	<!-- Alert_MechAssembler -->
+	<RaiderInfo.MechAssemblerLabel>{0}後に組立完了</RaiderInfo.MechAssemblerLabel>
+	<RaiderInfo.MechAssemblerDescBase>以下のメカノイドが組み立て中です.\n\n{0}</RaiderInfo.MechAssemblerDescBase>
+	<RaiderInfo.MechAssemblerDescItem>- {0}(残り{1})</RaiderInfo.MechAssemblerDescItem>
+
+	<!-- RaiderInfoMod -->
+	<RaiderInfo.AlertForInsects>虫にも警告を出す</RaiderInfo.AlertForInsects>
+
+</LanguageData>

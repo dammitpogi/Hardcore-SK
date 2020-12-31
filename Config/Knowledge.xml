@@ -11,7 +11,7 @@
     </li>
     <li>
       <key>Rescuing</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>Capturing</key>
@@ -103,7 +103,7 @@
     </li>
     <li>
       <key>GrowingFood</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>EquippingWeapons</key>
@@ -247,7 +247,7 @@
     </li>
     <li>
       <key>CE_Reload</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>CE_ReloadNoMag</key>
@@ -343,11 +343,11 @@
     </li>
     <li>
       <key>Concept_SimpleSidearmsBasic</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>Concept_SidearmsInInventory</key>
-      <value>0</value>
+      <value>1</value>
     </li>
     <li>
       <key>Concept_SidearmsPrimary</key>
